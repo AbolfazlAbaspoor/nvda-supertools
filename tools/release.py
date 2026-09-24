@@ -93,6 +93,13 @@ def api_versions():
         return []
 
 
+def version_tuple(version):
+    """"1.10.2" -> (1, 10, 2), so versions sort the way people read them."""
+    parts = [int("".join(c for c in piece if c.isdigit()) or 0)
+             for piece in str(version).split(".")]
+    return tuple(parts + [0, 0, 0])[:3]
+
+
 def version_text(entry):
     return "{major}.{minor}.{patch}".format(**entry)
 

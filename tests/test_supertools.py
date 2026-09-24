@@ -677,5 +677,19 @@ for _language in sorted(os.listdir(os.path.join(ADDON, "doc"))):
                 and ("  " + _key.title() + " ") not in _text]
     check("the {} help lists every command".format(_language), _missing, [])
 
+# 34. the script that moves the add-on through the store
+import update_store
+check("the store status reads the same manifest",
+      update_store.release.manifest()["version"], fields["version"])
+check("versions sort the way people read them",
+      sorted(["1.10.0", "1.2.0", "1.1.0"], key=release.version_tuple),
+      ["1.1.0", "1.2.0", "1.10.0"])
+check("it looks in the store's own repository",
+      update_store.STORE, "nvaccess/addon-datastore")
+check("it says why the last step is a button",
+      "autoSubmissionFromIssue" in update_store.__doc__, True)
+check("it reads by default and publishes only when asked",
+      "--submit" in update_store.__doc__, True)
+
 print("\nALL PASS" if ok else "\nFAILURES ABOVE")
 sys.exit(0 if ok else 1)

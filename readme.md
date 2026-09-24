@@ -167,6 +167,7 @@ and writes `SuperTools-<version>.nvda-addon`.
 | `tools/make_doc.py` | Writes `doc/en/readme.html` from the help text in the add-on |
 | `tests/test_supertools.py` | The test suite: `python tests/test_supertools.py` |
 | `tools/release.py` | Publishes a version and fills in the store submission form |
+| `tools/update_store.py` | Where the add-on stands in the Add-on Store, and how to move it on |
 
 ## Releasing a version
 
@@ -184,6 +185,16 @@ with every field already filled in. `--open` opens that form in a browser;
 `--dry-run` changes nothing; `--form-only` skips straight to the form when
 the release is already published.
 
+```
+python tools/update_store.py
+```
+
+asks the store where things stand and answers in plain words: which versions are
+live, which submissions are still open, and what the store's robot last said
+about each of them. It reads and nothing else. `--submit` does the whole round -
+the same checks, the build, the release, the download test - and then opens the
+form.
+
 Submitting an update is the same short form every time - a download address,
 the source address, the publisher, the channel and the licence. The store
 reads the version, the description, the translations and the checksum out of
@@ -191,9 +202,17 @@ the file itself. Only the first submission of an add-on waits for a person to
 approve the publisher, which can take up to two weeks; after that the checks
 are automatic and an update is usually in the store the same day.
 
+The last step is a button rather than a line of the script on purpose: the
+store's automation runs on the label `autoSubmissionFromIssue`, and that label
+is only applied by the issue form itself. An issue opened through the API by
+someone without write access to that repository gets no label, so nothing would
+ever run and the submission would sit there unread.
+
 To release, raise `version` in `manifest.ini` and `addon_version` in
 `buildVars.py`, add what changed to the changelog above and to `VERSION_NOTES`
-in the add-on, commit, then run the command. The token comes from `GITHUB_TOKEN`
+in the add-on, commit, then run the command. Work can gather under one version
+number for as long as it likes: releasing the same version again replaces the
+file on that release rather than making a second one. The token comes from `GITHUB_TOKEN`
 or from the credentials git already pushes with.
 
 ## Translating
@@ -304,6 +323,10 @@ fails the build on a missing text, a broken placeholder or a lost `&`. The `.pot
 is committed, so the usual community translation workflow can be used.
 
 ## Changelog
+
+### 1.1.0
+
+- In hand: what comes next gathers here.
 
 ### 1.0.1
 

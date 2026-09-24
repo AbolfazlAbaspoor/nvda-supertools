@@ -4349,6 +4349,9 @@ mode, so you can simply press the right key.
 
 # Newest first. Each entry is what changed in that version.
 VERSION_NOTES = [
+    ("1.1.0", """\
+Gathering what comes next. Everything added from here on is listed under this
+version until it goes out."""),
     ("1.0.1", """\
 A locked keyboard is silent now. It says in words that it is locked, and only
 when the keyboard has been left alone for a while, instead of beeping at every
