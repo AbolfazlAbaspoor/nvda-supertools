@@ -111,11 +111,35 @@ def status(fields):
             release.say("  last word from {}: {}".format(who, said[:300]))
         release.say("")
 
-    if any(issue["state"] == "open" for issue in issues) and not live:
-        release.say("The first submission of an add-on waits for a person to approve you")
-        release.say("as its publisher, which can take up to two weeks. Nothing is wrong")
-        release.say("while it waits, and there is nothing to do but wait.")
+    release.say(verdict(live, issues))
     return 0
+
+
+def verdict(live, issues):
+    """
+    The one line worth hearing first.
+
+    The answer to a submission never arrives as a letter saying yes. The issue
+    is simply closed, its pull request merges, and the version turns up in the
+    store; so that is what is looked for, rather than words.
+    """
+    waiting = [issue for issue in issues if issue["state"] == "open"]
+    if live and not waiting:
+        return ("ACCEPTED. Version {} is in the store. GitHub closed the "
+                "submission when it went in.".format(live[-1]))
+    if live and waiting:
+        return ("Version {} is in the store, and a newer submission is still "
+                "waiting.".format(live[-1]))
+    if waiting:
+        return ("WAITING. The first submission of an add-on waits for a person at "
+                "NV Access to approve you as its publisher, which can take up to "
+                "two weeks. Nothing is wrong while it waits, and there is nothing "
+                "to do but wait. You will know it is done when the issue closes by "
+                "itself and this line says ACCEPTED.")
+    if issues:
+        return ("Every submission is closed but nothing is in the store. Read what "
+                "was said on the issue above: something was refused or withdrawn.")
+    return "Nothing has been submitted yet. Use --submit when you are ready."
 
 
 def main():
