@@ -1,0 +1,837 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTools\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: xx\n"
+"Last-Translator: \n"
+"Language-Team: xx\n"
+
+msgid "Could not reach the internet. Check your connection, and if you use a VPN or a proxy, that it is working, then try again."
+msgstr ""
+
+msgid "SuperTools Settings"
+msgstr ""
+
+msgid "Built-in beeps"
+msgstr ""
+
+msgid "Layout Fixer"
+msgstr ""
+
+msgid "Word Monitor"
+msgstr ""
+
+msgid "System"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "SuperTools will follow NVDA's language again after NVDA restarts."
+msgstr ""
+
+msgid "Save a theme template..."
+msgstr ""
+
+msgid "Skipped versions will be offered again."
+msgstr ""
+
+msgid "Looking for a new version..."
+msgstr ""
+
+msgid "Export all settings to a file..."
+msgstr ""
+
+msgid "Import settings from a file..."
+msgstr ""
+
+msgid "Settings imported."
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Finish"
+msgstr ""
+
+msgid "Skip for now"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Everything is translated."
+msgstr ""
+
+msgid "A sound file"
+msgstr ""
+
+msgid "My theme"
+msgstr ""
+
+msgid "Sound file instead of beeps:"
+msgstr ""
+
+msgid "Import from file..."
+msgstr ""
+
+msgid "Export to file..."
+msgstr ""
+
+msgid "What is new"
+msgstr ""
+
+msgid "What the clock says"
+msgstr ""
+
+msgid "&Close"
+msgstr ""
+
+msgid "Asking a web server for the time..."
+msgstr ""
+
+msgid "Asking the Windows time service."
+msgstr ""
+
+msgid "Setting the clock from the internet."
+msgstr ""
+
+msgid "Command mode. H help, X changes, C layout, Shift+C convert the word before the cursor, Z undo, S settings, W word monitor, Shift+W toggle word monitor, P process manager, L lock the keyboard, T clock, U look for a new version, Escape cancel."
+msgstr ""
+
+msgid "Command mode ended."
+msgstr ""
+
+msgid "This text was not converted by SuperTools."
+msgstr ""
+
+msgid "SuperTools by {name}"
+msgstr ""
+
+msgid "The clock is right, according to {host}."
+msgstr ""
+
+msgid "{n} seconds"
+msgstr ""
+
+msgid "The clock is {amount} ahead of {host}."
+msgstr ""
+
+msgid "The clock is {amount} behind {host}."
+msgstr ""
+
+msgid "Permission was not given, so the clock was left alone."
+msgstr ""
+
+msgid "GitHub answered {code}. Try again later."
+msgstr ""
+
+msgid "running"
+msgstr ""
+
+msgid "Enable this feature"
+msgstr ""
+
+msgid "Choose from the programs running now..."
+msgstr ""
+
+msgid "Keyboard layouts"
+msgstr ""
+
+msgid "Watch for words typed with the wrong layout"
+msgstr ""
+
+msgid "Convert such a word at once, instead of only warning with a sound"
+msgstr ""
+
+msgid "L locks and unlocks the keyboard"
+msgstr ""
+
+msgid "T checks whether the clock is right"
+msgstr ""
+
+msgid "Leave command mode automatically when no key is pressed"
+msgstr ""
+
+msgid "Number of beeps:"
+msgstr ""
+
+msgid "Frequency (Hz):"
+msgstr ""
+
+msgid "Frequency change per beep (Hz):"
+msgstr ""
+
+msgid "Duration (ms):"
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "Create a sound theme..."
+msgstr ""
+
+msgid "Open the theme folder"
+msgstr ""
+
+msgid "How the beeps are made"
+msgstr ""
+
+msgid "Volume of the built-in beeps (%):"
+msgstr ""
+
+msgid "Silence before a sequence (ms):"
+msgstr ""
+
+msgid "Create or continue a translation..."
+msgstr ""
+
+msgid "Look for a new version when NVDA starts"
+msgstr ""
+
+msgid "Check now"
+msgstr ""
+
+msgid "Offer skipped versions again"
+msgstr ""
+
+msgid "Keep a weekly backup of the settings"
+msgstr ""
+
+msgid "Open the backup folder"
+msgstr ""
+
+msgid "Run the first-time setup again..."
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Reset all settings..."
+msgstr ""
+
+msgid "Settings exported."
+msgstr ""
+
+msgid "This file does not contain SuperTools settings."
+msgstr ""
+
+msgid "All SuperTools settings will be erased. Continue?"
+msgstr ""
+
+msgid "Reset Settings"
+msgstr ""
+
+msgid "Settings have been reset."
+msgstr ""
+
+msgid "Tick at least two keyboard layouts, or switch the Layout Fixer off."
+msgstr ""
+
+msgid "Choose applications"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Welcome to SuperTools"
+msgstr ""
+
+msgid "Layout Fixer: repair text typed with the wrong keyboard layout (C)"
+msgstr ""
+
+msgid "Word Monitor: give chosen words their own sound when NVDA says them (W)"
+msgstr ""
+
+msgid "Process Manager: see and manage running programs (P)"
+msgstr ""
+
+msgid "Create or continue a translation"
+msgstr ""
+
+msgid "Language code (fa, de, pt_BR...):"
+msgstr ""
+
+msgid "Language name, as its speakers write it:"
+msgstr ""
+
+msgid "Your name, for the credits:"
+msgstr ""
+
+msgid "Load what I translated before"
+msgstr ""
+
+msgid "Next one to do"
+msgstr ""
+
+msgid "Copy the English text"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save and use it now"
+msgstr ""
+
+msgid "Create a sound theme"
+msgstr ""
+
+msgid "Theme name:"
+msgstr ""
+
+msgid "What it sounds like:"
+msgstr ""
+
+msgid "This sound is:"
+msgstr ""
+
+msgid "Browse..."
+msgstr ""
+
+msgid "Use this for the selected sound"
+msgstr ""
+
+msgid "built-in beep"
+msgstr ""
+
+msgid "Match upper and lower case exactly"
+msgstr ""
+
+msgid "Gap between beeps (ms):"
+msgstr ""
+
+msgid "Use beeps"
+msgstr ""
+
+msgid "Interrupt speech while beeping"
+msgstr ""
+
+msgid "Enable this word"
+msgstr ""
+
+msgid "Use the settings of the category"
+msgstr ""
+
+msgid "Enable this category"
+msgstr ""
+
+msgid "Manage words..."
+msgstr ""
+
+msgid "Add category..."
+msgstr ""
+
+msgid "Edit category..."
+msgstr ""
+
+msgid "Remove category"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Import from clipboard"
+msgstr ""
+
+msgid "This word is already in the category."
+msgstr ""
+
+msgid "No new words were found."
+msgstr ""
+
+msgid "Process Manager"
+msgstr ""
+
+msgid "Show CPU and publisher"
+msgstr ""
+
+msgid "&Refresh list"
+msgstr ""
+
+msgid "&End process"
+msgstr ""
+
+msgid "Re&start process"
+msgstr ""
+
+msgid "End &all filtered"
+msgstr ""
+
+msgid "Restart all &filtered"
+msgstr ""
+
+msgid "&Open file location"
+msgstr ""
+
+msgid "&Copy details"
+msgstr ""
+
+msgid "&Properties"
+msgstr ""
+
+msgid "No process selected."
+msgstr ""
+
+msgid "Type a name in the filter first: this would hit every process."
+msgstr ""
+
+msgid "No process matches the filter."
+msgstr ""
+
+msgid "{n} processes ended."
+msgstr ""
+
+msgid "{n} processes restarted."
+msgstr ""
+
+msgid "The location of this program is unknown."
+msgstr ""
+
+msgid "Name: {name}\nPID: {pid}\nProgram: {exe}\nPublisher: {publisher}\nMemory: {memory:.1f} MB\nState: {status}"
+msgstr ""
+
+msgid "Process details copied."
+msgstr ""
+
+msgid "The properties window could not be opened."
+msgstr ""
+
+msgid "Priority changed."
+msgstr ""
+
+msgid "The priority could not be changed. Administrator rights may be needed."
+msgstr ""
+
+msgid "What is new since the version you had:"
+msgstr ""
+
+msgid "What changed in each version:"
+msgstr ""
+
+msgid "SuperTools {version} is available. You have {current}."
+msgstr ""
+
+msgid "&Update now"
+msgstr ""
+
+msgid "Open the &download page"
+msgstr ""
+
+msgid "Remind me &later"
+msgstr ""
+
+msgid "&Skip this version"
+msgstr ""
+
+msgid "SuperTools - Clock"
+msgstr ""
+
+msgid "Let &Windows fix it"
+msgstr ""
+
+msgid "Set it from the &internet"
+msgstr ""
+
+msgid "Check &again"
+msgstr ""
+
+msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr ""
+
+msgid "Keyboard unlocked."
+msgstr ""
+
+msgid "Command mode cancelled."
+msgstr ""
+
+msgid "This feature is disabled in SuperTools settings."
+msgstr ""
+
+msgid "Word monitor enabled."
+msgstr ""
+
+msgid "Word monitor disabled."
+msgstr ""
+
+msgid "There is nothing to undo."
+msgstr ""
+
+msgid "No text selected."
+msgstr ""
+
+msgid "Translation into {language}: {name}"
+msgstr ""
+
+msgid "Sound theme {theme}: {name}"
+msgstr ""
+
+msgid "{n} minutes"
+msgstr ""
+
+msgid "Windows would not run the command ({code})."
+msgstr ""
+
+msgid "Applications"
+msgstr ""
+
+msgid "In every application"
+msgstr ""
+
+msgid "Only in these applications"
+msgstr ""
+
+msgid "In every application except these"
+msgstr ""
+
+msgid "Application names, separated by commas:"
+msgstr ""
+
+msgid "For example: notepad, chrome, telegram"
+msgstr ""
+
+msgid "C moves the text to the next layout in this list. The text itself says which one it was typed with, so nothing has to be chosen; press C again to carry on to the next one."
+msgstr ""
+
+msgid "Every layout is used unless you untick it. At least two are needed."
+msgstr ""
+
+msgid "Say which layout the text was converted to"
+msgstr ""
+
+msgid "Put the previous clipboard content back after converting"
+msgstr ""
+
+msgid "Say the converted text"
+msgstr ""
+
+msgid "Shift+C converts the word before the cursor, without selecting it"
+msgstr ""
+
+msgid "Z undoes the last conversion"
+msgstr ""
+
+msgid "While typing"
+msgstr ""
+
+msgid "Shortest word to check:"
+msgstr ""
+
+msgid "A Latin word with no vowel at all is treated as suspicious."
+msgstr ""
+
+msgid "Enable word monitor"
+msgstr ""
+
+msgid "Default settings for words added to this category"
+msgstr ""
+
+msgid "Sort the list by:"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Memory use"
+msgstr ""
+
+msgid "CPU"
+msgstr ""
+
+msgid "PID"
+msgstr ""
+
+msgid "Refresh the list automatically"
+msgstr ""
+
+msgid "Every (seconds):"
+msgstr ""
+
+msgid "Ask before ending or restarting every filtered process"
+msgstr ""
+
+msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
+msgstr ""
+
+msgid "Seconds to wait:"
+msgstr ""
+
+msgid "Custom sequence (frequency,duration; ...):"
+msgstr ""
+
+msgid "Leave empty to use the four settings above."
+msgstr ""
+
+msgid "Sounds"
+msgstr ""
+
+msgid "A theme gives every sound of the add-on its own voice: beeps or a sound file, chosen one by one. Anything a theme leaves out keeps the built-in beep, so a theme can be as small as a single sound."
+msgstr ""
+
+msgid "How the beeps are made:"
+msgstr ""
+
+msgid "Built in: the gaps are exact"
+msgstr ""
+
+msgid "NVDA's own beep: sounds like the rest of NVDA"
+msgstr ""
+
+msgid "The silence keeps the first beep from being swallowed while the sound device wakes up. Raise it if a first beep is ever missing."
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "SuperTools speaks the language NVDA is set to. You can write a translation for a language it does not have yet, see it straight away, and send the file to have it shipped with the add-on."
+msgstr ""
+
+msgid "Go back to NVDA's language"
+msgstr ""
+
+msgid "Updates"
+msgstr ""
+
+msgid "Seconds to wait after NVDA starts:"
+msgstr ""
+
+msgid "The check waits until NVDA has finished starting, and then runs at most once a day. It only asks which version is the newest and shows you what changed: nothing is downloaded or installed unless you choose to, and a version you skip is not brought up again. If you installed SuperTools from NVDA's Add-on Store, the store already keeps it up to date."
+msgstr ""
+
+msgid "Done. Close and open the settings to see the change."
+msgstr ""
+
+msgid "Programs running now:"
+msgstr ""
+
+msgid "Or type a name:"
+msgstr ""
+
+msgid "Everything in SuperTools is reached by pressing NVDA+Shift+U and then one key. Press H after that for the full list at any time.\n\nThree questions, and you are set up."
+msgstr ""
+
+msgid "1. What do you want to use?"
+msgstr ""
+
+msgid "2. Which keyboard layouts do you use?"
+msgstr ""
+
+msgid "C moves the text to the next one in this list, and the text itself says which one it came from. Leave them all ticked unless one should be left out."
+msgstr ""
+
+msgid "3. How should it sound?"
+msgstr ""
+
+msgid "That is all. Everything else, and much more, is in the settings: NVDA+Shift+U, then S."
+msgstr ""
+
+msgid "Texts:"
+msgstr ""
+
+msgid "English:"
+msgstr ""
+
+msgid "Your translation:"
+msgstr ""
+
+msgid "{done} of {total} texts translated"
+msgstr ""
+
+msgid "Saved as {path}\n\nSend this file to the author to have your language shipped with the add-on."
+msgstr ""
+
+msgid "Saved as {path}\n\nSuperTools will speak your language from now on. Close and open the settings to see it. To go back to NVDA's own language, use the button in the General tab."
+msgstr ""
+
+msgid "Word Monitor turned on"
+msgstr ""
+
+msgid "Word Monitor turned off"
+msgstr ""
+
+msgid "A word the Word Monitor found"
+msgstr ""
+
+msgid "Sounds:"
+msgstr ""
+
+msgid "The built-in beep"
+msgstr ""
+
+msgid "Beeps of my own"
+msgstr ""
+
+msgid "When the word is spoken:"
+msgstr ""
+
+msgid "Play the beeps only"
+msgstr ""
+
+msgid "Say the extra text only"
+msgstr ""
+
+msgid "Say the extra text and play the beeps"
+msgstr ""
+
+msgid "Do not speak the word at all"
+msgstr ""
+
+msgid "Text said before the word:"
+msgstr ""
+
+msgid "Match:"
+msgstr ""
+
+msgid "Anywhere in the text"
+msgstr ""
+
+msgid "Whole word only"
+msgstr ""
+
+msgid "Edit Word"
+msgstr ""
+
+msgid "Add Word"
+msgstr ""
+
+msgid "Word or phrase:"
+msgstr ""
+
+msgid "Category name:"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "Search:"
+msgstr ""
+
+msgid "Filter processes:"
+msgstr ""
+
+msgid "Type a name, or a number to find a PID."
+msgstr ""
+
+msgid "Publisher"
+msgstr ""
+
+msgid "Priority:"
+msgstr ""
+
+msgid "Low"
+msgstr ""
+
+msgid "Below normal"
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Above normal"
+msgstr ""
+
+msgid "High"
+msgstr ""
+
+msgid "{shown} of {total} processes"
+msgstr ""
+
+msgid "This affects {n} processes. Continue?"
+msgstr ""
+
+msgid "What is new:"
+msgstr ""
+
+msgid "No notes were written."
+msgstr ""
+
+msgid "A clock that is wrong stops secure connections from working, and the error never mentions the time."
+msgstr ""
+
+msgid "Windows will ask for permission. {what}"
+msgstr ""
+
+msgid "The clock was not changed."
+msgstr ""
+
+msgid "The new version could not be downloaded."
+msgstr ""
+
+msgid "The keyboard could not be locked."
+msgstr ""
+
+msgid "Only one keyboard layout is installed, so there is nothing to convert between."
+msgstr ""
+
+msgid "No characters to convert."
+msgstr ""
+
+msgid "File error: {e}"
+msgstr ""
+
+msgid "by {author}"
+msgstr ""
+
+msgid "{n} hours"
+msgstr ""
+
+msgid "{n} days"
+msgstr ""
+
+msgid "Open the Process Manager"
+msgstr ""
+
+msgid "Saved as {path}\n\nSend the file, with its sounds, to the author to have your theme shipped with the add-on."
+msgstr ""
+
+msgid "{n} words added."
+msgstr ""
+
+msgid "Process {name} killed."
+msgstr ""
+
+msgid "Process {name} restarted."
+msgstr ""
+
+msgid "The time could not be read from the internet. {reason}"
+msgstr ""
+
+msgid "Downloading SuperTools {version}..."
+msgstr ""
+
+msgid "The file was downloaded to {path}, but NVDA could not open it. Open it yourself to install the new version."
+msgstr ""
+
+msgid "Error: {e}"
+msgstr ""
+
+msgid "{n} beeps"
+msgstr ""
+
+msgid "heard {n} times"
+msgstr ""
+
+msgid "There is nothing published to compare with yet. You have version {version}."
+msgstr ""
+
+msgid "You have the newest version ({version})."
+msgstr ""
+
+msgid "Undone: {text}"
+msgstr ""
+
+msgid "Version {version} will not be offered again."
+msgstr ""
+
+msgid "{text}, in {layout}"
+msgstr ""
+
+msgid "Converted: {text}"
+msgstr ""

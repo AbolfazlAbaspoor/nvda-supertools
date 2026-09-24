@@ -1,0 +1,43 @@
+# Runs on every pull request and every push, so a change that breaks the build,
+# the translations or the tests is caught before anyone has to read it.
+name: Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  checks:
+    # The add-on reads keyboard layouts and the process list from Windows, so
+    # the tests need a real Windows to run on.
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Look for mistakes in the code
+        run: |
+          python -m pip install --quiet pyflakes
+          python -m pyflakes globalPlugins/superTools.py buildVars.py tools/*.py tests/*.py
+
+      - name: Check the translations
+        run: python tools/check_locale.py
+
+      - name: Run the tests
+        run: python tests/test_supertools.py
+
+      - name: Build the add-on
+        run: python tools/build.py
+
+      - name: Keep the built add-on with this run
+        uses: actions/upload-artifact@v4
+        with:
+          name: add-on
+          path: "*.nvda-addon"
+          if-no-files-found: error

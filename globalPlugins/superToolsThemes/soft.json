@@ -1,0 +1,24 @@
+{
+ "name": "Soft",
+ "author": "Abolfazl Abaspoor",
+ "description": "Quieter and lower than the built-in beeps, for long working days",
+ "_help": "Each sound is either a file next to this one (\"file\": \"start.wav\") or beeps (\"beeps\": [[frequency, milliseconds], ...]). Anything left out keeps the built-in beep.",
+ "sounds": {
+  "start":     {"beeps": [[392, 45], [523, 55]], "gap": 15},
+  "h":         {"beeps": [[523, 50]]},
+  "x":         {"beeps": [[587, 50]]},
+  "c":         {"beeps": [[440, 50]]},
+  "shift+c":   {"beeps": [[440, 45], [587, 55]], "gap": 15},
+  "z":         {"beeps": [[392, 50], [294, 60]], "gap": 15},
+  "s":         {"beeps": [[494, 55]]},
+  "w":         {"beeps": [[659, 50]]},
+  "shift+w":   {"beeps": [[330, 45], [494, 55]], "gap": 15},
+  "p":         {"beeps": [[698, 50]]},
+  "escape":    {"beeps": [[294, 55], [220, 70]], "gap": 15},
+  "unknown":   {"beeps": [[196, 90]]},
+  "autocheck": {"beeps": [[262, 40], [220, 50]], "gap": 10},
+  "monitor_on":  {"beeps": [[523, 60], [784, 70]], "gap": 20},
+  "monitor_off": {"beeps": [[392, 60], [262, 80]], "gap": 20},
+  "word":      {"beeps": [[659, 45], [880, 55]], "gap": 15}
+ }
+}

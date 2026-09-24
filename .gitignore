@@ -1,0 +1,8 @@
+# Built by tools/build.py
+*.nvda-addon
+
+# Compiled from the .po files by tools/make_locale.py
+*.mo
+
+__pycache__/
+*.pyc

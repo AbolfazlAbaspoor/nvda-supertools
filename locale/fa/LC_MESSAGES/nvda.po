@@ -1,0 +1,837 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTools\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa\n"
+"Last-Translator: Initial translation by AI; corrections welcome\n"
+"Language-Team: فارسی\n"
+
+msgid "Could not reach the internet. Check your connection, and if you use a VPN or a proxy, that it is working, then try again."
+msgstr "به اینترنت نمی‌شود رسید. اتصال خود را بررسی کنید، و اگر از VPN یا پروکسی استفاده می‌کنید مطمئن شوید کار می‌کند، بعد دوباره امتحان کنید."
+
+msgid "SuperTools Settings"
+msgstr "تنظیمات SuperTools"
+
+msgid "Built-in beeps"
+msgstr "بوق‌های پیش‌فرض"
+
+msgid "Layout Fixer"
+msgstr "اصلاح چیدمان کیبورد"
+
+msgid "Word Monitor"
+msgstr "مانیتور کلمه"
+
+msgid "System"
+msgstr "سیستم"
+
+msgid "General"
+msgstr "عمومی"
+
+msgid "SuperTools will follow NVDA's language again after NVDA restarts."
+msgstr "پس از راه‌اندازی دوبارهٔ NVDA، SuperTools دوباره از زبان NVDA پیروی می‌کند."
+
+msgid "Save a theme template..."
+msgstr "ذخیرهٔ فایل نمونهٔ پوسته..."
+
+msgid "Skipped versions will be offered again."
+msgstr "نسخه‌های رد شده دوباره پیشنهاد می‌شوند."
+
+msgid "Looking for a new version..."
+msgstr "در حال بررسی نسخهٔ تازه..."
+
+msgid "Export all settings to a file..."
+msgstr "ذخیره همه تنظیمات در یک فایل..."
+
+msgid "Import settings from a file..."
+msgstr "بارگذاری تنظیمات از یک فایل..."
+
+msgid "Settings imported."
+msgstr "تنظیمات بارگذاری شد."
+
+msgid "OK"
+msgstr "تأیید"
+
+msgid "Cancel"
+msgstr "لغو"
+
+msgid "Finish"
+msgstr "پایان"
+
+msgid "Skip for now"
+msgstr "فعلاً رد کن"
+
+msgid "Close"
+msgstr "بستن"
+
+msgid "Everything is translated."
+msgstr "همه‌چیز ترجمه شده است."
+
+msgid "A sound file"
+msgstr "یک فایل صوتی"
+
+msgid "My theme"
+msgstr "پوستهٔ من"
+
+msgid "Sound file instead of beeps:"
+msgstr "فایل صوتی به‌جای بوق:"
+
+msgid "Import from file..."
+msgstr "افزودن کلمات از فایل..."
+
+msgid "Export to file..."
+msgstr "ذخیره کلمات در فایل..."
+
+msgid "What is new"
+msgstr "چه چیز تازه است"
+
+msgid "What the clock says"
+msgstr "ساعت چه می‌گوید"
+
+msgid "&Close"
+msgstr "&بستن"
+
+msgid "Asking a web server for the time..."
+msgstr "در حال پرسیدن زمان از یک وب‌سرور..."
+
+msgid "Asking the Windows time service."
+msgstr "درخواست از سرویس زمان ویندوز."
+
+msgid "Setting the clock from the internet."
+msgstr "تنظیم ساعت از اینترنت."
+
+msgid "Command mode. H help, X changes, C layout, Shift+C convert the word before the cursor, Z undo, S settings, W word monitor, Shift+W toggle word monitor, P process manager, L lock the keyboard, T clock, U look for a new version, Escape cancel."
+msgstr "حالت فرمان. H راهنما، X تغییرات، C چیدمان، Shift+C تبدیل کلمهٔ پیش از مکان‌نما، Z واگرد، S تنظیمات، W مانیتور کلمه، Shift+W روشن و خاموش کردن مانیتور، P مدیریت فرآیندها، L قفل صفحه‌کلید، T ساعت، U جست‌وجوی نسخهٔ تازه، Escape لغو."
+
+msgid "Command mode ended."
+msgstr "حالت فرمان پایان یافت."
+
+msgid "This text was not converted by SuperTools."
+msgstr "این متن را SuperTools تبدیل نکرده است."
+
+msgid "SuperTools by {name}"
+msgstr "SuperTools ساختهٔ {name}"
+
+msgid "The clock is right, according to {host}."
+msgstr "به گفتهٔ {host}، ساعت درست است."
+
+msgid "{n} seconds"
+msgstr "{n} ثانیه"
+
+msgid "The clock is {amount} ahead of {host}."
+msgstr "ساعت {amount} از {host} جلوتر است."
+
+msgid "The clock is {amount} behind {host}."
+msgstr "ساعت {amount} از {host} عقب‌تر است."
+
+msgid "Permission was not given, so the clock was left alone."
+msgstr "اجازه داده نشد، پس ساعت دست‌نخورده ماند."
+
+msgid "GitHub answered {code}. Try again later."
+msgstr "گیت‌هاب پاسخ {code} داد. بعداً دوباره امتحان کنید."
+
+msgid "running"
+msgstr "در حال اجرا"
+
+msgid "Enable this feature"
+msgstr "این قابلیت فعال باشد"
+
+msgid "Choose from the programs running now..."
+msgstr "انتخاب از برنامه‌های در حال اجرا..."
+
+msgid "Keyboard layouts"
+msgstr "چیدمان‌های کیبورد"
+
+msgid "Watch for words typed with the wrong layout"
+msgstr "کلمه‌هایی که با چیدمان اشتباه تایپ می‌شوند، پایش شوند"
+
+msgid "Convert such a word at once, instead of only warning with a sound"
+msgstr "چنین کلمه‌ای بی‌درنگ تبدیل شود، نه فقط با صدا هشدار داده شود"
+
+msgid "L locks and unlocks the keyboard"
+msgstr "کلید L صفحه‌کلید را قفل و باز می‌کند"
+
+msgid "T checks whether the clock is right"
+msgstr "کلید T درست بودن ساعت را بررسی می‌کند"
+
+msgid "Leave command mode automatically when no key is pressed"
+msgstr "اگر کلیدی زده نشد، خودکار از حالت فرمان خارج شود"
+
+msgid "Number of beeps:"
+msgstr "تعداد بوق‌ها:"
+
+msgid "Frequency (Hz):"
+msgstr "فرکانس (هرتز):"
+
+msgid "Frequency change per beep (Hz):"
+msgstr "تغییر فرکانس در هر بوق (هرتز):"
+
+msgid "Duration (ms):"
+msgstr "مدت هر بوق (میلی‌ثانیه):"
+
+msgid "Test"
+msgstr "آزمایش"
+
+msgid "Create a sound theme..."
+msgstr "ساخت پوستهٔ صوتی..."
+
+msgid "Open the theme folder"
+msgstr "باز کردن پوشهٔ پوسته‌ها"
+
+msgid "How the beeps are made"
+msgstr "نحوهٔ ساخت بوق‌ها"
+
+msgid "Volume of the built-in beeps (%):"
+msgstr "بلندی بوق‌های داخلی (٪):"
+
+msgid "Silence before a sequence (ms):"
+msgstr "سکوت پیش از هر توالی (میلی‌ثانیه):"
+
+msgid "Create or continue a translation..."
+msgstr "ساخت یا ادامهٔ یک ترجمه..."
+
+msgid "Look for a new version when NVDA starts"
+msgstr "هنگام شروع NVDA دنبال نسخهٔ تازه بگرد"
+
+msgid "Check now"
+msgstr "همین حالا بررسی کن"
+
+msgid "Offer skipped versions again"
+msgstr "نسخه‌های رد شده دوباره پیشنهاد شوند"
+
+msgid "Keep a weekly backup of the settings"
+msgstr "هر هفته از تنظیمات پشتیبان گرفته شود"
+
+msgid "Open the backup folder"
+msgstr "باز کردن پوشه پشتیبان‌ها"
+
+msgid "Run the first-time setup again..."
+msgstr "اجرای دوبارهٔ راه‌اندازی اولیه..."
+
+msgid "Help"
+msgstr "راهنما"
+
+msgid "Reset all settings..."
+msgstr "بازنشانی همه تنظیمات..."
+
+msgid "Settings exported."
+msgstr "تنظیمات ذخیره شد."
+
+msgid "This file does not contain SuperTools settings."
+msgstr "این فایل، تنظیمات SuperTools نیست."
+
+msgid "All SuperTools settings will be erased. Continue?"
+msgstr "همه تنظیمات SuperTools پاک می‌شود. ادامه می‌دهید؟"
+
+msgid "Reset Settings"
+msgstr "بازنشانی تنظیمات"
+
+msgid "Settings have been reset."
+msgstr "تنظیمات بازنشانی شد."
+
+msgid "Tick at least two keyboard layouts, or switch the Layout Fixer off."
+msgstr "دست‌کم دو چیدمان را تیک بزنید، یا اصلاح چیدمان را خاموش کنید."
+
+msgid "Choose applications"
+msgstr "انتخاب برنامه‌ها"
+
+msgid "Add"
+msgstr "افزودن"
+
+msgid "Welcome to SuperTools"
+msgstr "به SuperTools خوش آمدید"
+
+msgid "Layout Fixer: repair text typed with the wrong keyboard layout (C)"
+msgstr "اصلاح چیدمان: درست کردن متنی که با چیدمان اشتباه تایپ شده (C)"
+
+msgid "Word Monitor: give chosen words their own sound when NVDA says them (W)"
+msgstr "مانیتور کلمه: دادن صدای اختصاصی به کلمه‌هایی که NVDA می‌گوید (W)"
+
+msgid "Process Manager: see and manage running programs (P)"
+msgstr "مدیریت فرآیندها: دیدن و مدیریت برنامه‌های در حال اجرا (P)"
+
+msgid "Create or continue a translation"
+msgstr "ساخت یا ادامهٔ یک ترجمه"
+
+msgid "Language code (fa, de, pt_BR...):"
+msgstr "کد زبان (fa، de، pt_BR ...):"
+
+msgid "Language name, as its speakers write it:"
+msgstr "نام زبان، همان‌طور که گویشورانش می‌نویسند:"
+
+msgid "Your name, for the credits:"
+msgstr "نام شما، برای بخش سازندگان:"
+
+msgid "Load what I translated before"
+msgstr "بارگذاری ترجمهٔ قبلی من"
+
+msgid "Next one to do"
+msgstr "مورد بعدی"
+
+msgid "Copy the English text"
+msgstr "رونوشت متن انگلیسی"
+
+msgid "Save"
+msgstr "ذخیره"
+
+msgid "Save and use it now"
+msgstr "ذخیره و استفادهٔ همین حالا"
+
+msgid "Create a sound theme"
+msgstr "ساخت پوستهٔ صوتی"
+
+msgid "Theme name:"
+msgstr "نام پوسته:"
+
+msgid "What it sounds like:"
+msgstr "چه صدایی می‌دهد:"
+
+msgid "This sound is:"
+msgstr "این صدا:"
+
+msgid "Browse..."
+msgstr "انتخاب فایل..."
+
+msgid "Use this for the selected sound"
+msgstr "برای صدای انتخاب‌شده همین استفاده شود"
+
+msgid "built-in beep"
+msgstr "بوق پیش‌فرض"
+
+msgid "Match upper and lower case exactly"
+msgstr "حروف بزرگ و کوچک دقیقاً یکسان باشد"
+
+msgid "Gap between beeps (ms):"
+msgstr "فاصله بین بوق‌ها (میلی‌ثانیه):"
+
+msgid "Use beeps"
+msgstr "استفاده از بوق"
+
+msgid "Interrupt speech while beeping"
+msgstr "هنگام پخش بوق، گفتار قطع شود"
+
+msgid "Enable this word"
+msgstr "این کلمه فعال باشد"
+
+msgid "Use the settings of the category"
+msgstr "از تنظیمات دسته استفاده شود"
+
+msgid "Enable this category"
+msgstr "این دسته فعال باشد"
+
+msgid "Manage words..."
+msgstr "مدیریت کلمات..."
+
+msgid "Add category..."
+msgstr "افزودن دسته..."
+
+msgid "Edit category..."
+msgstr "ویرایش دسته..."
+
+msgid "Remove category"
+msgstr "حذف دسته"
+
+msgid "Edit"
+msgstr "ویرایش"
+
+msgid "Remove"
+msgstr "حذف"
+
+msgid "Import from clipboard"
+msgstr "افزودن کلمات از کلیپ‌بورد"
+
+msgid "This word is already in the category."
+msgstr "این کلمه از قبل در این دسته هست."
+
+msgid "No new words were found."
+msgstr "کلمه تازه‌ای پیدا نشد."
+
+msgid "Process Manager"
+msgstr "مدیریت فرآیندها"
+
+msgid "Show CPU and publisher"
+msgstr "نمایش پردازنده و سازنده"
+
+msgid "&Refresh list"
+msgstr "&به‌روزرسانی فهرست"
+
+msgid "&End process"
+msgstr "&پایان دادن به فرآیند"
+
+msgid "Re&start process"
+msgstr "&راه‌اندازی دوباره فرآیند"
+
+msgid "End &all filtered"
+msgstr "پایان دادن به &همه موارد فیلترشده"
+
+msgid "Restart all &filtered"
+msgstr "راه‌اندازی دوباره همه موارد &فیلترشده"
+
+msgid "&Open file location"
+msgstr "&باز کردن محل فایل"
+
+msgid "&Copy details"
+msgstr "&رونوشت مشخصات"
+
+msgid "&Properties"
+msgstr "&مشخصات"
+
+msgid "No process selected."
+msgstr "هیچ فرآیندی انتخاب نشده است."
+
+msgid "Type a name in the filter first: this would hit every process."
+msgstr "اول یک نام در فیلتر بنویسید؛ وگرنه این کار روی همه فرآیندها انجام می‌شود."
+
+msgid "No process matches the filter."
+msgstr "هیچ فرآیندی با این فیلتر پیدا نشد."
+
+msgid "{n} processes ended."
+msgstr "{n} فرآیند پایان یافت."
+
+msgid "{n} processes restarted."
+msgstr "{n} فرآیند دوباره راه‌اندازی شد."
+
+msgid "The location of this program is unknown."
+msgstr "محل این برنامه مشخص نیست."
+
+msgid "Name: {name}\nPID: {pid}\nProgram: {exe}\nPublisher: {publisher}\nMemory: {memory:.1f} MB\nState: {status}"
+msgstr "نام: {name}\nشناسه: {pid}\nبرنامه: {exe}\nسازنده: {publisher}\nحافظه: {memory:.1f} مگابایت\nوضعیت: {status}"
+
+msgid "Process details copied."
+msgstr "مشخصات فرآیند رونوشت شد."
+
+msgid "The properties window could not be opened."
+msgstr "پنجره مشخصات باز نشد."
+
+msgid "Priority changed."
+msgstr "اولویت تغییر کرد."
+
+msgid "The priority could not be changed. Administrator rights may be needed."
+msgstr "اولویت تغییر نکرد. شاید به دسترسی مدیر نیاز باشد."
+
+msgid "What is new since the version you had:"
+msgstr "آنچه از زمان نسخهٔ قبلی شما تازه است:"
+
+msgid "What changed in each version:"
+msgstr "تغییرات هر نسخه:"
+
+msgid "SuperTools {version} is available. You have {current}."
+msgstr "نسخهٔ {version} از SuperTools موجود است. شما {current} را دارید."
+
+msgid "&Update now"
+msgstr "&به‌روزرسانی حالا"
+
+msgid "Open the &download page"
+msgstr "باز کردن صفحهٔ &دانلود"
+
+msgid "Remind me &later"
+msgstr "&بعداً یادآوری کن"
+
+msgid "&Skip this version"
+msgstr "&رد کردن این نسخه"
+
+msgid "SuperTools - Clock"
+msgstr "SuperTools - ساعت"
+
+msgid "Let &Windows fix it"
+msgstr "بگذار &ویندوز درستش کند"
+
+msgid "Set it from the &internet"
+msgstr "از &اینترنت تنظیم کن"
+
+msgid "Check &again"
+msgstr "&دوباره بررسی کن"
+
+msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr "صفحه‌کلید قفل شد. برای باز کردن NVDA+Shift+U و بعد L را بزنید."
+
+msgid "Keyboard unlocked."
+msgstr "صفحه‌کلید باز شد."
+
+msgid "Command mode cancelled."
+msgstr "حالت فرمان لغو شد."
+
+msgid "This feature is disabled in SuperTools settings."
+msgstr "این قابلیت در تنظیمات SuperTools غیرفعال است."
+
+msgid "Word monitor enabled."
+msgstr "مانیتور کلمه فعال شد."
+
+msgid "Word monitor disabled."
+msgstr "مانیتور کلمه غیرفعال شد."
+
+msgid "There is nothing to undo."
+msgstr "چیزی برای واگرد وجود ندارد."
+
+msgid "No text selected."
+msgstr "متنی انتخاب نشده است."
+
+msgid "Translation into {language}: {name}"
+msgstr "ترجمه به {language}: {name}"
+
+msgid "Sound theme {theme}: {name}"
+msgstr "پوستهٔ صوتی {theme}: {name}"
+
+msgid "{n} minutes"
+msgstr "{n} دقیقه"
+
+msgid "Windows would not run the command ({code})."
+msgstr "ویندوز فرمان را اجرا نکرد ({code})."
+
+msgid "Applications"
+msgstr "برنامه‌ها"
+
+msgid "In every application"
+msgstr "در همه برنامه‌ها"
+
+msgid "Only in these applications"
+msgstr "فقط در این برنامه‌ها"
+
+msgid "In every application except these"
+msgstr "در همه برنامه‌ها به‌جز این‌ها"
+
+msgid "Application names, separated by commas:"
+msgstr "نام برنامه‌ها، جداشده با کاما:"
+
+msgid "For example: notepad, chrome, telegram"
+msgstr "برای نمونه: notepad, chrome, telegram"
+
+msgid "C moves the text to the next layout in this list. The text itself says which one it was typed with, so nothing has to be chosen; press C again to carry on to the next one."
+msgstr "کلید C متن را به چیدمان بعدی این فهرست می‌برد. خودِ متن می‌گوید با کدام چیدمان تایپ شده، پس چیزی برای انتخاب کردن نیست؛ برای رفتن به چیدمان بعدی دوباره C را بزنید."
+
+msgid "Every layout is used unless you untick it. At least two are needed."
+msgstr "هر چیدمانی که تیکش را برندارید استفاده می‌شود. دست‌کم دو تا لازم است."
+
+msgid "Say which layout the text was converted to"
+msgstr "چیدمانی که متن به آن تبدیل شد گفته شود"
+
+msgid "Put the previous clipboard content back after converting"
+msgstr "پس از تبدیل، محتوای قبلی کلیپ‌بورد برگردانده شود"
+
+msgid "Say the converted text"
+msgstr "متن تبدیل‌شده خوانده شود"
+
+msgid "Shift+C converts the word before the cursor, without selecting it"
+msgstr "Shift+C کلمه پیش از مکان‌نما را بدون انتخاب کردن تبدیل می‌کند"
+
+msgid "Z undoes the last conversion"
+msgstr "Z آخرین تبدیل را برمی‌گرداند"
+
+msgid "While typing"
+msgstr "هنگام تایپ"
+
+msgid "Shortest word to check:"
+msgstr "کوتاه‌ترین کلمه‌ای که بررسی شود:"
+
+msgid "A Latin word with no vowel at all is treated as suspicious."
+msgstr "کلمه لاتینی که هیچ حرف صدادار ندارد، مشکوک در نظر گرفته می‌شود."
+
+msgid "Enable word monitor"
+msgstr "مانیتور کلمه فعال باشد"
+
+msgid "Default settings for words added to this category"
+msgstr "تنظیمات پیش‌فرض کلمه‌هایی که به این دسته اضافه می‌شوند"
+
+msgid "Sort the list by:"
+msgstr "مرتب‌سازی فهرست بر اساس:"
+
+msgid "Name"
+msgstr "نام"
+
+msgid "Memory use"
+msgstr "مصرف حافظه"
+
+msgid "CPU"
+msgstr "پردازنده"
+
+msgid "PID"
+msgstr "شناسه"
+
+msgid "Refresh the list automatically"
+msgstr "فهرست خودکار به‌روز شود"
+
+msgid "Every (seconds):"
+msgstr "هر چند ثانیه:"
+
+msgid "Ask before ending or restarting every filtered process"
+msgstr "پیش از پایان دادن یا راه‌اندازی دوباره همه موارد فیلترشده، پرسیده شود"
+
+msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
+msgstr "تا وقتی صفحه‌کلید قفل است هیچ کلیدی به هیچ برنامه‌ای نمی‌رسد، حتی به NVDA. تنها کلیدی که کار می‌کند همان کلیدی است که حالت فرمان را باز می‌کند، پس زدن آن و بعد L قفل را باز می‌کند. قفل با راه‌اندازی دوبارهٔ NVDA از بین می‌رود."
+
+msgid "Seconds to wait:"
+msgstr "چند ثانیه صبر شود:"
+
+msgid "Custom sequence (frequency,duration; ...):"
+msgstr "توالی دلخواه (فرکانس,مدت؛ ...):"
+
+msgid "Leave empty to use the four settings above."
+msgstr "برای استفاده از چهار تنظیم بالا، این را خالی بگذارید."
+
+msgid "Sounds"
+msgstr "صداها"
+
+msgid "A theme gives every sound of the add-on its own voice: beeps or a sound file, chosen one by one. Anything a theme leaves out keeps the built-in beep, so a theme can be as small as a single sound."
+msgstr "پوسته به هر صدای افزونه شکل تازه‌ای می‌دهد: برای هر صدا جداگانه یا بوق یا فایل صوتی. هر صدایی که پوسته دربارهٔ آن چیزی نگوید، همان بوق پیش‌فرض می‌ماند؛ پس یک پوسته می‌تواند فقط یک صدا داشته باشد."
+
+msgid "How the beeps are made:"
+msgstr "نحوهٔ ساخت بوق‌ها:"
+
+msgid "Built in: the gaps are exact"
+msgstr "داخلی: فاصله‌ها دقیق است"
+
+msgid "NVDA's own beep: sounds like the rest of NVDA"
+msgstr "بوق خود NVDA: مثل بقیهٔ NVDA به گوش می‌رسد"
+
+msgid "The silence keeps the first beep from being swallowed while the sound device wakes up. Raise it if a first beep is ever missing."
+msgstr "این سکوت نمی‌گذارد بوق اول هنگام بیدار شدن کارت صدا بلعیده شود. اگر جایی بوق اول شنیده نشد، آن را بیشتر کنید."
+
+msgid "Language"
+msgstr "زبان"
+
+msgid "SuperTools speaks the language NVDA is set to. You can write a translation for a language it does not have yet, see it straight away, and send the file to have it shipped with the add-on."
+msgstr "SuperTools به همان زبانی صحبت می‌کند که NVDA روی آن تنظیم است. می‌توانید برای زبانی که هنوز ندارد ترجمه بنویسید، همان لحظه ببینیدش، و فایل را بفرستید تا همراه افزونه منتشر شود."
+
+msgid "Go back to NVDA's language"
+msgstr "بازگشت به زبان NVDA"
+
+msgid "Updates"
+msgstr "به‌روزرسانی"
+
+msgid "Seconds to wait after NVDA starts:"
+msgstr "ثانیه‌های انتظار پس از شروع NVDA:"
+
+msgid "The check waits until NVDA has finished starting, and then runs at most once a day. It only asks which version is the newest and shows you what changed: nothing is downloaded or installed unless you choose to, and a version you skip is not brought up again. If you installed SuperTools from NVDA's Add-on Store, the store already keeps it up to date."
+msgstr "بررسی تا تمام‌شدن راه‌اندازی NVDA صبر می‌کند و بعد حداکثر روزی یک بار اجرا می‌شود. فقط می‌پرسد تازه‌ترین نسخه کدام است و تغییرات را نشان می‌دهد: تا خودتان نخواهید چیزی دانلود یا نصب نمی‌شود، و نسخه‌ای که رد کنید دوباره پیش نمی‌آید. اگر SuperTools را از فروشگاه افزونه‌های NVDA نصب کرده‌اید، خود فروشگاه آن را به‌روز نگه می‌دارد."
+
+msgid "Done. Close and open the settings to see the change."
+msgstr "انجام شد. برای دیدن تغییر، تنظیمات را ببندید و دوباره باز کنید."
+
+msgid "Programs running now:"
+msgstr "برنامه‌های در حال اجرا:"
+
+msgid "Or type a name:"
+msgstr "یا یک نام بنویسید:"
+
+msgid "Everything in SuperTools is reached by pressing NVDA+Shift+U and then one key. Press H after that for the full list at any time.\n\nThree questions, and you are set up."
+msgstr "همهٔ کارهای SuperTools با فشردن NVDA+Shift+U و سپس یک کلید انجام می‌شود. بعد از آن هر وقت H را بزنید، فهرست کامل را می‌بینید.\n\nسه سؤال، و کار راه‌اندازی تمام است."
+
+msgid "1. What do you want to use?"
+msgstr "۱. از چه چیزی می‌خواهید استفاده کنید؟"
+
+msgid "2. Which keyboard layouts do you use?"
+msgstr "۲. از کدام چیدمان‌های کیبورد استفاده می‌کنید؟"
+
+msgid "C moves the text to the next one in this list, and the text itself says which one it came from. Leave them all ticked unless one should be left out."
+msgstr "کلید C متن را به چیدمان بعدی این فهرست می‌برد و خودِ متن می‌گوید از کدام چیدمان آمده است. مگر اینکه بخواهید یکی کنار گذاشته شود، همه را تیک‌خورده بگذارید."
+
+msgid "3. How should it sound?"
+msgstr "۳. چه صدایی داشته باشد؟"
+
+msgid "That is all. Everything else, and much more, is in the settings: NVDA+Shift+U, then S."
+msgstr "همین. بقیهٔ چیزها، و خیلی بیشتر، در تنظیمات است: NVDA+Shift+U و سپس S."
+
+msgid "Texts:"
+msgstr "متن‌ها:"
+
+msgid "English:"
+msgstr "انگلیسی:"
+
+msgid "Your translation:"
+msgstr "ترجمهٔ شما:"
+
+msgid "{done} of {total} texts translated"
+msgstr "{done} متن از {total} متن ترجمه شده"
+
+msgid "Saved as {path}\n\nSend this file to the author to have your language shipped with the add-on."
+msgstr "در {path} ذخیره شد\n\nاین فایل را برای نویسنده بفرستید تا زبان شما همراه افزونه منتشر شود."
+
+msgid "Saved as {path}\n\nSuperTools will speak your language from now on. Close and open the settings to see it. To go back to NVDA's own language, use the button in the General tab."
+msgstr "در {path} ذخیره شد\n\nSuperTools از این پس به زبان شما صحبت می‌کند. برای دیدنش تنظیمات را ببندید و دوباره باز کنید. برای بازگشت به زبان NVDA، از دکمهٔ تب عمومی استفاده کنید."
+
+msgid "Word Monitor turned on"
+msgstr "مانیتور کلمه روشن شد"
+
+msgid "Word Monitor turned off"
+msgstr "مانیتور کلمه خاموش شد"
+
+msgid "A word the Word Monitor found"
+msgstr "کلمه‌ای که مانیتور پیدا کرد"
+
+msgid "Sounds:"
+msgstr "صداها:"
+
+msgid "The built-in beep"
+msgstr "بوق پیش‌فرض"
+
+msgid "Beeps of my own"
+msgstr "بوق دلخواه من"
+
+msgid "When the word is spoken:"
+msgstr "وقتی کلمه خوانده می‌شود:"
+
+msgid "Play the beeps only"
+msgstr "فقط بوق پخش شود"
+
+msgid "Say the extra text only"
+msgstr "فقط متن اضافه گفته شود"
+
+msgid "Say the extra text and play the beeps"
+msgstr "متن اضافه گفته شود و بوق هم پخش شود"
+
+msgid "Do not speak the word at all"
+msgstr "کلمه اصلاً خوانده نشود"
+
+msgid "Text said before the word:"
+msgstr "متنی که پیش از کلمه گفته می‌شود:"
+
+msgid "Match:"
+msgstr "نحوه تطبیق:"
+
+msgid "Anywhere in the text"
+msgstr "هر جای متن"
+
+msgid "Whole word only"
+msgstr "فقط کلمه کامل"
+
+msgid "Edit Word"
+msgstr "ویرایش کلمه"
+
+msgid "Add Word"
+msgstr "افزودن کلمه"
+
+msgid "Word or phrase:"
+msgstr "کلمه یا عبارت:"
+
+msgid "Category name:"
+msgstr "نام دسته:"
+
+msgid "Categories"
+msgstr "دسته‌ها"
+
+msgid "Search:"
+msgstr "جست‌وجو:"
+
+msgid "Filter processes:"
+msgstr "فیلتر فرآیندها:"
+
+msgid "Type a name, or a number to find a PID."
+msgstr "یک نام بنویسید، یا یک عدد برای پیدا کردن شناسه فرآیند."
+
+msgid "Publisher"
+msgstr "سازنده"
+
+msgid "Priority:"
+msgstr "اولویت:"
+
+msgid "Low"
+msgstr "کم"
+
+msgid "Below normal"
+msgstr "کمتر از معمولی"
+
+msgid "Normal"
+msgstr "معمولی"
+
+msgid "Above normal"
+msgstr "بیشتر از معمولی"
+
+msgid "High"
+msgstr "زیاد"
+
+msgid "{shown} of {total} processes"
+msgstr "{shown} فرآیند از {total} فرآیند"
+
+msgid "This affects {n} processes. Continue?"
+msgstr "این کار روی {n} فرآیند انجام می‌شود. ادامه می‌دهید؟"
+
+msgid "What is new:"
+msgstr "چه چیز تازه است:"
+
+msgid "No notes were written."
+msgstr "یادداشتی نوشته نشده است."
+
+msgid "A clock that is wrong stops secure connections from working, and the error never mentions the time."
+msgstr "ساعت اشتباه جلوی کار کردن اتصال‌های امن را می‌گیرد، و خطایی که می‌گیرید هرگز حرفی از زمان نمی‌زند."
+
+msgid "Windows will ask for permission. {what}"
+msgstr "ویندوز اجازه خواهد خواست. {what}"
+
+msgid "The clock was not changed."
+msgstr "ساعت تغییر نکرد."
+
+msgid "The new version could not be downloaded."
+msgstr "نسخهٔ تازه دانلود نشد."
+
+msgid "The keyboard could not be locked."
+msgstr "صفحه‌کلید قفل نشد."
+
+msgid "Only one keyboard layout is installed, so there is nothing to convert between."
+msgstr "فقط یک چیدمان کیبورد نصب است، پس چیزی برای تبدیل کردن بینشان نیست."
+
+msgid "No characters to convert."
+msgstr "هیچ نویسه‌ای برای تبدیل وجود ندارد."
+
+msgid "File error: {e}"
+msgstr "خطای فایل: {e}"
+
+msgid "by {author}"
+msgstr "ساختهٔ {author}"
+
+msgid "{n} hours"
+msgstr "{n} ساعت"
+
+msgid "{n} days"
+msgstr "{n} روز"
+
+msgid "Open the Process Manager"
+msgstr "باز کردن مدیریت فرآیندها"
+
+msgid "Saved as {path}\n\nSend the file, with its sounds, to the author to have your theme shipped with the add-on."
+msgstr "در {path} ذخیره شد\n\nفایل را همراه صداهایش برای نویسنده بفرستید تا پوستهٔ شما همراه افزونه منتشر شود."
+
+msgid "{n} words added."
+msgstr "{n} کلمه اضافه شد."
+
+msgid "Process {name} killed."
+msgstr "فرآیند {name} پایان یافت."
+
+msgid "Process {name} restarted."
+msgstr "فرآیند {name} دوباره راه‌اندازی شد."
+
+msgid "The time could not be read from the internet. {reason}"
+msgstr "زمان از اینترنت خوانده نشد. {reason}"
+
+msgid "Downloading SuperTools {version}..."
+msgstr "در حال دانلود SuperTools {version}..."
+
+msgid "The file was downloaded to {path}, but NVDA could not open it. Open it yourself to install the new version."
+msgstr "فایل در {path} دانلود شد، اما NVDA نتوانست بازش کند. برای نصب نسخهٔ تازه خودتان بازش کنید."
+
+msgid "Error: {e}"
+msgstr "خطا: {e}"
+
+msgid "{n} beeps"
+msgstr "{n} بوق"
+
+msgid "heard {n} times"
+msgstr "{n} بار شنیده شده"
+
+msgid "There is nothing published to compare with yet. You have version {version}."
+msgstr "هنوز چیزی منتشر نشده که با آن مقایسه شود. شما نسخهٔ {version} را دارید."
+
+msgid "You have the newest version ({version})."
+msgstr "شما تازه‌ترین نسخه ({version}) را دارید."
+
+msgid "Undone: {text}"
+msgstr "برگردانده شد: {text}"
+
+msgid "Version {version} will not be offered again."
+msgstr "نسخهٔ {version} دیگر پیشنهاد نمی‌شود."
+
+msgid "{text}, in {layout}"
+msgstr "{text}، در {layout}"
+
+msgid "Converted: {text}"
+msgstr "تبدیل شد: {text}"

@@ -1,0 +1,176 @@
+SuperTools for NVDA v{ver}
+===========================
+
+COMMAND MODE
+  Press NVDA+Shift+U, then press one key.
+  H        Help
+  X        Changes
+  C        Convert the selected text
+  Shift+C  Convert the word before the cursor, without selecting it
+  Z        Undo the last conversion
+  S        Settings
+  W        Word Monitor manager
+  Shift+W  Turn the Word Monitor on or off
+  P        Process Manager
+  L        Lock or unlock the keyboard
+  T        Check whether the clock is right
+  U        Look for a new version
+  Escape   Leave command mode
+
+NVDA+Shift+U is the only shortcut this add-on uses; everything else is reached
+from command mode or from the settings dialog.
+
+While command mode is on, nothing reaches the application you are working in.
+A key that is not a command only plays a short beep and command mode stays on.
+Modifier keys (Shift, Control, Alt, the NVDA key) are not commands either.
+Commands are recognised by the physical key, so they work on Persian and other
+non-Latin layouts. If no key is pressed at all, command mode ends by itself;
+the waiting time can be changed or switched off in the settings.
+
+Each command has its own beep sequence, so you can tell by ear which command
+ran. The sequences can be changed in Settings, General tab.
+
+LAYOUT FIXER
+  Works with every keyboard layout Windows has, not a chosen pair. The text
+  itself says which layout it was typed with, and C moves it to the next one;
+  press C again to carry on to the one after that, all the way round. With two
+  layouts installed that is simply "the other one", and nothing has to be set
+  at all.
+  C converts the selection, Shift+C the word just typed, Z puts back what was
+  there before the last conversion.
+  A layout can be left out of the ring in the settings, and SuperTools can say
+  which layout the text landed in.
+  The clipboard is used to replace the text; by default its previous content is
+  put back afterwards, and the converted text is spoken. Both are optional.
+  Optionally SuperTools can also watch what you type and tell you when a word
+  looks like it was typed with the wrong layout: a Latin word without a single
+  vowel, such as "sghl". It can warn with a short sound or convert the word
+  straight away.
+
+WORD MONITOR
+  Words are kept in categories. A category holds the settings that words added
+  to it start from, and every word can keep those or use its own.
+  Per word or per category you can choose:
+    - matching anywhere in the text or whole words only, and whether upper and
+      lower case must match;
+    - what happens when the word is spoken: beeps only, extra text only, both,
+      or not speaking the word at all;
+    - the text said before the word;
+    - the beeps: how many, how high, how long each one lasts, the gap between
+      them, or a sequence of your own, and whether speech is interrupted;
+    - a wav file to play instead of the beeps.
+  The word list has a search box and shows how often each word has been heard.
+  Words can be imported from a text or JSON file or from the clipboard, and
+  exported to a file.
+
+APPLICATIONS
+  Every feature can be limited to some applications or kept out of them, on its
+  own settings tab: for example the Word Monitor only in your chat program.
+  The programs are ticked off a list of what is running, so nothing has to be
+  typed or spelled correctly.
+
+PROCESS MANAGER
+  A list of name, PID and memory use, with processor use and the publisher of
+  the program as two more columns that can be switched on when wanted. Type in the filter to narrow it down, or
+  type a number to find a PID. Sort by clicking a column header or with the
+  sort box. The list can refresh itself every few seconds and always refreshes
+  right after an action, keeping the process you were on.
+  End or restart the selected process, or every process the filter shows, open
+  the file location, copy the details, open the properties window and change
+  the priority.
+  The two actions that hit every filtered process need a non-empty filter and
+  ask first, so nothing can run over the whole machine by accident.
+  Restarted processes are started detached from NVDA and keep running when NVDA
+  restarts or exits.
+
+KEYBOARD LOCK
+  L locks the keyboard, and L locks it again to let it go. While it is locked
+  every key is swallowed before it reaches anything at all, NVDA included, so
+  a cat on the desk or a child at the keyboard changes nothing. The one key
+  that still works is the one that opens command mode, so NVDA+Shift+U and
+  then L always unlocks it. If you have bound command mode to some other key,
+  that key is the one that works.
+
+  A lock is never written down anywhere: quitting or restarting NVDA ends it,
+  which is the last way out if anything ever goes wrong. The lock can be
+  switched off altogether in Settings, General tab.
+
+THE CLOCK
+  T says how far the computer's clock is from the real time, and offers to put
+  it right. A clock that is wrong is worth finding, because secure connections
+  stop working when it is: certificates look expired or not yet valid, and the
+  error you get says nothing about the time.
+
+  The time is read from the Date header that any web server sends back, so no
+  service has to be signed up for and nothing about you is sent. When the
+  clock is badly wrong, https itself fails, so a plain http address is tried
+  as well - for that one header and nothing else.
+
+  Two ways to fix it are offered. The first asks the Windows time service to
+  do what it is for, which is the right answer almost always. The second sets
+  the clock straight from the time the web server gave, for networks where the
+  time service cannot reach its own servers. Windows asks for permission
+  before either one; if you say no, nothing happens.
+
+THE FIRST RUN
+  The first time SuperTools starts it asks three things: which of its tools you
+  want, which keyboard layouts you use, and how it should sound.
+  Everything it asks can be changed later, and the same questions can be asked
+  again from Settings, General tab.
+
+UPDATES
+  U in command mode asks whether a newer version exists and tells you.
+  Settings, General tab can also do it after NVDA starts. It is off until you
+  turn it on, it waits until NVDA has finished starting so that starting is
+  never held up by it, and it then asks at most once a day.
+
+  When there is something newer you are shown what changed and asked what you
+  want: update now, open the download page, be reminded later, or skip that
+  version. Updating now fetches the file and hands it to NVDA, which asks its
+  own question before installing anything, exactly as it would for a file you
+  had downloaded yourself. A version you skip is never brought up again by
+  itself; Settings, General tab can undo that.
+
+  If you installed SuperTools from NVDA's Add-on Store, the store already
+  keeps it up to date and this can stay off.
+
+SETTINGS
+  Every feature can be switched off on its own tab. All settings can be
+  exported to a file and imported again on another machine, and a weekly backup
+  is kept automatically in the NVDA configuration folder.
+
+SOUNDS
+  Every sound the add-on makes can come from a theme: for each sound
+  separately, either beeps or a sound file. wav plays through NVDA's own audio;
+  mp3 and the other formats Windows can decode work as well. Whatever a theme
+  does not mention keeps the built-in beep, so a theme can be as small as one
+  sound.
+  Settings, General tab, Sounds: choose a theme, hear it, build one of your own
+  sound by sound with the wizard, open the folder they live in, or save a
+  template to write by hand. Themes written by other people
+  go in that folder and appear in the list, with their author's name beside
+  them.
+
+LANGUAGES
+  SuperTools speaks the language NVDA itself is set to, through NVDA's own
+  translation system. It comes with English, Persian, Arabic, German, Spanish,
+  French, Italian, Portuguese, Russian, Turkish and Simplified Chinese.
+  The help you are reading is translated too: it is doc/<language>/help.txt,
+  plain text, and the documentation NVDA shows is built from it.
+  A language can be written from inside the add-on: Settings, General tab,
+  Language, "Create or continue a translation". It saves the same file a
+  translator would send, and can show you your own language straight away.
+  You can also translate locale/nvda.pot with a tool such as Poedit, save it
+  as locale/<language>/LC_MESSAGES/nvda.po and send it to the author. Put
+  your name in the Last-Translator field and it appears in the settings, beside
+  the language you translated.
+
+WHO MADE THIS
+  SuperTools is written by Abolfazl Abaspoor, with the help of an AI assistant.
+  The first translations were made by that assistant and have not been reviewed
+  by native speakers: corrections are welcome and are credited. A language can
+  be the work of several people, and every one of them is named, in the settings
+  and in TRANSLATORS.md. Sound themes carry their author's name in the same way.
+
+CHANGES
+  Changes is shown automatically only once for each SuperTools version.

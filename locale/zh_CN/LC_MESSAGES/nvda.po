@@ -1,0 +1,837 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTools\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Last-Translator: Initial translation by AI; corrections welcome\n"
+"Language-Team: 简体中文\n"
+
+msgid "Could not reach the internet. Check your connection, and if you use a VPN or a proxy, that it is working, then try again."
+msgstr "无法连接到互联网。请检查网络连接；若使用 VPN 或代理，请确认其正常工作，然后重试。"
+
+msgid "SuperTools Settings"
+msgstr "SuperTools 设置"
+
+msgid "Built-in beeps"
+msgstr "内置提示音"
+
+msgid "Layout Fixer"
+msgstr "键盘布局修正"
+
+msgid "Word Monitor"
+msgstr "单词监视"
+
+msgid "System"
+msgstr "系统"
+
+msgid "General"
+msgstr "常规"
+
+msgid "SuperTools will follow NVDA's language again after NVDA restarts."
+msgstr "NVDA 重新启动后，SuperTools 将再次跟随 NVDA 的语言。"
+
+msgid "Save a theme template..."
+msgstr "保存声音主题模板..."
+
+msgid "Skipped versions will be offered again."
+msgstr "已跳过的版本将重新提示。"
+
+msgid "Looking for a new version..."
+msgstr "正在查找新版本..."
+
+msgid "Export all settings to a file..."
+msgstr "将所有设置导出到文件..."
+
+msgid "Import settings from a file..."
+msgstr "从文件导入设置..."
+
+msgid "Settings imported."
+msgstr "设置已导入。"
+
+msgid "OK"
+msgstr "确定"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Finish"
+msgstr "完成"
+
+msgid "Skip for now"
+msgstr "暂时跳过"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Everything is translated."
+msgstr "全部翻译完成。"
+
+msgid "A sound file"
+msgstr "一个声音文件"
+
+msgid "My theme"
+msgstr "我的主题"
+
+msgid "Sound file instead of beeps:"
+msgstr "用声音文件代替提示音："
+
+msgid "Import from file..."
+msgstr "从文件导入..."
+
+msgid "Export to file..."
+msgstr "导出到文件..."
+
+msgid "What is new"
+msgstr "新增内容"
+
+msgid "What the clock says"
+msgstr "时钟状况"
+
+msgid "&Close"
+msgstr "关闭(&C)"
+
+msgid "Asking a web server for the time..."
+msgstr "正在向网页服务器询问时间..."
+
+msgid "Asking the Windows time service."
+msgstr "正在请求 Windows 时间服务。"
+
+msgid "Setting the clock from the internet."
+msgstr "正在从互联网设置时钟。"
+
+msgid "Command mode. H help, X changes, C layout, Shift+C convert the word before the cursor, Z undo, S settings, W word monitor, Shift+W toggle word monitor, P process manager, L lock the keyboard, T clock, U look for a new version, Escape cancel."
+msgstr "命令模式。H 帮助，X 更新说明，C 键盘布局，Shift+C 转换光标前的词，Z 撤销，S 设置，W 词语监视器，Shift+W 开关监视器，P 进程管理器，L 锁定键盘，T 时钟，U 检查新版本，Escape 取消。"
+
+msgid "Command mode ended."
+msgstr "命令模式已结束。"
+
+msgid "This text was not converted by SuperTools."
+msgstr "这段文本不是 SuperTools 转换的。"
+
+msgid "SuperTools by {name}"
+msgstr "SuperTools，作者：{name}"
+
+msgid "The clock is right, according to {host}."
+msgstr "据 {host} 所说，时钟是准的。"
+
+msgid "{n} seconds"
+msgstr "{n} 秒"
+
+msgid "The clock is {amount} ahead of {host}."
+msgstr "时钟比 {host} 快 {amount}。"
+
+msgid "The clock is {amount} behind {host}."
+msgstr "时钟比 {host} 慢 {amount}。"
+
+msgid "Permission was not given, so the clock was left alone."
+msgstr "没有获得许可，时钟未做改动。"
+
+msgid "GitHub answered {code}. Try again later."
+msgstr "GitHub 返回 {code}。请稍后重试。"
+
+msgid "running"
+msgstr "运行中"
+
+msgid "Enable this feature"
+msgstr "启用此功能"
+
+msgid "Choose from the programs running now..."
+msgstr "从正在运行的程序中选择..."
+
+msgid "Keyboard layouts"
+msgstr "键盘布局"
+
+msgid "Watch for words typed with the wrong layout"
+msgstr "监测用错误布局输入的单词"
+
+msgid "Convert such a word at once, instead of only warning with a sound"
+msgstr "直接转换这样的单词，而不只是用声音提醒"
+
+msgid "L locks and unlocks the keyboard"
+msgstr "L 锁定和解锁键盘"
+
+msgid "T checks whether the clock is right"
+msgstr "T 检查时钟是否准确"
+
+msgid "Leave command mode automatically when no key is pressed"
+msgstr "长时间未按键时自动退出命令模式"
+
+msgid "Number of beeps:"
+msgstr "提示音数量："
+
+msgid "Frequency (Hz):"
+msgstr "频率（Hz）："
+
+msgid "Frequency change per beep (Hz):"
+msgstr "每个提示音的频率变化（Hz）："
+
+msgid "Duration (ms):"
+msgstr "时长（毫秒）："
+
+msgid "Test"
+msgstr "试听"
+
+msgid "Create a sound theme..."
+msgstr "创建声音主题..."
+
+msgid "Open the theme folder"
+msgstr "打开声音主题文件夹"
+
+msgid "How the beeps are made"
+msgstr "提示音的生成方式"
+
+msgid "Volume of the built-in beeps (%):"
+msgstr "内置提示音音量（%）："
+
+msgid "Silence before a sequence (ms):"
+msgstr "每段声音前的静音（毫秒）："
+
+msgid "Create or continue a translation..."
+msgstr "创建或继续翻译..."
+
+msgid "Look for a new version when NVDA starts"
+msgstr "NVDA 启动时检查新版本"
+
+msgid "Check now"
+msgstr "立即检查"
+
+msgid "Offer skipped versions again"
+msgstr "重新提示已跳过的版本"
+
+msgid "Keep a weekly backup of the settings"
+msgstr "每周保留一份设置备份"
+
+msgid "Open the backup folder"
+msgstr "打开备份文件夹"
+
+msgid "Run the first-time setup again..."
+msgstr "重新运行初次设置..."
+
+msgid "Help"
+msgstr "帮助"
+
+msgid "Reset all settings..."
+msgstr "重置所有设置..."
+
+msgid "Settings exported."
+msgstr "设置已导出。"
+
+msgid "This file does not contain SuperTools settings."
+msgstr "此文件不包含 SuperTools 设置。"
+
+msgid "All SuperTools settings will be erased. Continue?"
+msgstr "所有 SuperTools 设置将被清除。是否继续？"
+
+msgid "Reset Settings"
+msgstr "重置设置"
+
+msgid "Settings have been reset."
+msgstr "设置已重置。"
+
+msgid "Tick at least two keyboard layouts, or switch the Layout Fixer off."
+msgstr "请至少勾选两种键盘布局，或关闭布局修正。"
+
+msgid "Choose applications"
+msgstr "选择应用程序"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Welcome to SuperTools"
+msgstr "欢迎使用 SuperTools"
+
+msgid "Layout Fixer: repair text typed with the wrong keyboard layout (C)"
+msgstr "布局修正：修复用错误键盘布局输入的文本（C）"
+
+msgid "Word Monitor: give chosen words their own sound when NVDA says them (W)"
+msgstr "单词监视：让选定的单词在 NVDA 读出时拥有自己的声音（W）"
+
+msgid "Process Manager: see and manage running programs (P)"
+msgstr "进程管理器：查看和管理正在运行的程序（P）"
+
+msgid "Create or continue a translation"
+msgstr "创建或继续翻译"
+
+msgid "Language code (fa, de, pt_BR...):"
+msgstr "语言代码（fa、de、pt_BR ...）："
+
+msgid "Language name, as its speakers write it:"
+msgstr "语言名称，按母语者的写法："
+
+msgid "Your name, for the credits:"
+msgstr "您的名字，用于致谢："
+
+msgid "Load what I translated before"
+msgstr "载入我之前翻译的内容"
+
+msgid "Next one to do"
+msgstr "下一条待翻译"
+
+msgid "Copy the English text"
+msgstr "复制英文原文"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Save and use it now"
+msgstr "保存并立即使用"
+
+msgid "Create a sound theme"
+msgstr "创建声音主题"
+
+msgid "Theme name:"
+msgstr "主题名称："
+
+msgid "What it sounds like:"
+msgstr "听起来怎么样："
+
+msgid "This sound is:"
+msgstr "这个声音是："
+
+msgid "Browse..."
+msgstr "浏览..."
+
+msgid "Use this for the selected sound"
+msgstr "将此用于所选声音"
+
+msgid "built-in beep"
+msgstr "内置提示音"
+
+msgid "Match upper and lower case exactly"
+msgstr "区分大小写"
+
+msgid "Gap between beeps (ms):"
+msgstr "提示音间隔（毫秒）："
+
+msgid "Use beeps"
+msgstr "使用提示音"
+
+msgid "Interrupt speech while beeping"
+msgstr "播放提示音时中断语音"
+
+msgid "Enable this word"
+msgstr "启用此单词"
+
+msgid "Use the settings of the category"
+msgstr "使用分类的设置"
+
+msgid "Enable this category"
+msgstr "启用此分类"
+
+msgid "Manage words..."
+msgstr "管理单词..."
+
+msgid "Add category..."
+msgstr "添加分类..."
+
+msgid "Edit category..."
+msgstr "编辑分类..."
+
+msgid "Remove category"
+msgstr "删除分类"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Remove"
+msgstr "删除"
+
+msgid "Import from clipboard"
+msgstr "从剪贴板导入"
+
+msgid "This word is already in the category."
+msgstr "该单词已在此分类中。"
+
+msgid "No new words were found."
+msgstr "没有找到新的单词。"
+
+msgid "Process Manager"
+msgstr "进程管理器"
+
+msgid "Show CPU and publisher"
+msgstr "显示 CPU 和发布者"
+
+msgid "&Refresh list"
+msgstr "刷新列表(&R)"
+
+msgid "&End process"
+msgstr "结束进程(&E)"
+
+msgid "Re&start process"
+msgstr "重启进程(&S)"
+
+msgid "End &all filtered"
+msgstr "结束所有筛选结果(&A)"
+
+msgid "Restart all &filtered"
+msgstr "重启所有筛选结果(&F)"
+
+msgid "&Open file location"
+msgstr "打开文件位置(&O)"
+
+msgid "&Copy details"
+msgstr "复制详细信息(&C)"
+
+msgid "&Properties"
+msgstr "属性(&P)"
+
+msgid "No process selected."
+msgstr "未选中任何进程。"
+
+msgid "Type a name in the filter first: this would hit every process."
+msgstr "请先在筛选框中输入名称，否则这会影响所有进程。"
+
+msgid "No process matches the filter."
+msgstr "没有符合筛选条件的进程。"
+
+msgid "{n} processes ended."
+msgstr "已结束 {n} 个进程。"
+
+msgid "{n} processes restarted."
+msgstr "已重启 {n} 个进程。"
+
+msgid "The location of this program is unknown."
+msgstr "无法确定该程序的位置。"
+
+msgid "Name: {name}\nPID: {pid}\nProgram: {exe}\nPublisher: {publisher}\nMemory: {memory:.1f} MB\nState: {status}"
+msgstr "名称：{name}\nPID：{pid}\n程序：{exe}\n发布者：{publisher}\n内存：{memory:.1f} MB\n状态：{status}"
+
+msgid "Process details copied."
+msgstr "进程信息已复制。"
+
+msgid "The properties window could not be opened."
+msgstr "无法打开属性窗口。"
+
+msgid "Priority changed."
+msgstr "优先级已更改。"
+
+msgid "The priority could not be changed. Administrator rights may be needed."
+msgstr "无法更改优先级，可能需要管理员权限。"
+
+msgid "What is new since the version you had:"
+msgstr "自您上一个版本以来的新变化："
+
+msgid "What changed in each version:"
+msgstr "各版本的变化："
+
+msgid "SuperTools {version} is available. You have {current}."
+msgstr "SuperTools {version} 已发布。您现在是 {current}。"
+
+msgid "&Update now"
+msgstr "立即更新(&U)"
+
+msgid "Open the &download page"
+msgstr "打开下载页面(&D)"
+
+msgid "Remind me &later"
+msgstr "以后提醒我(&L)"
+
+msgid "&Skip this version"
+msgstr "跳过此版本(&S)"
+
+msgid "SuperTools - Clock"
+msgstr "SuperTools - 时钟"
+
+msgid "Let &Windows fix it"
+msgstr "交给 Windows 修正(&W)"
+
+msgid "Set it from the &internet"
+msgstr "从互联网设置(&I)"
+
+msgid "Check &again"
+msgstr "再检查一次(&A)"
+
+msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr "键盘已锁定。按 NVDA+Shift+U 再按 L 可解锁。"
+
+msgid "Keyboard unlocked."
+msgstr "键盘已解锁。"
+
+msgid "Command mode cancelled."
+msgstr "已取消命令模式。"
+
+msgid "This feature is disabled in SuperTools settings."
+msgstr "此功能在 SuperTools 设置中已禁用。"
+
+msgid "Word monitor enabled."
+msgstr "单词监视已启用。"
+
+msgid "Word monitor disabled."
+msgstr "单词监视已关闭。"
+
+msgid "There is nothing to undo."
+msgstr "没有可撤销的内容。"
+
+msgid "No text selected."
+msgstr "没有选中文本。"
+
+msgid "Translation into {language}: {name}"
+msgstr "{language} 翻译：{name}"
+
+msgid "Sound theme {theme}: {name}"
+msgstr "声音主题 {theme}：{name}"
+
+msgid "{n} minutes"
+msgstr "{n} 分钟"
+
+msgid "Windows would not run the command ({code})."
+msgstr "Windows 未能执行该命令（{code}）。"
+
+msgid "Applications"
+msgstr "应用程序"
+
+msgid "In every application"
+msgstr "在所有应用程序中"
+
+msgid "Only in these applications"
+msgstr "仅在这些应用程序中"
+
+msgid "In every application except these"
+msgstr "在除这些以外的所有应用程序中"
+
+msgid "Application names, separated by commas:"
+msgstr "应用程序名称，用逗号分隔："
+
+msgid "For example: notepad, chrome, telegram"
+msgstr "例如：notepad, chrome, telegram"
+
+msgid "C moves the text to the next layout in this list. The text itself says which one it was typed with, so nothing has to be chosen; press C again to carry on to the next one."
+msgstr "C 会把文本转到此列表中的下一个布局。文本本身会说明它是用哪个布局输入的，因此无需选择；再按一次 C 即可继续转到下一个。"
+
+msgid "Every layout is used unless you untick it. At least two are needed."
+msgstr "除非取消勾选，否则所有布局都会参与。至少需要两个。"
+
+msgid "Say which layout the text was converted to"
+msgstr "说出文本被转换到了哪个布局"
+
+msgid "Put the previous clipboard content back after converting"
+msgstr "转换后恢复剪贴板的原有内容"
+
+msgid "Say the converted text"
+msgstr "读出转换后的文本"
+
+msgid "Shift+C converts the word before the cursor, without selecting it"
+msgstr "Shift+C 可转换光标前的单词，无需选中"
+
+msgid "Z undoes the last conversion"
+msgstr "Z 撤销上一次转换"
+
+msgid "While typing"
+msgstr "输入时"
+
+msgid "Shortest word to check:"
+msgstr "最短检查单词长度："
+
+msgid "A Latin word with no vowel at all is treated as suspicious."
+msgstr "完全没有元音的拉丁字母单词会被视为可疑。"
+
+msgid "Enable word monitor"
+msgstr "启用单词监视"
+
+msgid "Default settings for words added to this category"
+msgstr "添加到此分类的单词的默认设置"
+
+msgid "Sort the list by:"
+msgstr "列表排序方式："
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Memory use"
+msgstr "内存占用"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "PID"
+msgstr "PID"
+
+msgid "Refresh the list automatically"
+msgstr "自动刷新列表"
+
+msgid "Every (seconds):"
+msgstr "每隔（秒）："
+
+msgid "Ask before ending or restarting every filtered process"
+msgstr "结束或重启所有筛选结果前先询问"
+
+msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
+msgstr "键盘锁定期间，任何按键都到不了任何程序，连 NVDA 也收不到。唯一还起作用的键是打开命令模式的那个键：按下它再按 L 即可解锁。重启 NVDA 后锁定会自动解除。"
+
+msgid "Seconds to wait:"
+msgstr "等待秒数："
+
+msgid "Custom sequence (frequency,duration; ...):"
+msgstr "自定义序列（频率,时长; ...）："
+
+msgid "Leave empty to use the four settings above."
+msgstr "留空则使用上面的四项设置。"
+
+msgid "Sounds"
+msgstr "声音"
+
+msgid "A theme gives every sound of the add-on its own voice: beeps or a sound file, chosen one by one. Anything a theme leaves out keeps the built-in beep, so a theme can be as small as a single sound."
+msgstr "声音主题为插件的每个声音赋予自己的声音：逐个选择提示音或声音文件。主题未提及的声音保持内置提示音，因此一个主题可以只包含一个声音。"
+
+msgid "How the beeps are made:"
+msgstr "提示音的生成方式："
+
+msgid "Built in: the gaps are exact"
+msgstr "内置：间隔精确"
+
+msgid "NVDA's own beep: sounds like the rest of NVDA"
+msgstr "NVDA 自带提示音：与 NVDA 其余部分一致"
+
+msgid "The silence keeps the first beep from being swallowed while the sound device wakes up. Raise it if a first beep is ever missing."
+msgstr "这段静音可防止声卡唤醒时第一个提示音被吞掉。如果第一个提示音有时听不到，请调大该值。"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "SuperTools speaks the language NVDA is set to. You can write a translation for a language it does not have yet, see it straight away, and send the file to have it shipped with the add-on."
+msgstr "SuperTools 使用 NVDA 所设置的语言。您可以为尚未支持的语言编写翻译，立即查看效果，并把文件发送给作者随插件一起发布。"
+
+msgid "Go back to NVDA's language"
+msgstr "回到 NVDA 的语言"
+
+msgid "Updates"
+msgstr "更新"
+
+msgid "Seconds to wait after NVDA starts:"
+msgstr "NVDA 启动后等待的秒数："
+
+msgid "The check waits until NVDA has finished starting, and then runs at most once a day. It only asks which version is the newest and shows you what changed: nothing is downloaded or installed unless you choose to, and a version you skip is not brought up again. If you installed SuperTools from NVDA's Add-on Store, the store already keeps it up to date."
+msgstr "检查会等到 NVDA 启动完成后才进行，并且每天最多一次。它只询问哪个是最新版本并显示更新内容：除非您选择，否则不会下载或安装任何东西，跳过的版本也不会再提示。如果您是从 NVDA 插件商店安装的 SuperTools，商店本身就会保持更新。"
+
+msgid "Done. Close and open the settings to see the change."
+msgstr "完成。关闭并重新打开设置即可看到更改。"
+
+msgid "Programs running now:"
+msgstr "正在运行的程序："
+
+msgid "Or type a name:"
+msgstr "或输入名称："
+
+msgid "Everything in SuperTools is reached by pressing NVDA+Shift+U and then one key. Press H after that for the full list at any time.\n\nThree questions, and you are set up."
+msgstr "SuperTools 的所有功能都通过按 NVDA+Shift+U 再按一个键来使用。之后随时按 H 可查看完整列表。\n\n三个问题，设置即可完成。"
+
+msgid "1. What do you want to use?"
+msgstr "1. 您想使用哪些功能？"
+
+msgid "2. Which keyboard layouts do you use?"
+msgstr "2. 您使用哪些键盘布局？"
+
+msgid "C moves the text to the next one in this list, and the text itself says which one it came from. Leave them all ticked unless one should be left out."
+msgstr "C 会把文本转到此列表中的下一个，文本本身会说明它来自哪个布局。除非想排除某个布局，否则请全部保持勾选。"
+
+msgid "3. How should it sound?"
+msgstr "3. 希望它听起来怎么样？"
+
+msgid "That is all. Everything else, and much more, is in the settings: NVDA+Shift+U, then S."
+msgstr "就这些。其余的内容，以及更多功能，都在设置中：NVDA+Shift+U，然后按 S。"
+
+msgid "Texts:"
+msgstr "文本："
+
+msgid "English:"
+msgstr "英文："
+
+msgid "Your translation:"
+msgstr "您的翻译："
+
+msgid "{done} of {total} texts translated"
+msgstr "已翻译 {done} / {total} 条"
+
+msgid "Saved as {path}\n\nSend this file to the author to have your language shipped with the add-on."
+msgstr "已保存到 {path}\n\n请把该文件发给作者，让您的语言随插件一起发布。"
+
+msgid "Saved as {path}\n\nSuperTools will speak your language from now on. Close and open the settings to see it. To go back to NVDA's own language, use the button in the General tab."
+msgstr "已保存到 {path}\n\nSuperTools 从现在起将使用您的语言。关闭并重新打开设置即可看到。要回到 NVDA 的语言，请使用“常规”选项卡中的按钮。"
+
+msgid "Word Monitor turned on"
+msgstr "单词监视已开启"
+
+msgid "Word Monitor turned off"
+msgstr "单词监视已关闭"
+
+msgid "A word the Word Monitor found"
+msgstr "监视器找到的单词"
+
+msgid "Sounds:"
+msgstr "声音："
+
+msgid "The built-in beep"
+msgstr "内置提示音"
+
+msgid "Beeps of my own"
+msgstr "我自己的提示音"
+
+msgid "When the word is spoken:"
+msgstr "当读出该词时："
+
+msgid "Play the beeps only"
+msgstr "仅播放提示音"
+
+msgid "Say the extra text only"
+msgstr "仅读出附加文本"
+
+msgid "Say the extra text and play the beeps"
+msgstr "读出附加文本并播放提示音"
+
+msgid "Do not speak the word at all"
+msgstr "不读出这个词"
+
+msgid "Text said before the word:"
+msgstr "在该词之前读出的文本："
+
+msgid "Match:"
+msgstr "匹配方式："
+
+msgid "Anywhere in the text"
+msgstr "文本中的任意位置"
+
+msgid "Whole word only"
+msgstr "仅匹配整词"
+
+msgid "Edit Word"
+msgstr "编辑单词"
+
+msgid "Add Word"
+msgstr "添加单词"
+
+msgid "Word or phrase:"
+msgstr "单词或短语："
+
+msgid "Category name:"
+msgstr "分类名称："
+
+msgid "Categories"
+msgstr "分类"
+
+msgid "Search:"
+msgstr "搜索："
+
+msgid "Filter processes:"
+msgstr "筛选进程："
+
+msgid "Type a name, or a number to find a PID."
+msgstr "输入名称，或输入数字查找 PID。"
+
+msgid "Publisher"
+msgstr "发布者"
+
+msgid "Priority:"
+msgstr "优先级："
+
+msgid "Low"
+msgstr "低"
+
+msgid "Below normal"
+msgstr "低于正常"
+
+msgid "Normal"
+msgstr "正常"
+
+msgid "Above normal"
+msgstr "高于正常"
+
+msgid "High"
+msgstr "高"
+
+msgid "{shown} of {total} processes"
+msgstr "{total} 个进程中的 {shown} 个"
+
+msgid "This affects {n} processes. Continue?"
+msgstr "这会影响 {n} 个进程，是否继续？"
+
+msgid "What is new:"
+msgstr "新增内容："
+
+msgid "No notes were written."
+msgstr "没有写更新说明。"
+
+msgid "A clock that is wrong stops secure connections from working, and the error never mentions the time."
+msgstr "时钟不准会让安全连接无法建立，而报错从来不会提到时间。"
+
+msgid "Windows will ask for permission. {what}"
+msgstr "Windows 会请求许可。{what}"
+
+msgid "The clock was not changed."
+msgstr "时钟未被更改。"
+
+msgid "The new version could not be downloaded."
+msgstr "无法下载新版本。"
+
+msgid "The keyboard could not be locked."
+msgstr "无法锁定键盘。"
+
+msgid "Only one keyboard layout is installed, so there is nothing to convert between."
+msgstr "系统只安装了一种键盘布局，因此没有可以相互转换的对象。"
+
+msgid "No characters to convert."
+msgstr "没有可转换的字符。"
+
+msgid "File error: {e}"
+msgstr "文件错误：{e}"
+
+msgid "by {author}"
+msgstr "作者：{author}"
+
+msgid "{n} hours"
+msgstr "{n} 小时"
+
+msgid "{n} days"
+msgstr "{n} 天"
+
+msgid "Open the Process Manager"
+msgstr "打开进程管理器"
+
+msgid "Saved as {path}\n\nSend the file, with its sounds, to the author to have your theme shipped with the add-on."
+msgstr "已保存到 {path}\n\n请把文件连同其声音发给作者，让您的主题随插件一起发布。"
+
+msgid "{n} words added."
+msgstr "已添加 {n} 个单词。"
+
+msgid "Process {name} killed."
+msgstr "进程 {name} 已结束。"
+
+msgid "Process {name} restarted."
+msgstr "进程 {name} 已重启。"
+
+msgid "The time could not be read from the internet. {reason}"
+msgstr "无法从互联网读取时间。{reason}"
+
+msgid "Downloading SuperTools {version}..."
+msgstr "正在下载 SuperTools {version}..."
+
+msgid "The file was downloaded to {path}, but NVDA could not open it. Open it yourself to install the new version."
+msgstr "文件已下载到 {path}，但 NVDA 无法打开它。请您自己打开它来安装新版本。"
+
+msgid "Error: {e}"
+msgstr "错误：{e}"
+
+msgid "{n} beeps"
+msgstr "{n} 个提示音"
+
+msgid "heard {n} times"
+msgstr "已听到 {n} 次"
+
+msgid "There is nothing published to compare with yet. You have version {version}."
+msgstr "目前还没有已发布的版本可供比较。您使用的是 {version}。"
+
+msgid "You have the newest version ({version})."
+msgstr "您使用的已是最新版本（{version}）。"
+
+msgid "Undone: {text}"
+msgstr "已撤销：{text}"
+
+msgid "Version {version} will not be offered again."
+msgstr "版本 {version} 不会再被提示。"
+
+msgid "{text}, in {layout}"
+msgstr "{text}，{layout}"
+
+msgid "Converted: {text}"
+msgstr "已转换：{text}"

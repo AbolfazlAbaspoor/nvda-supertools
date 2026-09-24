@@ -1,0 +1,837 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTools\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Last-Translator: Initial translation by AI; corrections welcome\n"
+"Language-Team: Türkçe\n"
+
+msgid "Could not reach the internet. Check your connection, and if you use a VPN or a proxy, that it is working, then try again."
+msgstr "İnternete ulaşılamadı. Bağlantınızı, VPN ya da vekil sunucu kullanıyorsanız çalıştığını denetleyin ve yeniden deneyin."
+
+msgid "SuperTools Settings"
+msgstr "SuperTools Ayarları"
+
+msgid "Built-in beeps"
+msgstr "Yerleşik bipler"
+
+msgid "Layout Fixer"
+msgstr "Klavye düzeni düzeltici"
+
+msgid "Word Monitor"
+msgstr "Kelime izleyici"
+
+msgid "System"
+msgstr "Sistem"
+
+msgid "General"
+msgstr "Genel"
+
+msgid "SuperTools will follow NVDA's language again after NVDA restarts."
+msgstr "NVDA yeniden başlatıldıktan sonra SuperTools yine NVDA'nın dilini izleyecek."
+
+msgid "Save a theme template..."
+msgstr "Tema şablonu kaydet..."
+
+msgid "Skipped versions will be offered again."
+msgstr "Atlanan sürümler yeniden önerilecek."
+
+msgid "Looking for a new version..."
+msgstr "Yeni sürüm aranıyor..."
+
+msgid "Export all settings to a file..."
+msgstr "Tüm ayarları bir dosyaya aktar..."
+
+msgid "Import settings from a file..."
+msgstr "Ayarları bir dosyadan içe aktar..."
+
+msgid "Settings imported."
+msgstr "Ayarlar içe aktarıldı."
+
+msgid "OK"
+msgstr "Tamam"
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "Finish"
+msgstr "Bitir"
+
+msgid "Skip for now"
+msgstr "Şimdilik atla"
+
+msgid "Close"
+msgstr "Kapat"
+
+msgid "Everything is translated."
+msgstr "Her şey çevrildi."
+
+msgid "A sound file"
+msgstr "Bir ses dosyası"
+
+msgid "My theme"
+msgstr "Benim temam"
+
+msgid "Sound file instead of beeps:"
+msgstr "Bip yerine ses dosyası:"
+
+msgid "Import from file..."
+msgstr "Dosyadan içe aktar..."
+
+msgid "Export to file..."
+msgstr "Dosyaya dışa aktar..."
+
+msgid "What is new"
+msgstr "Neler yeni"
+
+msgid "What the clock says"
+msgstr "Saat ne diyor"
+
+msgid "&Close"
+msgstr "&Kapat"
+
+msgid "Asking a web server for the time..."
+msgstr "Bir web sunucusundan saat soruluyor..."
+
+msgid "Asking the Windows time service."
+msgstr "Windows saat hizmetinden isteniyor."
+
+msgid "Setting the clock from the internet."
+msgstr "Saat internetten ayarlanıyor."
+
+msgid "Command mode. H help, X changes, C layout, Shift+C convert the word before the cursor, Z undo, S settings, W word monitor, Shift+W toggle word monitor, P process manager, L lock the keyboard, T clock, U look for a new version, Escape cancel."
+msgstr "Komut kipi. H yardım, X değişiklikler, C düzen, Shift+C imleçten önceki sözcüğü çevir, Z geri al, S ayarlar, W sözcük izleyici, Shift+W izleyiciyi aç kapat, P süreç yöneticisi, L klavyeyi kilitle, T saat, U yeni sürüm ara, Escape iptal."
+
+msgid "Command mode ended."
+msgstr "Komut modu sona erdi."
+
+msgid "This text was not converted by SuperTools."
+msgstr "Bu metni SuperTools dönüştürmedi."
+
+msgid "SuperTools by {name}"
+msgstr "SuperTools, yazan: {name}"
+
+msgid "The clock is right, according to {host}."
+msgstr "{host} sunucusuna göre saat doğru."
+
+msgid "{n} seconds"
+msgstr "{n} saniye"
+
+msgid "The clock is {amount} ahead of {host}."
+msgstr "Saat, {host} sunucusundan {amount} ileri."
+
+msgid "The clock is {amount} behind {host}."
+msgstr "Saat, {host} sunucusundan {amount} geri."
+
+msgid "Permission was not given, so the clock was left alone."
+msgstr "İzin verilmedi, saate dokunulmadı."
+
+msgid "GitHub answered {code}. Try again later."
+msgstr "GitHub {code} yanıtını verdi. Daha sonra yeniden deneyin."
+
+msgid "running"
+msgstr "çalışıyor"
+
+msgid "Enable this feature"
+msgstr "Bu özelliği etkinleştir"
+
+msgid "Choose from the programs running now..."
+msgstr "Çalışan programlardan seç..."
+
+msgid "Keyboard layouts"
+msgstr "Klavye düzenleri"
+
+msgid "Watch for words typed with the wrong layout"
+msgstr "Yanlış düzenle yazılan kelimeleri izle"
+
+msgid "Convert such a word at once, instead of only warning with a sound"
+msgstr "Böyle bir kelimeyi sesle uyarmak yerine hemen dönüştür"
+
+msgid "L locks and unlocks the keyboard"
+msgstr "L klavyeyi kilitler ve açar"
+
+msgid "T checks whether the clock is right"
+msgstr "T saatin doğru olup olmadığına bakar"
+
+msgid "Leave command mode automatically when no key is pressed"
+msgstr "Hiçbir tuşa basılmazsa komut modundan otomatik çık"
+
+msgid "Number of beeps:"
+msgstr "Bip sayısı:"
+
+msgid "Frequency (Hz):"
+msgstr "Frekans (Hz):"
+
+msgid "Frequency change per beep (Hz):"
+msgstr "Bip başına frekans değişimi (Hz):"
+
+msgid "Duration (ms):"
+msgstr "Süre (ms):"
+
+msgid "Test"
+msgstr "Dene"
+
+msgid "Create a sound theme..."
+msgstr "Ses teması oluştur..."
+
+msgid "Open the theme folder"
+msgstr "Tema klasörünü aç"
+
+msgid "How the beeps are made"
+msgstr "Biplerin nasıl üretileceği"
+
+msgid "Volume of the built-in beeps (%):"
+msgstr "Yerleşik biplerin sesi (%):"
+
+msgid "Silence before a sequence (ms):"
+msgstr "Diziden önce sessizlik (ms):"
+
+msgid "Create or continue a translation..."
+msgstr "Çeviri oluştur veya sürdür..."
+
+msgid "Look for a new version when NVDA starts"
+msgstr "NVDA başlarken yeni sürüm ara"
+
+msgid "Check now"
+msgstr "Şimdi denetle"
+
+msgid "Offer skipped versions again"
+msgstr "Atlanan sürümleri yeniden öner"
+
+msgid "Keep a weekly backup of the settings"
+msgstr "Ayarların haftalık yedeğini tut"
+
+msgid "Open the backup folder"
+msgstr "Yedek klasörünü aç"
+
+msgid "Run the first-time setup again..."
+msgstr "İlk kurulumu yeniden yap..."
+
+msgid "Help"
+msgstr "Yardım"
+
+msgid "Reset all settings..."
+msgstr "Tüm ayarları sıfırla..."
+
+msgid "Settings exported."
+msgstr "Ayarlar dışa aktarıldı."
+
+msgid "This file does not contain SuperTools settings."
+msgstr "Bu dosya SuperTools ayarları içermiyor."
+
+msgid "All SuperTools settings will be erased. Continue?"
+msgstr "Tüm SuperTools ayarları silinecek. Devam edilsin mi?"
+
+msgid "Reset Settings"
+msgstr "Ayarları sıfırla"
+
+msgid "Settings have been reset."
+msgstr "Ayarlar sıfırlandı."
+
+msgid "Tick at least two keyboard layouts, or switch the Layout Fixer off."
+msgstr "En az iki düzen işaretleyin ya da klavye düzeni düzelticiyi kapatın."
+
+msgid "Choose applications"
+msgstr "Uygulamaları seç"
+
+msgid "Add"
+msgstr "Ekle"
+
+msgid "Welcome to SuperTools"
+msgstr "SuperTools'a hoş geldiniz"
+
+msgid "Layout Fixer: repair text typed with the wrong keyboard layout (C)"
+msgstr "Klavye düzeni düzeltici: yanlış düzenle yazılmış metni onarır (C)"
+
+msgid "Word Monitor: give chosen words their own sound when NVDA says them (W)"
+msgstr "Kelime izleyici: seçtiğiniz kelimelere NVDA onları söylerken kendi sesini verir (W)"
+
+msgid "Process Manager: see and manage running programs (P)"
+msgstr "Süreç yöneticisi: çalışan programları görün ve yönetin (P)"
+
+msgid "Create or continue a translation"
+msgstr "Çeviri oluştur veya sürdür"
+
+msgid "Language code (fa, de, pt_BR...):"
+msgstr "Dil kodu (fa, de, pt_BR ...):"
+
+msgid "Language name, as its speakers write it:"
+msgstr "Dilin adı, konuşanların yazdığı gibi:"
+
+msgid "Your name, for the credits:"
+msgstr "Adınız, teşekkür listesi için:"
+
+msgid "Load what I translated before"
+msgstr "Daha önce çevirdiklerimi yükle"
+
+msgid "Next one to do"
+msgstr "Sıradaki eksik"
+
+msgid "Copy the English text"
+msgstr "İngilizce metni kopyala"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Save and use it now"
+msgstr "Kaydet ve hemen kullan"
+
+msgid "Create a sound theme"
+msgstr "Ses teması oluştur"
+
+msgid "Theme name:"
+msgstr "Tema adı:"
+
+msgid "What it sounds like:"
+msgstr "Nasıl bir sesi var:"
+
+msgid "This sound is:"
+msgstr "Bu ses:"
+
+msgid "Browse..."
+msgstr "Gözat..."
+
+msgid "Use this for the selected sound"
+msgstr "Seçili ses için bunu kullan"
+
+msgid "built-in beep"
+msgstr "yerleşik bip"
+
+msgid "Match upper and lower case exactly"
+msgstr "Büyük ve küçük harfe duyarlı"
+
+msgid "Gap between beeps (ms):"
+msgstr "Bipler arası boşluk (ms):"
+
+msgid "Use beeps"
+msgstr "Bip kullan"
+
+msgid "Interrupt speech while beeping"
+msgstr "Bip çalarken konuşmayı kes"
+
+msgid "Enable this word"
+msgstr "Bu kelimeyi etkinleştir"
+
+msgid "Use the settings of the category"
+msgstr "Kategorinin ayarlarını kullan"
+
+msgid "Enable this category"
+msgstr "Bu kategoriyi etkinleştir"
+
+msgid "Manage words..."
+msgstr "Kelimeleri yönet..."
+
+msgid "Add category..."
+msgstr "Kategori ekle..."
+
+msgid "Edit category..."
+msgstr "Kategoriyi düzenle..."
+
+msgid "Remove category"
+msgstr "Kategoriyi kaldır"
+
+msgid "Edit"
+msgstr "Düzenle"
+
+msgid "Remove"
+msgstr "Kaldır"
+
+msgid "Import from clipboard"
+msgstr "Panodan içe aktar"
+
+msgid "This word is already in the category."
+msgstr "Bu kelime zaten bu kategoride."
+
+msgid "No new words were found."
+msgstr "Yeni kelime bulunamadı."
+
+msgid "Process Manager"
+msgstr "Süreç yöneticisi"
+
+msgid "Show CPU and publisher"
+msgstr "İşlemci ve yayıncıyı göster"
+
+msgid "&Refresh list"
+msgstr "Listeyi &yenile"
+
+msgid "&End process"
+msgstr "Süreci &sonlandır"
+
+msgid "Re&start process"
+msgstr "Süreci yeniden &başlat"
+
+msgid "End &all filtered"
+msgstr "&Filtrelenenlerin hepsini sonlandır"
+
+msgid "Restart all &filtered"
+msgstr "Filtrelenenlerin &hepsini yeniden başlat"
+
+msgid "&Open file location"
+msgstr "Dosya &konumunu aç"
+
+msgid "&Copy details"
+msgstr "Ayrıntıları &kopyala"
+
+msgid "&Properties"
+msgstr "&Özellikler"
+
+msgid "No process selected."
+msgstr "Hiçbir süreç seçilmedi."
+
+msgid "Type a name in the filter first: this would hit every process."
+msgstr "Önce filtreye bir ad yazın, yoksa bu her süreci etkiler."
+
+msgid "No process matches the filter."
+msgstr "Filtreye uyan süreç yok."
+
+msgid "{n} processes ended."
+msgstr "{n} süreç sonlandırıldı."
+
+msgid "{n} processes restarted."
+msgstr "{n} süreç yeniden başlatıldı."
+
+msgid "The location of this program is unknown."
+msgstr "Bu programın konumu bilinmiyor."
+
+msgid "Name: {name}\nPID: {pid}\nProgram: {exe}\nPublisher: {publisher}\nMemory: {memory:.1f} MB\nState: {status}"
+msgstr "Ad: {name}\nPID: {pid}\nProgram: {exe}\nYayıncı: {publisher}\nBellek: {memory:.1f} MB\nDurum: {status}"
+
+msgid "Process details copied."
+msgstr "Süreç ayrıntıları kopyalandı."
+
+msgid "The properties window could not be opened."
+msgstr "Özellikler penceresi açılamadı."
+
+msgid "Priority changed."
+msgstr "Öncelik değiştirildi."
+
+msgid "The priority could not be changed. Administrator rights may be needed."
+msgstr "Öncelik değiştirilemedi. Yönetici yetkisi gerekebilir."
+
+msgid "What is new since the version you had:"
+msgstr "Sahip olduğunuz sürümden bu yana yenilikler:"
+
+msgid "What changed in each version:"
+msgstr "Her sürümde ne değişti:"
+
+msgid "SuperTools {version} is available. You have {current}."
+msgstr "SuperTools {version} çıktı. Sizde {current} var."
+
+msgid "&Update now"
+msgstr "&Şimdi güncelle"
+
+msgid "Open the &download page"
+msgstr "&İndirme sayfasını aç"
+
+msgid "Remind me &later"
+msgstr "&Sonra hatırlat"
+
+msgid "&Skip this version"
+msgstr "Bu sürümü &atla"
+
+msgid "SuperTools - Clock"
+msgstr "SuperTools - Saat"
+
+msgid "Let &Windows fix it"
+msgstr "&Windows düzeltsin"
+
+msgid "Set it from the &internet"
+msgstr "&İnternetten ayarla"
+
+msgid "Check &again"
+msgstr "&Yeniden bak"
+
+msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr "Klavye kilitlendi. Açmak için NVDA+Shift+U ve sonra L tuşlarına basın."
+
+msgid "Keyboard unlocked."
+msgstr "Klavye açıldı."
+
+msgid "Command mode cancelled."
+msgstr "Komut modu iptal edildi."
+
+msgid "This feature is disabled in SuperTools settings."
+msgstr "Bu özellik SuperTools ayarlarında kapalı."
+
+msgid "Word monitor enabled."
+msgstr "Kelime izleyici etkin."
+
+msgid "Word monitor disabled."
+msgstr "Kelime izleyici kapalı."
+
+msgid "There is nothing to undo."
+msgstr "Geri alınacak bir şey yok."
+
+msgid "No text selected."
+msgstr "Seçili metin yok."
+
+msgid "Translation into {language}: {name}"
+msgstr "{language} çevirisi: {name}"
+
+msgid "Sound theme {theme}: {name}"
+msgstr "Ses teması {theme}: {name}"
+
+msgid "{n} minutes"
+msgstr "{n} dakika"
+
+msgid "Windows would not run the command ({code})."
+msgstr "Windows komutu çalıştırmadı ({code})."
+
+msgid "Applications"
+msgstr "Uygulamalar"
+
+msgid "In every application"
+msgstr "Bütün uygulamalarda"
+
+msgid "Only in these applications"
+msgstr "Yalnızca bu uygulamalarda"
+
+msgid "In every application except these"
+msgstr "Bunlar dışındaki bütün uygulamalarda"
+
+msgid "Application names, separated by commas:"
+msgstr "Uygulama adları, virgülle ayrılmış:"
+
+msgid "For example: notepad, chrome, telegram"
+msgstr "Örnek: notepad, chrome, telegram"
+
+msgid "C moves the text to the next layout in this list. The text itself says which one it was typed with, so nothing has to be chosen; press C again to carry on to the next one."
+msgstr "C, metni bu listedeki sonraki düzene taşır. Hangi düzenle yazıldığını metnin kendisi söyler, yani seçecek bir şey yok; sonrakine geçmek için C'ye yeniden basın."
+
+msgid "Every layout is used unless you untick it. At least two are needed."
+msgstr "İşaretini kaldırmadığınız her düzen kullanılır. En az iki tane gerekir."
+
+msgid "Say which layout the text was converted to"
+msgstr "Metnin hangi düzene dönüştürüldüğünü söyle"
+
+msgid "Put the previous clipboard content back after converting"
+msgstr "Dönüştürmeden sonra panonun eski içeriğini geri yükle"
+
+msgid "Say the converted text"
+msgstr "Dönüştürülen metni seslendir"
+
+msgid "Shift+C converts the word before the cursor, without selecting it"
+msgstr "Shift+C imleçten önceki kelimeyi seçmeden dönüştürür"
+
+msgid "Z undoes the last conversion"
+msgstr "Z son dönüştürmeyi geri alır"
+
+msgid "While typing"
+msgstr "Yazarken"
+
+msgid "Shortest word to check:"
+msgstr "Denetlenecek en kısa kelime:"
+
+msgid "A Latin word with no vowel at all is treated as suspicious."
+msgstr "Hiç sesli harfi olmayan Latin kelime şüpheli sayılır."
+
+msgid "Enable word monitor"
+msgstr "Kelime izleyiciyi etkinleştir"
+
+msgid "Default settings for words added to this category"
+msgstr "Bu kategoriye eklenen kelimeler için varsayılan ayarlar"
+
+msgid "Sort the list by:"
+msgstr "Listeyi şuna göre sırala:"
+
+msgid "Name"
+msgstr "Ad"
+
+msgid "Memory use"
+msgstr "Bellek kullanımı"
+
+msgid "CPU"
+msgstr "İşlemci"
+
+msgid "PID"
+msgstr "PID"
+
+msgid "Refresh the list automatically"
+msgstr "Listeyi otomatik yenile"
+
+msgid "Every (seconds):"
+msgstr "Her (saniye):"
+
+msgid "Ask before ending or restarting every filtered process"
+msgstr "Filtrelenen bütün süreçleri sonlandırmadan veya yeniden başlatmadan önce sor"
+
+msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
+msgstr "Klavye kilitliyken hiçbir tuş hiçbir programa ulaşmaz, NVDA dahil. Çalışan tek tuş komut kipini açan tuştur; ona ve sonra L tuşuna basmak kilidi açar. Kilit, NVDA yeniden başlatılınca sona erer."
+
+msgid "Seconds to wait:"
+msgstr "Beklenecek saniye:"
+
+msgid "Custom sequence (frequency,duration; ...):"
+msgstr "Özel dizi (frekans,süre; ...):"
+
+msgid "Leave empty to use the four settings above."
+msgstr "Yukarıdaki dört ayarı kullanmak için boş bırakın."
+
+msgid "Sounds"
+msgstr "Sesler"
+
+msgid "A theme gives every sound of the add-on its own voice: beeps or a sound file, chosen one by one. Anything a theme leaves out keeps the built-in beep, so a theme can be as small as a single sound."
+msgstr "Bir tema, eklentinin her sesine kendi sesini verir: her ses için ayrı ayrı bip veya ses dosyası. Temanın belirtmediği her ses yerleşik bip olarak kalır; yani bir tema tek bir sesten de oluşabilir."
+
+msgid "How the beeps are made:"
+msgstr "Biplerin nasıl üretileceği:"
+
+msgid "Built in: the gaps are exact"
+msgstr "Yerleşik: aralıklar tam"
+
+msgid "NVDA's own beep: sounds like the rest of NVDA"
+msgstr "NVDA'nın kendi bipi: NVDA'nın geri kalanı gibi duyulur"
+
+msgid "The silence keeps the first beep from being swallowed while the sound device wakes up. Raise it if a first beep is ever missing."
+msgstr "Bu sessizlik, ses aygıtı uyanırken ilk bipin yutulmasını önler. İlk bip hiç duyulmuyorsa artırın."
+
+msgid "Language"
+msgstr "Dil"
+
+msgid "SuperTools speaks the language NVDA is set to. You can write a translation for a language it does not have yet, see it straight away, and send the file to have it shipped with the add-on."
+msgstr "SuperTools, NVDA'nın ayarlı olduğu dilde konuşur. Henüz olmayan bir dil için çeviri yazabilir, hemen görebilir ve dosyayı gönderip eklentiyle birlikte yayımlanmasını sağlayabilirsiniz."
+
+msgid "Go back to NVDA's language"
+msgstr "NVDA'nın diline dön"
+
+msgid "Updates"
+msgstr "Güncellemeler"
+
+msgid "Seconds to wait after NVDA starts:"
+msgstr "NVDA başladıktan sonra beklenecek saniye:"
+
+msgid "The check waits until NVDA has finished starting, and then runs at most once a day. It only asks which version is the newest and shows you what changed: nothing is downloaded or installed unless you choose to, and a version you skip is not brought up again. If you installed SuperTools from NVDA's Add-on Store, the store already keeps it up to date."
+msgstr "Denetim, NVDA açılışını bitirene kadar bekler ve sonra günde en çok bir kez çalışır. Yalnızca en yeni sürümü sorar ve nelerin değiştiğini gösterir: siz istemedikçe hiçbir şey indirilmez ya da kurulmaz ve atladığınız sürüm bir daha önerilmez. SuperTools'u NVDA Eklenti Mağazası'ndan kurduysanız mağaza onu zaten güncel tutar."
+
+msgid "Done. Close and open the settings to see the change."
+msgstr "Tamam. Değişikliği görmek için ayarları kapatıp açın."
+
+msgid "Programs running now:"
+msgstr "Şu anda çalışan programlar:"
+
+msgid "Or type a name:"
+msgstr "Ya da bir ad yazın:"
+
+msgid "Everything in SuperTools is reached by pressing NVDA+Shift+U and then one key. Press H after that for the full list at any time.\n\nThree questions, and you are set up."
+msgstr "SuperTools'ta her şey NVDA+Shift+U ve ardından tek bir tuşla yapılır. Sonrasında H her zaman tam listeyi gösterir.\n\nÜç soru, kurulum tamam."
+
+msgid "1. What do you want to use?"
+msgstr "1. Neyi kullanmak istiyorsunuz?"
+
+msgid "2. Which keyboard layouts do you use?"
+msgstr "2. Hangi klavye düzenlerini kullanıyorsunuz?"
+
+msgid "C moves the text to the next one in this list, and the text itself says which one it came from. Leave them all ticked unless one should be left out."
+msgstr "C, metni bu listedeki sonrakine taşır ve metnin kendisi nereden geldiğini söyler. Biri dışarıda kalsın istemiyorsanız hepsini işaretli bırakın."
+
+msgid "3. How should it sound?"
+msgstr "3. Nasıl bir sesi olsun?"
+
+msgid "That is all. Everything else, and much more, is in the settings: NVDA+Shift+U, then S."
+msgstr "Hepsi bu. Geri kalanı ve fazlası ayarlarda: NVDA+Shift+U, sonra S."
+
+msgid "Texts:"
+msgstr "Metinler:"
+
+msgid "English:"
+msgstr "İngilizce:"
+
+msgid "Your translation:"
+msgstr "Çeviriniz:"
+
+msgid "{done} of {total} texts translated"
+msgstr "{total} metnin {done} tanesi çevrildi"
+
+msgid "Saved as {path}\n\nSend this file to the author to have your language shipped with the add-on."
+msgstr "{path} konumuna kaydedildi\n\nDilinizin eklentiyle birlikte yayımlanması için bu dosyayı yazara gönderin."
+
+msgid "Saved as {path}\n\nSuperTools will speak your language from now on. Close and open the settings to see it. To go back to NVDA's own language, use the button in the General tab."
+msgstr "{path} konumuna kaydedildi\n\nSuperTools bundan sonra sizin dilinizde konuşacak. Görmek için ayarları kapatıp açın. NVDA'nın diline dönmek için Genel sekmesindeki düğmeyi kullanın."
+
+msgid "Word Monitor turned on"
+msgstr "Kelime izleyici açıldı"
+
+msgid "Word Monitor turned off"
+msgstr "Kelime izleyici kapandı"
+
+msgid "A word the Word Monitor found"
+msgstr "İzleyicinin bulduğu bir kelime"
+
+msgid "Sounds:"
+msgstr "Sesler:"
+
+msgid "The built-in beep"
+msgstr "Yerleşik bip"
+
+msgid "Beeps of my own"
+msgstr "Kendi biplerim"
+
+msgid "When the word is spoken:"
+msgstr "Kelime seslendirildiğinde:"
+
+msgid "Play the beeps only"
+msgstr "Yalnızca bipleri çal"
+
+msgid "Say the extra text only"
+msgstr "Yalnızca ek metni söyle"
+
+msgid "Say the extra text and play the beeps"
+msgstr "Ek metni söyle ve bipleri çal"
+
+msgid "Do not speak the word at all"
+msgstr "Kelimeyi hiç seslendirme"
+
+msgid "Text said before the word:"
+msgstr "Kelimeden önce söylenecek metin:"
+
+msgid "Match:"
+msgstr "Eşleşme:"
+
+msgid "Anywhere in the text"
+msgstr "Metnin herhangi bir yerinde"
+
+msgid "Whole word only"
+msgstr "Yalnızca tam kelime"
+
+msgid "Edit Word"
+msgstr "Kelimeyi düzenle"
+
+msgid "Add Word"
+msgstr "Kelime ekle"
+
+msgid "Word or phrase:"
+msgstr "Kelime veya ifade:"
+
+msgid "Category name:"
+msgstr "Kategori adı:"
+
+msgid "Categories"
+msgstr "Kategoriler"
+
+msgid "Search:"
+msgstr "Ara:"
+
+msgid "Filter processes:"
+msgstr "Süreçleri filtrele:"
+
+msgid "Type a name, or a number to find a PID."
+msgstr "Bir ad yazın veya PID bulmak için bir sayı yazın."
+
+msgid "Publisher"
+msgstr "Yayıncı"
+
+msgid "Priority:"
+msgstr "Öncelik:"
+
+msgid "Low"
+msgstr "Düşük"
+
+msgid "Below normal"
+msgstr "Normalin altı"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Above normal"
+msgstr "Normalin üstü"
+
+msgid "High"
+msgstr "Yüksek"
+
+msgid "{shown} of {total} processes"
+msgstr "{total} süreçten {shown} tanesi"
+
+msgid "This affects {n} processes. Continue?"
+msgstr "Bu {n} süreci etkiler. Devam edilsin mi?"
+
+msgid "What is new:"
+msgstr "Neler yeni:"
+
+msgid "No notes were written."
+msgstr "Not yazılmamış."
+
+msgid "A clock that is wrong stops secure connections from working, and the error never mentions the time."
+msgstr "Yanlış bir saat güvenli bağlantıların çalışmasını engeller ve hata hiçbir zaman saatten söz etmez."
+
+msgid "Windows will ask for permission. {what}"
+msgstr "Windows izin isteyecek. {what}"
+
+msgid "The clock was not changed."
+msgstr "Saat değiştirilmedi."
+
+msgid "The new version could not be downloaded."
+msgstr "Yeni sürüm indirilemedi."
+
+msgid "The keyboard could not be locked."
+msgstr "Klavye kilitlenemedi."
+
+msgid "Only one keyboard layout is installed, so there is nothing to convert between."
+msgstr "Yalnızca bir klavye düzeni kurulu, dolayısıyla dönüştürülecek bir şey yok."
+
+msgid "No characters to convert."
+msgstr "Dönüştürülecek karakter yok."
+
+msgid "File error: {e}"
+msgstr "Dosya hatası: {e}"
+
+msgid "by {author}"
+msgstr "hazırlayan: {author}"
+
+msgid "{n} hours"
+msgstr "{n} saat"
+
+msgid "{n} days"
+msgstr "{n} gün"
+
+msgid "Open the Process Manager"
+msgstr "Süreç yöneticisini aç"
+
+msgid "Saved as {path}\n\nSend the file, with its sounds, to the author to have your theme shipped with the add-on."
+msgstr "{path} konumuna kaydedildi\n\nTemanızın eklentiyle yayımlanması için dosyayı sesleriyle birlikte yazara gönderin."
+
+msgid "{n} words added."
+msgstr "{n} kelime eklendi."
+
+msgid "Process {name} killed."
+msgstr "{name} süreci sonlandırıldı."
+
+msgid "Process {name} restarted."
+msgstr "{name} süreci yeniden başlatıldı."
+
+msgid "The time could not be read from the internet. {reason}"
+msgstr "Saat internetten okunamadı. {reason}"
+
+msgid "Downloading SuperTools {version}..."
+msgstr "SuperTools {version} indiriliyor..."
+
+msgid "The file was downloaded to {path}, but NVDA could not open it. Open it yourself to install the new version."
+msgstr "Dosya {path} konumuna indirildi ama NVDA açamadı. Yeni sürümü kurmak için kendiniz açın."
+
+msgid "Error: {e}"
+msgstr "Hata: {e}"
+
+msgid "{n} beeps"
+msgstr "{n} bip"
+
+msgid "heard {n} times"
+msgstr "{n} kez duyuldu"
+
+msgid "There is nothing published to compare with yet. You have version {version}."
+msgstr "Karşılaştırılacak yayımlanmış bir sürüm henüz yok. Sizde {version} sürümü var."
+
+msgid "You have the newest version ({version})."
+msgstr "En yeni sürüme ({version}) sahipsiniz."
+
+msgid "Undone: {text}"
+msgstr "Geri alındı: {text}"
+
+msgid "Version {version} will not be offered again."
+msgstr "{version} sürümü bir daha önerilmeyecek."
+
+msgid "{text}, in {layout}"
+msgstr "{text}, {layout} düzeninde"
+
+msgid "Converted: {text}"
+msgstr "Dönüştürüldü: {text}"

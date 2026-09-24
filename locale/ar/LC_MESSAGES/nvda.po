@@ -1,0 +1,837 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTools\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Last-Translator: Initial translation by AI; corrections welcome\n"
+"Language-Team: العربية\n"
+
+msgid "Could not reach the internet. Check your connection, and if you use a VPN or a proxy, that it is working, then try again."
+msgstr "تعذر الوصول إلى الإنترنت. تحقق من اتصالك، وإذا كنت تستخدم VPN أو وكيلًا فتأكد أنه يعمل، ثم أعد المحاولة."
+
+msgid "SuperTools Settings"
+msgstr "إعدادات SuperTools"
+
+msgid "Built-in beeps"
+msgstr "النغمات الأصلية"
+
+msgid "Layout Fixer"
+msgstr "مصحّح تخطيط اللوحة"
+
+msgid "Word Monitor"
+msgstr "مراقب الكلمات"
+
+msgid "System"
+msgstr "النظام"
+
+msgid "General"
+msgstr "عام"
+
+msgid "SuperTools will follow NVDA's language again after NVDA restarts."
+msgstr "سيعود SuperTools إلى لغة NVDA بعد إعادة تشغيل NVDA."
+
+msgid "Save a theme template..."
+msgstr "حفظ قالب سمة..."
+
+msgid "Skipped versions will be offered again."
+msgstr "ستُعرض النسخ المتخطاة مرة أخرى."
+
+msgid "Looking for a new version..."
+msgstr "جارٍ البحث عن إصدار جديد..."
+
+msgid "Export all settings to a file..."
+msgstr "تصدير كل الإعدادات إلى ملف..."
+
+msgid "Import settings from a file..."
+msgstr "استيراد الإعدادات من ملف..."
+
+msgid "Settings imported."
+msgstr "تم استيراد الإعدادات."
+
+msgid "OK"
+msgstr "موافق"
+
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgid "Finish"
+msgstr "إنهاء"
+
+msgid "Skip for now"
+msgstr "تخطٍّ الآن"
+
+msgid "Close"
+msgstr "إغلاق"
+
+msgid "Everything is translated."
+msgstr "كل شيء مترجم."
+
+msgid "A sound file"
+msgstr "ملف صوتي"
+
+msgid "My theme"
+msgstr "سمتي"
+
+msgid "Sound file instead of beeps:"
+msgstr "ملف صوتي بدل النغمات:"
+
+msgid "Import from file..."
+msgstr "استيراد من ملف..."
+
+msgid "Export to file..."
+msgstr "تصدير إلى ملف..."
+
+msgid "What is new"
+msgstr "ما الجديد"
+
+msgid "What the clock says"
+msgstr "ما تقوله الساعة"
+
+msgid "&Close"
+msgstr "&إغلاق"
+
+msgid "Asking a web server for the time..."
+msgstr "يجري سؤال خادم ويب عن الوقت..."
+
+msgid "Asking the Windows time service."
+msgstr "مطالبة خدمة وقت ويندوز."
+
+msgid "Setting the clock from the internet."
+msgstr "ضبط الساعة من الإنترنت."
+
+msgid "Command mode. H help, X changes, C layout, Shift+C convert the word before the cursor, Z undo, S settings, W word monitor, Shift+W toggle word monitor, P process manager, L lock the keyboard, T clock, U look for a new version, Escape cancel."
+msgstr "وضع الأوامر. H مساعدة، X التغييرات، C التخطيط، Shift+C تحويل الكلمة السابقة، Z تراجع، S الإعدادات، W مراقب الكلمات، Shift+W تشغيل المراقب، P مدير العمليات، L قفل لوحة المفاتيح، T الساعة، U البحث عن إصدار جديد، Escape إلغاء."
+
+msgid "Command mode ended."
+msgstr "انتهى وضع الأوامر."
+
+msgid "This text was not converted by SuperTools."
+msgstr "هذا النص لم يحوّله SuperTools."
+
+msgid "SuperTools by {name}"
+msgstr "SuperTools من إعداد {name}"
+
+msgid "The clock is right, according to {host}."
+msgstr "الساعة صحيحة، بحسب {host}."
+
+msgid "{n} seconds"
+msgstr "{n} ثانية"
+
+msgid "The clock is {amount} ahead of {host}."
+msgstr "الساعة متقدمة {amount} على {host}."
+
+msgid "The clock is {amount} behind {host}."
+msgstr "الساعة متأخرة {amount} عن {host}."
+
+msgid "Permission was not given, so the clock was left alone."
+msgstr "لم تُمنح الإذن، فتُركت الساعة كما هي."
+
+msgid "GitHub answered {code}. Try again later."
+msgstr "أجاب GitHub بالرمز {code}. أعد المحاولة لاحقًا."
+
+msgid "running"
+msgstr "قيد التشغيل"
+
+msgid "Enable this feature"
+msgstr "تفعيل هذه الميزة"
+
+msgid "Choose from the programs running now..."
+msgstr "اختيار من البرامج قيد التشغيل..."
+
+msgid "Keyboard layouts"
+msgstr "تخطيطات لوحة المفاتيح"
+
+msgid "Watch for words typed with the wrong layout"
+msgstr "مراقبة الكلمات المكتوبة بتخطيط خاطئ"
+
+msgid "Convert such a word at once, instead of only warning with a sound"
+msgstr "حوّل هذه الكلمة فورًا بدل الاكتفاء بالتنبيه بصوت"
+
+msgid "L locks and unlocks the keyboard"
+msgstr "المفتاح L يقفل لوحة المفاتيح ويفتحها"
+
+msgid "T checks whether the clock is right"
+msgstr "المفتاح T يتحقق من صحة الساعة"
+
+msgid "Leave command mode automatically when no key is pressed"
+msgstr "الخروج من وضع الأوامر تلقائيًا عند عدم الضغط على مفتاح"
+
+msgid "Number of beeps:"
+msgstr "عدد النغمات:"
+
+msgid "Frequency (Hz):"
+msgstr "التردد (هرتز):"
+
+msgid "Frequency change per beep (Hz):"
+msgstr "تغيير التردد لكل نغمة (هرتز):"
+
+msgid "Duration (ms):"
+msgstr "المدة (مللي ثانية):"
+
+msgid "Test"
+msgstr "اختبار"
+
+msgid "Create a sound theme..."
+msgstr "إنشاء سمة صوتية..."
+
+msgid "Open the theme folder"
+msgstr "فتح مجلد السمات"
+
+msgid "How the beeps are made"
+msgstr "طريقة إنتاج النغمات"
+
+msgid "Volume of the built-in beeps (%):"
+msgstr "مستوى صوت النغمات الداخلية (٪):"
+
+msgid "Silence before a sequence (ms):"
+msgstr "صمت قبل كل تسلسل (مللي ثانية):"
+
+msgid "Create or continue a translation..."
+msgstr "إنشاء ترجمة أو متابعتها..."
+
+msgid "Look for a new version when NVDA starts"
+msgstr "ابحث عن إصدار جديد عند بدء NVDA"
+
+msgid "Check now"
+msgstr "تحقق الآن"
+
+msgid "Offer skipped versions again"
+msgstr "اعرض النسخ المتخطاة مرة أخرى"
+
+msgid "Keep a weekly backup of the settings"
+msgstr "الاحتفاظ بنسخة احتياطية أسبوعية من الإعدادات"
+
+msgid "Open the backup folder"
+msgstr "فتح مجلد النسخ الاحتياطية"
+
+msgid "Run the first-time setup again..."
+msgstr "إعادة تشغيل الإعداد الأول..."
+
+msgid "Help"
+msgstr "المساعدة"
+
+msgid "Reset all settings..."
+msgstr "إعادة تعيين كل الإعدادات..."
+
+msgid "Settings exported."
+msgstr "تم تصدير الإعدادات."
+
+msgid "This file does not contain SuperTools settings."
+msgstr "هذا الملف لا يحتوي على إعدادات SuperTools."
+
+msgid "All SuperTools settings will be erased. Continue?"
+msgstr "ستُمحى جميع إعدادات SuperTools. هل تريد المتابعة؟"
+
+msgid "Reset Settings"
+msgstr "إعادة تعيين الإعدادات"
+
+msgid "Settings have been reset."
+msgstr "تمت إعادة تعيين الإعدادات."
+
+msgid "Tick at least two keyboard layouts, or switch the Layout Fixer off."
+msgstr "أشّر على تخطيطين على الأقل، أو أوقف مصحّح التخطيط."
+
+msgid "Choose applications"
+msgstr "اختيار التطبيقات"
+
+msgid "Add"
+msgstr "إضافة"
+
+msgid "Welcome to SuperTools"
+msgstr "مرحبًا بك في SuperTools"
+
+msgid "Layout Fixer: repair text typed with the wrong keyboard layout (C)"
+msgstr "مصحّح التخطيط: إصلاح نص كُتب بتخطيط خاطئ (C)"
+
+msgid "Word Monitor: give chosen words their own sound when NVDA says them (W)"
+msgstr "مراقب الكلمات: إعطاء الكلمات المختارة صوتًا خاصًا حين ينطقها NVDA (W)"
+
+msgid "Process Manager: see and manage running programs (P)"
+msgstr "مدير العمليات: عرض البرامج قيد التشغيل وإدارتها (P)"
+
+msgid "Create or continue a translation"
+msgstr "إنشاء ترجمة أو متابعتها"
+
+msgid "Language code (fa, de, pt_BR...):"
+msgstr "رمز اللغة (fa، de، pt_BR ...):"
+
+msgid "Language name, as its speakers write it:"
+msgstr "اسم اللغة كما يكتبه أهلها:"
+
+msgid "Your name, for the credits:"
+msgstr "اسمك، ليظهر في قائمة المساهمين:"
+
+msgid "Load what I translated before"
+msgstr "تحميل ما ترجمته سابقًا"
+
+msgid "Next one to do"
+msgstr "التالي الذي لم يُترجم"
+
+msgid "Copy the English text"
+msgstr "نسخ النص الإنجليزي"
+
+msgid "Save"
+msgstr "حفظ"
+
+msgid "Save and use it now"
+msgstr "حفظ واستخدامه الآن"
+
+msgid "Create a sound theme"
+msgstr "إنشاء سمة صوتية"
+
+msgid "Theme name:"
+msgstr "اسم السمة:"
+
+msgid "What it sounds like:"
+msgstr "كيف تبدو:"
+
+msgid "This sound is:"
+msgstr "هذا الصوت:"
+
+msgid "Browse..."
+msgstr "استعراض..."
+
+msgid "Use this for the selected sound"
+msgstr "استخدم هذا للصوت المحدد"
+
+msgid "built-in beep"
+msgstr "النغمة الأصلية"
+
+msgid "Match upper and lower case exactly"
+msgstr "مطابقة حالة الأحرف"
+
+msgid "Gap between beeps (ms):"
+msgstr "الفاصل بين النغمات (مللي ثانية):"
+
+msgid "Use beeps"
+msgstr "استخدام النغمات"
+
+msgid "Interrupt speech while beeping"
+msgstr "إيقاف النطق أثناء النغمات"
+
+msgid "Enable this word"
+msgstr "تفعيل هذه الكلمة"
+
+msgid "Use the settings of the category"
+msgstr "استخدام إعدادات الفئة"
+
+msgid "Enable this category"
+msgstr "تفعيل هذه الفئة"
+
+msgid "Manage words..."
+msgstr "إدارة الكلمات..."
+
+msgid "Add category..."
+msgstr "إضافة فئة..."
+
+msgid "Edit category..."
+msgstr "تعديل الفئة..."
+
+msgid "Remove category"
+msgstr "حذف الفئة"
+
+msgid "Edit"
+msgstr "تعديل"
+
+msgid "Remove"
+msgstr "حذف"
+
+msgid "Import from clipboard"
+msgstr "استيراد من الحافظة"
+
+msgid "This word is already in the category."
+msgstr "هذه الكلمة موجودة بالفعل في الفئة."
+
+msgid "No new words were found."
+msgstr "لم يُعثر على كلمات جديدة."
+
+msgid "Process Manager"
+msgstr "مدير العمليات"
+
+msgid "Show CPU and publisher"
+msgstr "إظهار المعالج والناشر"
+
+msgid "&Refresh list"
+msgstr "&تحديث القائمة"
+
+msgid "&End process"
+msgstr "&إنهاء العملية"
+
+msgid "Re&start process"
+msgstr "إ&عادة تشغيل العملية"
+
+msgid "End &all filtered"
+msgstr "إنهاء &كل المرشَّحة"
+
+msgid "Restart all &filtered"
+msgstr "إعادة تشغيل كل ال&مرشَّحة"
+
+msgid "&Open file location"
+msgstr "&فتح موقع الملف"
+
+msgid "&Copy details"
+msgstr "&نسخ التفاصيل"
+
+msgid "&Properties"
+msgstr "&خصائص"
+
+msgid "No process selected."
+msgstr "لم يتم تحديد أي عملية."
+
+msgid "Type a name in the filter first: this would hit every process."
+msgstr "اكتب اسمًا في المرشِّح أولًا، وإلا فسيشمل هذا كل العمليات."
+
+msgid "No process matches the filter."
+msgstr "لا توجد عملية تطابق المرشِّح."
+
+msgid "{n} processes ended."
+msgstr "تم إنهاء {n} عملية."
+
+msgid "{n} processes restarted."
+msgstr "تمت إعادة تشغيل {n} عملية."
+
+msgid "The location of this program is unknown."
+msgstr "موقع هذا البرنامج غير معروف."
+
+msgid "Name: {name}\nPID: {pid}\nProgram: {exe}\nPublisher: {publisher}\nMemory: {memory:.1f} MB\nState: {status}"
+msgstr "الاسم: {name}\nالمعرف: {pid}\nالبرنامج: {exe}\nالناشر: {publisher}\nالذاكرة: {memory:.1f} ميغابايت\nالحالة: {status}"
+
+msgid "Process details copied."
+msgstr "تم نسخ تفاصيل العملية."
+
+msgid "The properties window could not be opened."
+msgstr "تعذر فتح نافذة الخصائص."
+
+msgid "Priority changed."
+msgstr "تم تغيير الأولوية."
+
+msgid "The priority could not be changed. Administrator rights may be needed."
+msgstr "تعذر تغيير الأولوية. قد تحتاج إلى صلاحيات المدير."
+
+msgid "What is new since the version you had:"
+msgstr "الجديد منذ الإصدار الذي كان لديك:"
+
+msgid "What changed in each version:"
+msgstr "ما تغيّر في كل إصدار:"
+
+msgid "SuperTools {version} is available. You have {current}."
+msgstr "الإصدار {version} من SuperTools متاح. لديك {current}."
+
+msgid "&Update now"
+msgstr "&حدّث الآن"
+
+msgid "Open the &download page"
+msgstr "افتح صفحة ال&تنزيل"
+
+msgid "Remind me &later"
+msgstr "ذكّرني &لاحقًا"
+
+msgid "&Skip this version"
+msgstr "&تخطَّ هذا الإصدار"
+
+msgid "SuperTools - Clock"
+msgstr "SuperTools - الساعة"
+
+msgid "Let &Windows fix it"
+msgstr "دع &ويندوز يصلحها"
+
+msgid "Set it from the &internet"
+msgstr "اضبطها من ال&إنترنت"
+
+msgid "Check &again"
+msgstr "تحقق &مرة أخرى"
+
+msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr "قُفلت لوحة المفاتيح. اضغط NVDA+Shift+U ثم L لفتحها."
+
+msgid "Keyboard unlocked."
+msgstr "فُتحت لوحة المفاتيح."
+
+msgid "Command mode cancelled."
+msgstr "تم إلغاء وضع الأوامر."
+
+msgid "This feature is disabled in SuperTools settings."
+msgstr "هذه الميزة معطلة في إعدادات SuperTools."
+
+msgid "Word monitor enabled."
+msgstr "تم تفعيل مراقب الكلمات."
+
+msgid "Word monitor disabled."
+msgstr "تم تعطيل مراقب الكلمات."
+
+msgid "There is nothing to undo."
+msgstr "لا يوجد ما يمكن التراجع عنه."
+
+msgid "No text selected."
+msgstr "لا يوجد نص محدد."
+
+msgid "Translation into {language}: {name}"
+msgstr "الترجمة إلى {language}: {name}"
+
+msgid "Sound theme {theme}: {name}"
+msgstr "السمة الصوتية {theme}: {name}"
+
+msgid "{n} minutes"
+msgstr "{n} دقيقة"
+
+msgid "Windows would not run the command ({code})."
+msgstr "لم يشغّل ويندوز الأمر ({code})."
+
+msgid "Applications"
+msgstr "التطبيقات"
+
+msgid "In every application"
+msgstr "في كل التطبيقات"
+
+msgid "Only in these applications"
+msgstr "في هذه التطبيقات فقط"
+
+msgid "In every application except these"
+msgstr "في كل التطبيقات عدا هذه"
+
+msgid "Application names, separated by commas:"
+msgstr "أسماء التطبيقات، مفصولة بفواصل:"
+
+msgid "For example: notepad, chrome, telegram"
+msgstr "مثال: notepad, chrome, telegram"
+
+msgid "C moves the text to the next layout in this list. The text itself says which one it was typed with, so nothing has to be chosen; press C again to carry on to the next one."
+msgstr "ينقل المفتاح C النص إلى التخطيط التالي في هذه القائمة. النص نفسه يحدد التخطيط الذي كُتب به، فلا شيء تختاره؛ اضغط C مرة أخرى للانتقال إلى التالي."
+
+msgid "Every layout is used unless you untick it. At least two are needed."
+msgstr "يُستخدم كل تخطيط ما لم تُزل التأشير عنه. يلزم تخطيطان على الأقل."
+
+msgid "Say which layout the text was converted to"
+msgstr "قل إلى أي تخطيط حُوّل النص"
+
+msgid "Put the previous clipboard content back after converting"
+msgstr "إعادة محتوى الحافظة السابق بعد التحويل"
+
+msgid "Say the converted text"
+msgstr "نطق النص المحوّل"
+
+msgid "Shift+C converts the word before the cursor, without selecting it"
+msgstr "Shift+C يحوّل الكلمة التي قبل المؤشر دون تحديدها"
+
+msgid "Z undoes the last conversion"
+msgstr "Z يتراجع عن آخر تحويل"
+
+msgid "While typing"
+msgstr "أثناء الكتابة"
+
+msgid "Shortest word to check:"
+msgstr "أقصر كلمة يجري فحصها:"
+
+msgid "A Latin word with no vowel at all is treated as suspicious."
+msgstr "الكلمة اللاتينية التي لا تحتوي أي حرف علة تُعد مشبوهة."
+
+msgid "Enable word monitor"
+msgstr "تفعيل مراقب الكلمات"
+
+msgid "Default settings for words added to this category"
+msgstr "الإعدادات الافتراضية للكلمات المضافة إلى هذه الفئة"
+
+msgid "Sort the list by:"
+msgstr "ترتيب القائمة حسب:"
+
+msgid "Name"
+msgstr "الاسم"
+
+msgid "Memory use"
+msgstr "استهلاك الذاكرة"
+
+msgid "CPU"
+msgstr "المعالج"
+
+msgid "PID"
+msgstr "معرف العملية"
+
+msgid "Refresh the list automatically"
+msgstr "تحديث القائمة تلقائيًا"
+
+msgid "Every (seconds):"
+msgstr "كل (ثانية):"
+
+msgid "Ask before ending or restarting every filtered process"
+msgstr "اسأل قبل إنهاء أو إعادة تشغيل كل العمليات المرشَّحة"
+
+msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
+msgstr "ما دامت لوحة المفاتيح مقفلة لا يصل أي مفتاح إلى أي برنامج، ولا حتى إلى NVDA. المفتاح الوحيد الذي يعمل هو الذي يفتح وضع الأوامر، فضغطه ثم L يفتح القفل. لا يبقى القفل بعد إعادة تشغيل NVDA."
+
+msgid "Seconds to wait:"
+msgstr "عدد الثواني:"
+
+msgid "Custom sequence (frequency,duration; ...):"
+msgstr "تسلسل مخصص (التردد,المدة؛ ...):"
+
+msgid "Leave empty to use the four settings above."
+msgstr "اتركه فارغًا لاستخدام الإعدادات الأربعة أعلاه."
+
+msgid "Sounds"
+msgstr "الأصوات"
+
+msgid "A theme gives every sound of the add-on its own voice: beeps or a sound file, chosen one by one. Anything a theme leaves out keeps the built-in beep, so a theme can be as small as a single sound."
+msgstr "تمنح السمة كل صوت في الإضافة طابعًا خاصًا: نغمات أو ملف صوتي، لكل صوت على حدة. وما لا تذكره السمة يبقى على النغمة الأصلية، لذا قد تقتصر السمة على صوت واحد."
+
+msgid "How the beeps are made:"
+msgstr "طريقة إنتاج النغمات:"
+
+msgid "Built in: the gaps are exact"
+msgstr "داخليًا: الفواصل دقيقة"
+
+msgid "NVDA's own beep: sounds like the rest of NVDA"
+msgstr "نغمة NVDA نفسها: تبدو مثل بقية NVDA"
+
+msgid "The silence keeps the first beep from being swallowed while the sound device wakes up. Raise it if a first beep is ever missing."
+msgstr "هذا الصمت يمنع ابتلاع النغمة الأولى ريثما يستيقظ جهاز الصوت. زده إذا اختفت النغمة الأولى."
+
+msgid "Language"
+msgstr "اللغة"
+
+msgid "SuperTools speaks the language NVDA is set to. You can write a translation for a language it does not have yet, see it straight away, and send the file to have it shipped with the add-on."
+msgstr "يتحدث SuperTools باللغة التي ضُبط عليها NVDA. يمكنك كتابة ترجمة للغة لا يملكها بعد، ورؤيتها فورًا، وإرسال الملف ليُنشر مع الإضافة."
+
+msgid "Go back to NVDA's language"
+msgstr "العودة إلى لغة NVDA"
+
+msgid "Updates"
+msgstr "التحديثات"
+
+msgid "Seconds to wait after NVDA starts:"
+msgstr "ثوانٍ الانتظار بعد بدء NVDA:"
+
+msgid "The check waits until NVDA has finished starting, and then runs at most once a day. It only asks which version is the newest and shows you what changed: nothing is downloaded or installed unless you choose to, and a version you skip is not brought up again. If you installed SuperTools from NVDA's Add-on Store, the store already keeps it up to date."
+msgstr "ينتظر الفحص حتى ينتهي NVDA من البدء، ثم يعمل مرة واحدة في اليوم على الأكثر. يسأل فقط عن أحدث إصدار ويعرض ما تغيّر: لا يُنزَّل ولا يُثبَّت شيء إلا إذا اخترت ذلك، والإصدار الذي تتخطاه لا يُعرض ثانية. إذا ثبّت SuperTools من متجر إضافات NVDA فالمتجر يبقيه محدَّثًا."
+
+msgid "Done. Close and open the settings to see the change."
+msgstr "تم. أغلق الإعدادات وافتحها لترى التغيير."
+
+msgid "Programs running now:"
+msgstr "البرامج قيد التشغيل:"
+
+msgid "Or type a name:"
+msgstr "أو اكتب اسمًا:"
+
+msgid "Everything in SuperTools is reached by pressing NVDA+Shift+U and then one key. Press H after that for the full list at any time.\n\nThree questions, and you are set up."
+msgstr "كل شيء في SuperTools يبدأ بالضغط على NVDA+Shift+U ثم مفتاح واحد. اضغط بعدها H في أي وقت لرؤية القائمة كاملة.\n\nثلاثة أسئلة، وينتهي الإعداد."
+
+msgid "1. What do you want to use?"
+msgstr "١. ما الذي تريد استخدامه؟"
+
+msgid "2. Which keyboard layouts do you use?"
+msgstr "٢. ما تخطيطات لوحة المفاتيح التي تستخدمها؟"
+
+msgid "C moves the text to the next one in this list, and the text itself says which one it came from. Leave them all ticked unless one should be left out."
+msgstr "ينقل المفتاح C النص إلى التالي في هذه القائمة، والنص نفسه يحدد من أين جاء. اتركها كلها مؤشرة إلا إذا أردت استثناء واحد."
+
+msgid "3. How should it sound?"
+msgstr "٣. كيف تريد أن يكون الصوت؟"
+
+msgid "That is all. Everything else, and much more, is in the settings: NVDA+Shift+U, then S."
+msgstr "هذا كل شيء. الباقي، وأكثر منه، في الإعدادات: NVDA+Shift+U ثم S."
+
+msgid "Texts:"
+msgstr "النصوص:"
+
+msgid "English:"
+msgstr "الإنجليزية:"
+
+msgid "Your translation:"
+msgstr "ترجمتك:"
+
+msgid "{done} of {total} texts translated"
+msgstr "تُرجم {done} من {total} نص"
+
+msgid "Saved as {path}\n\nSend this file to the author to have your language shipped with the add-on."
+msgstr "حُفظ في {path}\n\nأرسل هذا الملف إلى المؤلف لتُنشر لغتك مع الإضافة."
+
+msgid "Saved as {path}\n\nSuperTools will speak your language from now on. Close and open the settings to see it. To go back to NVDA's own language, use the button in the General tab."
+msgstr "حُفظ في {path}\n\nسيتحدث SuperTools بلغتك من الآن. أغلق الإعدادات وافتحها لتراها. وللعودة إلى لغة NVDA استخدم الزر في تبويب عام."
+
+msgid "Word Monitor turned on"
+msgstr "شُغّل مراقب الكلمات"
+
+msgid "Word Monitor turned off"
+msgstr "أُوقف مراقب الكلمات"
+
+msgid "A word the Word Monitor found"
+msgstr "كلمة وجدها مراقب الكلمات"
+
+msgid "Sounds:"
+msgstr "الأصوات:"
+
+msgid "The built-in beep"
+msgstr "النغمة الأصلية"
+
+msgid "Beeps of my own"
+msgstr "نغمات من عندي"
+
+msgid "When the word is spoken:"
+msgstr "عند نطق الكلمة:"
+
+msgid "Play the beeps only"
+msgstr "تشغيل النغمات فقط"
+
+msgid "Say the extra text only"
+msgstr "نطق النص الإضافي فقط"
+
+msgid "Say the extra text and play the beeps"
+msgstr "نطق النص الإضافي وتشغيل النغمات"
+
+msgid "Do not speak the word at all"
+msgstr "عدم نطق الكلمة إطلاقًا"
+
+msgid "Text said before the word:"
+msgstr "نص يُنطق قبل الكلمة:"
+
+msgid "Match:"
+msgstr "المطابقة:"
+
+msgid "Anywhere in the text"
+msgstr "في أي موضع من النص"
+
+msgid "Whole word only"
+msgstr "الكلمة الكاملة فقط"
+
+msgid "Edit Word"
+msgstr "تعديل الكلمة"
+
+msgid "Add Word"
+msgstr "إضافة كلمة"
+
+msgid "Word or phrase:"
+msgstr "الكلمة أو العبارة:"
+
+msgid "Category name:"
+msgstr "اسم الفئة:"
+
+msgid "Categories"
+msgstr "الفئات"
+
+msgid "Search:"
+msgstr "بحث:"
+
+msgid "Filter processes:"
+msgstr "تصفية العمليات:"
+
+msgid "Type a name, or a number to find a PID."
+msgstr "اكتب اسمًا، أو رقمًا للبحث عن معرف عملية."
+
+msgid "Publisher"
+msgstr "الناشر"
+
+msgid "Priority:"
+msgstr "الأولوية:"
+
+msgid "Low"
+msgstr "منخفضة"
+
+msgid "Below normal"
+msgstr "أقل من عادية"
+
+msgid "Normal"
+msgstr "عادية"
+
+msgid "Above normal"
+msgstr "أعلى من عادية"
+
+msgid "High"
+msgstr "عالية"
+
+msgid "{shown} of {total} processes"
+msgstr "{shown} من {total} عملية"
+
+msgid "This affects {n} processes. Continue?"
+msgstr "سيؤثر هذا في {n} عملية. هل تريد المتابعة؟"
+
+msgid "What is new:"
+msgstr "ما الجديد:"
+
+msgid "No notes were written."
+msgstr "لم تُكتب أي ملاحظات."
+
+msgid "A clock that is wrong stops secure connections from working, and the error never mentions the time."
+msgstr "الساعة الخاطئة تمنع الاتصالات الآمنة من العمل، والخطأ لا يذكر الوقت أبدًا."
+
+msgid "Windows will ask for permission. {what}"
+msgstr "سيطلب ويندوز الإذن. {what}"
+
+msgid "The clock was not changed."
+msgstr "لم تتغير الساعة."
+
+msgid "The new version could not be downloaded."
+msgstr "تعذّر تنزيل الإصدار الجديد."
+
+msgid "The keyboard could not be locked."
+msgstr "تعذّر قفل لوحة المفاتيح."
+
+msgid "Only one keyboard layout is installed, so there is nothing to convert between."
+msgstr "لا يوجد سوى تخطيط واحد مثبّت، فليس هناك ما يُحوَّل بينه وبين غيره."
+
+msgid "No characters to convert."
+msgstr "لا توجد أحرف للتحويل."
+
+msgid "File error: {e}"
+msgstr "خطأ في الملف: {e}"
+
+msgid "by {author}"
+msgstr "من إعداد {author}"
+
+msgid "{n} hours"
+msgstr "{n} ساعة"
+
+msgid "{n} days"
+msgstr "{n} يوم"
+
+msgid "Open the Process Manager"
+msgstr "فتح مدير العمليات"
+
+msgid "Saved as {path}\n\nSend the file, with its sounds, to the author to have your theme shipped with the add-on."
+msgstr "حُفظ في {path}\n\nأرسل الملف مع أصواته إلى المؤلف لتُنشر سمتك مع الإضافة."
+
+msgid "{n} words added."
+msgstr "تمت إضافة {n} كلمة."
+
+msgid "Process {name} killed."
+msgstr "تم إنهاء العملية {name}."
+
+msgid "Process {name} restarted."
+msgstr "تمت إعادة تشغيل العملية {name}."
+
+msgid "The time could not be read from the internet. {reason}"
+msgstr "تعذّرت قراءة الوقت من الإنترنت. {reason}"
+
+msgid "Downloading SuperTools {version}..."
+msgstr "يجري تنزيل SuperTools {version}..."
+
+msgid "The file was downloaded to {path}, but NVDA could not open it. Open it yourself to install the new version."
+msgstr "نُزّل الملف إلى {path}، لكن NVDA لم يستطع فتحه. افتحه بنفسك لتثبيت الإصدار الجديد."
+
+msgid "Error: {e}"
+msgstr "خطأ: {e}"
+
+msgid "{n} beeps"
+msgstr "{n} نغمات"
+
+msgid "heard {n} times"
+msgstr "سُمعت {n} مرة"
+
+msgid "There is nothing published to compare with yet. You have version {version}."
+msgstr "لا يوجد بعد إصدار منشور للمقارنة. لديك الإصدار {version}."
+
+msgid "You have the newest version ({version})."
+msgstr "لديك أحدث إصدار ({version})."
+
+msgid "Undone: {text}"
+msgstr "تم التراجع: {text}"
+
+msgid "Version {version} will not be offered again."
+msgstr "لن يُعرض الإصدار {version} مرة أخرى."
+
+msgid "{text}, in {layout}"
+msgstr "{text}، في {layout}"
+
+msgid "Converted: {text}"
+msgstr "تم التحويل: {text}"

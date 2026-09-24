@@ -1,0 +1,837 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTools\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Last-Translator: Initial translation by AI; corrections welcome\n"
+"Language-Team: Italiano\n"
+
+msgid "Could not reach the internet. Check your connection, and if you use a VPN or a proxy, that it is working, then try again."
+msgstr "Non è stato possibile raggiungere internet. Controlla la connessione e, se usi una VPN o un proxy, che funzioni, poi riprova."
+
+msgid "SuperTools Settings"
+msgstr "Impostazioni di SuperTools"
+
+msgid "Built-in beeps"
+msgstr "Segnali predefiniti"
+
+msgid "Layout Fixer"
+msgstr "Correttore di layout"
+
+msgid "Word Monitor"
+msgstr "Monitor delle parole"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "General"
+msgstr "Generale"
+
+msgid "SuperTools will follow NVDA's language again after NVDA restarts."
+msgstr "SuperTools tornerà a seguire la lingua di NVDA dopo il riavvio di NVDA."
+
+msgid "Save a theme template..."
+msgstr "Salva un modello di tema..."
+
+msgid "Skipped versions will be offered again."
+msgstr "Le versioni saltate verranno proposte di nuovo."
+
+msgid "Looking for a new version..."
+msgstr "Ricerca di una nuova versione..."
+
+msgid "Export all settings to a file..."
+msgstr "Esporta tutte le impostazioni su file..."
+
+msgid "Import settings from a file..."
+msgstr "Importa le impostazioni da file..."
+
+msgid "Settings imported."
+msgstr "Impostazioni importate."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Cancel"
+msgstr "Annulla"
+
+msgid "Finish"
+msgstr "Fine"
+
+msgid "Skip for now"
+msgstr "Salta per ora"
+
+msgid "Close"
+msgstr "Chiudi"
+
+msgid "Everything is translated."
+msgstr "È tutto tradotto."
+
+msgid "A sound file"
+msgstr "Un file audio"
+
+msgid "My theme"
+msgstr "Il mio tema"
+
+msgid "Sound file instead of beeps:"
+msgstr "File audio al posto dei segnali:"
+
+msgid "Import from file..."
+msgstr "Importa da file..."
+
+msgid "Export to file..."
+msgstr "Esporta su file..."
+
+msgid "What is new"
+msgstr "Cosa c'è di nuovo"
+
+msgid "What the clock says"
+msgstr "Cosa dice l'orologio"
+
+msgid "&Close"
+msgstr "&Chiudi"
+
+msgid "Asking a web server for the time..."
+msgstr "Si chiede l'ora a un server web..."
+
+msgid "Asking the Windows time service."
+msgstr "Si interpella il servizio orario di Windows."
+
+msgid "Setting the clock from the internet."
+msgstr "Si imposta l'orologio da internet."
+
+msgid "Command mode. H help, X changes, C layout, Shift+C convert the word before the cursor, Z undo, S settings, W word monitor, Shift+W toggle word monitor, P process manager, L lock the keyboard, T clock, U look for a new version, Escape cancel."
+msgstr "Modalità comandi. H aiuto, X novità, C layout, Shift+C converti la parola prima del cursore, Z annulla, S impostazioni, W monitor parole, Shift+W attiva il monitor, P gestione processi, L blocca la tastiera, T orologio, U cerca una nuova versione, Escape annulla."
+
+msgid "Command mode ended."
+msgstr "Modalità comandi terminata."
+
+msgid "This text was not converted by SuperTools."
+msgstr "Questo testo non è stato convertito da SuperTools."
+
+msgid "SuperTools by {name}"
+msgstr "SuperTools, di {name}"
+
+msgid "The clock is right, according to {host}."
+msgstr "Secondo {host} l'orologio è giusto."
+
+msgid "{n} seconds"
+msgstr "{n} secondi"
+
+msgid "The clock is {amount} ahead of {host}."
+msgstr "L'orologio è avanti di {amount} rispetto a {host}."
+
+msgid "The clock is {amount} behind {host}."
+msgstr "L'orologio è indietro di {amount} rispetto a {host}."
+
+msgid "Permission was not given, so the clock was left alone."
+msgstr "Il permesso non è stato dato, l'orologio è rimasto com'era."
+
+msgid "GitHub answered {code}. Try again later."
+msgstr "GitHub ha risposto {code}. Riprova più tardi."
+
+msgid "running"
+msgstr "in esecuzione"
+
+msgid "Enable this feature"
+msgstr "Attiva questa funzione"
+
+msgid "Choose from the programs running now..."
+msgstr "Scegli tra i programmi in esecuzione..."
+
+msgid "Keyboard layouts"
+msgstr "Layout di tastiera"
+
+msgid "Watch for words typed with the wrong layout"
+msgstr "Controlla le parole scritte con il layout sbagliato"
+
+msgid "Convert such a word at once, instead of only warning with a sound"
+msgstr "Converti subito quella parola, invece di avvisare solo con un suono"
+
+msgid "L locks and unlocks the keyboard"
+msgstr "L blocca e sblocca la tastiera"
+
+msgid "T checks whether the clock is right"
+msgstr "T controlla se l'orologio è giusto"
+
+msgid "Leave command mode automatically when no key is pressed"
+msgstr "Esci automaticamente dalla modalità comandi se non viene premuto alcun tasto"
+
+msgid "Number of beeps:"
+msgstr "Numero di segnali:"
+
+msgid "Frequency (Hz):"
+msgstr "Frequenza (Hz):"
+
+msgid "Frequency change per beep (Hz):"
+msgstr "Variazione di frequenza per segnale (Hz):"
+
+msgid "Duration (ms):"
+msgstr "Durata (ms):"
+
+msgid "Test"
+msgstr "Prova"
+
+msgid "Create a sound theme..."
+msgstr "Crea un tema sonoro..."
+
+msgid "Open the theme folder"
+msgstr "Apri la cartella dei temi"
+
+msgid "How the beeps are made"
+msgstr "Come vengono prodotti i segnali"
+
+msgid "Volume of the built-in beeps (%):"
+msgstr "Volume dei segnali integrati (%):"
+
+msgid "Silence before a sequence (ms):"
+msgstr "Silenzio prima di una sequenza (ms):"
+
+msgid "Create or continue a translation..."
+msgstr "Crea o continua una traduzione..."
+
+msgid "Look for a new version when NVDA starts"
+msgstr "Cerca una nuova versione all'avvio di NVDA"
+
+msgid "Check now"
+msgstr "Controlla ora"
+
+msgid "Offer skipped versions again"
+msgstr "Proponi di nuovo le versioni saltate"
+
+msgid "Keep a weekly backup of the settings"
+msgstr "Tieni una copia settimanale delle impostazioni"
+
+msgid "Open the backup folder"
+msgstr "Apri la cartella delle copie"
+
+msgid "Run the first-time setup again..."
+msgstr "Rifai la configurazione iniziale..."
+
+msgid "Help"
+msgstr "Guida"
+
+msgid "Reset all settings..."
+msgstr "Reimposta tutte le impostazioni..."
+
+msgid "Settings exported."
+msgstr "Impostazioni esportate."
+
+msgid "This file does not contain SuperTools settings."
+msgstr "Questo file non contiene impostazioni di SuperTools."
+
+msgid "All SuperTools settings will be erased. Continue?"
+msgstr "Tutte le impostazioni di SuperTools saranno cancellate. Continuare?"
+
+msgid "Reset Settings"
+msgstr "Reimposta le impostazioni"
+
+msgid "Settings have been reset."
+msgstr "Le impostazioni sono state reimpostate."
+
+msgid "Tick at least two keyboard layouts, or switch the Layout Fixer off."
+msgstr "Spunta almeno due layout, oppure disattiva il correttore di layout."
+
+msgid "Choose applications"
+msgstr "Scegli le applicazioni"
+
+msgid "Add"
+msgstr "Aggiungi"
+
+msgid "Welcome to SuperTools"
+msgstr "Benvenuto in SuperTools"
+
+msgid "Layout Fixer: repair text typed with the wrong keyboard layout (C)"
+msgstr "Correttore di layout: sistemare il testo scritto con il layout sbagliato (C)"
+
+msgid "Word Monitor: give chosen words their own sound when NVDA says them (W)"
+msgstr "Monitor delle parole: dare alle parole scelte un suono proprio quando NVDA le pronuncia (W)"
+
+msgid "Process Manager: see and manage running programs (P)"
+msgstr "Gestore dei processi: vedere e gestire i programmi in esecuzione (P)"
+
+msgid "Create or continue a translation"
+msgstr "Crea o continua una traduzione"
+
+msgid "Language code (fa, de, pt_BR...):"
+msgstr "Codice lingua (fa, de, pt_BR ...):"
+
+msgid "Language name, as its speakers write it:"
+msgstr "Nome della lingua, come lo scrivono i suoi parlanti:"
+
+msgid "Your name, for the credits:"
+msgstr "Il tuo nome, per i ringraziamenti:"
+
+msgid "Load what I translated before"
+msgstr "Carica quello che ho tradotto prima"
+
+msgid "Next one to do"
+msgstr "Prossimo da fare"
+
+msgid "Copy the English text"
+msgstr "Copia il testo inglese"
+
+msgid "Save"
+msgstr "Salva"
+
+msgid "Save and use it now"
+msgstr "Salva e usalo ora"
+
+msgid "Create a sound theme"
+msgstr "Crea un tema sonoro"
+
+msgid "Theme name:"
+msgstr "Nome del tema:"
+
+msgid "What it sounds like:"
+msgstr "Che suono ha:"
+
+msgid "This sound is:"
+msgstr "Questo suono è:"
+
+msgid "Browse..."
+msgstr "Sfoglia..."
+
+msgid "Use this for the selected sound"
+msgstr "Usa questo per il suono selezionato"
+
+msgid "built-in beep"
+msgstr "segnale predefinito"
+
+msgid "Match upper and lower case exactly"
+msgstr "Distingui maiuscole e minuscole"
+
+msgid "Gap between beeps (ms):"
+msgstr "Pausa tra i segnali (ms):"
+
+msgid "Use beeps"
+msgstr "Usa i segnali"
+
+msgid "Interrupt speech while beeping"
+msgstr "Interrompi la voce durante i segnali"
+
+msgid "Enable this word"
+msgstr "Attiva questa parola"
+
+msgid "Use the settings of the category"
+msgstr "Usa le impostazioni della categoria"
+
+msgid "Enable this category"
+msgstr "Attiva questa categoria"
+
+msgid "Manage words..."
+msgstr "Gestisci le parole..."
+
+msgid "Add category..."
+msgstr "Aggiungi categoria..."
+
+msgid "Edit category..."
+msgstr "Modifica categoria..."
+
+msgid "Remove category"
+msgstr "Rimuovi categoria"
+
+msgid "Edit"
+msgstr "Modifica"
+
+msgid "Remove"
+msgstr "Rimuovi"
+
+msgid "Import from clipboard"
+msgstr "Importa dagli appunti"
+
+msgid "This word is already in the category."
+msgstr "Questa parola è già nella categoria."
+
+msgid "No new words were found."
+msgstr "Nessuna nuova parola trovata."
+
+msgid "Process Manager"
+msgstr "Gestore dei processi"
+
+msgid "Show CPU and publisher"
+msgstr "Mostra CPU ed editore"
+
+msgid "&Refresh list"
+msgstr "&Aggiorna l'elenco"
+
+msgid "&End process"
+msgstr "&Termina il processo"
+
+msgid "Re&start process"
+msgstr "&Riavvia il processo"
+
+msgid "End &all filtered"
+msgstr "Termina &tutti i filtrati"
+
+msgid "Restart all &filtered"
+msgstr "Riavvia tutti i &filtrati"
+
+msgid "&Open file location"
+msgstr "&Apri la posizione del file"
+
+msgid "&Copy details"
+msgstr "&Copia i dettagli"
+
+msgid "&Properties"
+msgstr "&Proprietà"
+
+msgid "No process selected."
+msgstr "Nessun processo selezionato."
+
+msgid "Type a name in the filter first: this would hit every process."
+msgstr "Scrivi prima un nome nel filtro, altrimenti questo colpirebbe ogni processo."
+
+msgid "No process matches the filter."
+msgstr "Nessun processo corrisponde al filtro."
+
+msgid "{n} processes ended."
+msgstr "{n} processi terminati."
+
+msgid "{n} processes restarted."
+msgstr "{n} processi riavviati."
+
+msgid "The location of this program is unknown."
+msgstr "La posizione di questo programma è sconosciuta."
+
+msgid "Name: {name}\nPID: {pid}\nProgram: {exe}\nPublisher: {publisher}\nMemory: {memory:.1f} MB\nState: {status}"
+msgstr "Nome: {name}\nPID: {pid}\nProgramma: {exe}\nEditore: {publisher}\nMemoria: {memory:.1f} MB\nStato: {status}"
+
+msgid "Process details copied."
+msgstr "Dettagli del processo copiati."
+
+msgid "The properties window could not be opened."
+msgstr "Non è stato possibile aprire la finestra delle proprietà."
+
+msgid "Priority changed."
+msgstr "Priorità cambiata."
+
+msgid "The priority could not be changed. Administrator rights may be needed."
+msgstr "Non è stato possibile cambiare la priorità. Potrebbero servire i diritti di amministratore."
+
+msgid "What is new since the version you had:"
+msgstr "Novità dalla versione che avevi:"
+
+msgid "What changed in each version:"
+msgstr "Cosa è cambiato in ogni versione:"
+
+msgid "SuperTools {version} is available. You have {current}."
+msgstr "SuperTools {version} è disponibile. Hai la {current}."
+
+msgid "&Update now"
+msgstr "&Aggiorna ora"
+
+msgid "Open the &download page"
+msgstr "Apri la pagina di &download"
+
+msgid "Remind me &later"
+msgstr "Ricordamelo &più tardi"
+
+msgid "&Skip this version"
+msgstr "&Salta questa versione"
+
+msgid "SuperTools - Clock"
+msgstr "SuperTools - Orologio"
+
+msgid "Let &Windows fix it"
+msgstr "Che ci pensi &Windows"
+
+msgid "Set it from the &internet"
+msgstr "Imposta da &internet"
+
+msgid "Check &again"
+msgstr "Controlla di &nuovo"
+
+msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr "Tastiera bloccata. Premi NVDA+Shift+U e poi L per sbloccarla."
+
+msgid "Keyboard unlocked."
+msgstr "Tastiera sbloccata."
+
+msgid "Command mode cancelled."
+msgstr "Modalità comandi annullata."
+
+msgid "This feature is disabled in SuperTools settings."
+msgstr "Questa funzione è disattivata nelle impostazioni di SuperTools."
+
+msgid "Word monitor enabled."
+msgstr "Monitor delle parole attivato."
+
+msgid "Word monitor disabled."
+msgstr "Monitor delle parole disattivato."
+
+msgid "There is nothing to undo."
+msgstr "Non c'è nulla da annullare."
+
+msgid "No text selected."
+msgstr "Nessun testo selezionato."
+
+msgid "Translation into {language}: {name}"
+msgstr "Traduzione in {language}: {name}"
+
+msgid "Sound theme {theme}: {name}"
+msgstr "Tema sonoro {theme}: {name}"
+
+msgid "{n} minutes"
+msgstr "{n} minuti"
+
+msgid "Windows would not run the command ({code})."
+msgstr "Windows non ha eseguito il comando ({code})."
+
+msgid "Applications"
+msgstr "Applicazioni"
+
+msgid "In every application"
+msgstr "In tutte le applicazioni"
+
+msgid "Only in these applications"
+msgstr "Solo in queste applicazioni"
+
+msgid "In every application except these"
+msgstr "In tutte le applicazioni tranne queste"
+
+msgid "Application names, separated by commas:"
+msgstr "Nomi delle applicazioni, separati da virgole:"
+
+msgid "For example: notepad, chrome, telegram"
+msgstr "Per esempio: notepad, chrome, telegram"
+
+msgid "C moves the text to the next layout in this list. The text itself says which one it was typed with, so nothing has to be chosen; press C again to carry on to the next one."
+msgstr "C porta il testo al layout successivo di questo elenco. È il testo stesso a dire con quale è stato scritto, quindi non c'è nulla da scegliere; premi di nuovo C per passare al successivo."
+
+msgid "Every layout is used unless you untick it. At least two are needed."
+msgstr "Si usano tutti i layout tranne quelli che togli. Ne servono almeno due."
+
+msgid "Say which layout the text was converted to"
+msgstr "Dire in quale layout è stato convertito il testo"
+
+msgid "Put the previous clipboard content back after converting"
+msgstr "Ripristina il contenuto precedente degli appunti dopo la conversione"
+
+msgid "Say the converted text"
+msgstr "Pronuncia il testo convertito"
+
+msgid "Shift+C converts the word before the cursor, without selecting it"
+msgstr "Maiusc+C converte la parola prima del cursore, senza selezionarla"
+
+msgid "Z undoes the last conversion"
+msgstr "Z annulla l'ultima conversione"
+
+msgid "While typing"
+msgstr "Durante la scrittura"
+
+msgid "Shortest word to check:"
+msgstr "Parola più corta da controllare:"
+
+msgid "A Latin word with no vowel at all is treated as suspicious."
+msgstr "Una parola latina senza nemmeno una vocale è considerata sospetta."
+
+msgid "Enable word monitor"
+msgstr "Attiva il monitor delle parole"
+
+msgid "Default settings for words added to this category"
+msgstr "Impostazioni predefinite per le parole aggiunte a questa categoria"
+
+msgid "Sort the list by:"
+msgstr "Ordina l'elenco per:"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Memory use"
+msgstr "Memoria usata"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "PID"
+msgstr "PID"
+
+msgid "Refresh the list automatically"
+msgstr "Aggiorna l'elenco automaticamente"
+
+msgid "Every (seconds):"
+msgstr "Ogni (secondi):"
+
+msgid "Ask before ending or restarting every filtered process"
+msgstr "Chiedi prima di terminare o riavviare tutti i processi filtrati"
+
+msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
+msgstr "Finché la tastiera è bloccata nessun tasto arriva ad alcun programma, nemmeno a NVDA. L'unico tasto che funziona ancora è quello che apre la modalità comandi: premerlo e poi L sblocca di nuovo. Un blocco non sopravvive al riavvio di NVDA."
+
+msgid "Seconds to wait:"
+msgstr "Secondi di attesa:"
+
+msgid "Custom sequence (frequency,duration; ...):"
+msgstr "Sequenza personalizzata (frequenza,durata; ...):"
+
+msgid "Leave empty to use the four settings above."
+msgstr "Lascia vuoto per usare le quattro impostazioni qui sopra."
+
+msgid "Sounds"
+msgstr "Suoni"
+
+msgid "A theme gives every sound of the add-on its own voice: beeps or a sound file, chosen one by one. Anything a theme leaves out keeps the built-in beep, so a theme can be as small as a single sound."
+msgstr "Un tema dà a ogni suono del componente aggiuntivo una voce propria: segnali o un file audio, scelti uno per uno. Ciò che un tema non indica mantiene il segnale predefinito, quindi un tema può contenere un solo suono."
+
+msgid "How the beeps are made:"
+msgstr "Come vengono prodotti i segnali:"
+
+msgid "Built in: the gaps are exact"
+msgstr "Integrato: le pause sono esatte"
+
+msgid "NVDA's own beep: sounds like the rest of NVDA"
+msgstr "Il segnale di NVDA: suona come il resto di NVDA"
+
+msgid "The silence keeps the first beep from being swallowed while the sound device wakes up. Raise it if a first beep is ever missing."
+msgstr "Il silenzio evita che il primo segnale venga inghiottito mentre il dispositivo audio si sveglia. Aumentalo se manca un primo segnale."
+
+msgid "Language"
+msgstr "Lingua"
+
+msgid "SuperTools speaks the language NVDA is set to. You can write a translation for a language it does not have yet, see it straight away, and send the file to have it shipped with the add-on."
+msgstr "SuperTools parla la lingua impostata in NVDA. Puoi scrivere una traduzione per una lingua che ancora manca, vederla subito e inviare il file perché venga distribuito con il componente aggiuntivo."
+
+msgid "Go back to NVDA's language"
+msgstr "Torna alla lingua di NVDA"
+
+msgid "Updates"
+msgstr "Aggiornamenti"
+
+msgid "Seconds to wait after NVDA starts:"
+msgstr "Secondi di attesa dopo l'avvio di NVDA:"
+
+msgid "The check waits until NVDA has finished starting, and then runs at most once a day. It only asks which version is the newest and shows you what changed: nothing is downloaded or installed unless you choose to, and a version you skip is not brought up again. If you installed SuperTools from NVDA's Add-on Store, the store already keeps it up to date."
+msgstr "Il controllo aspetta che NVDA abbia finito di avviarsi, poi avviene al massimo una volta al giorno. Chiede solo qual è la versione più recente e mostra cosa è cambiato: nulla viene scaricato o installato senza una tua scelta, e una versione saltata non viene più riproposta. Se hai installato SuperTools dallo store dei componenti aggiuntivi di NVDA, lo store lo tiene già aggiornato."
+
+msgid "Done. Close and open the settings to see the change."
+msgstr "Fatto. Chiudi e riapri le impostazioni per vedere il cambiamento."
+
+msgid "Programs running now:"
+msgstr "Programmi in esecuzione:"
+
+msgid "Or type a name:"
+msgstr "Oppure scrivi un nome:"
+
+msgid "Everything in SuperTools is reached by pressing NVDA+Shift+U and then one key. Press H after that for the full list at any time.\n\nThree questions, and you are set up."
+msgstr "Tutto in SuperTools parte da NVDA+Maiusc+U e poi un tasto. Dopo, H mostra l'elenco completo in qualsiasi momento.\n\nTre domande e hai finito."
+
+msgid "1. What do you want to use?"
+msgstr "1. Che cosa vuoi usare?"
+
+msgid "2. Which keyboard layouts do you use?"
+msgstr "2. Quali layout di tastiera usi?"
+
+msgid "C moves the text to the next one in this list, and the text itself says which one it came from. Leave them all ticked unless one should be left out."
+msgstr "C porta il testo al successivo di questo elenco, ed è il testo stesso a dire da quale veniva. Lasciali tutti spuntati, a meno che uno debba restare fuori."
+
+msgid "3. How should it sound?"
+msgstr "3. Come deve suonare?"
+
+msgid "That is all. Everything else, and much more, is in the settings: NVDA+Shift+U, then S."
+msgstr "Tutto qui. Il resto, e molto altro, è nelle impostazioni: NVDA+Maiusc+U, poi S."
+
+msgid "Texts:"
+msgstr "Testi:"
+
+msgid "English:"
+msgstr "Inglese:"
+
+msgid "Your translation:"
+msgstr "La tua traduzione:"
+
+msgid "{done} of {total} texts translated"
+msgstr "{done} di {total} testi tradotti"
+
+msgid "Saved as {path}\n\nSend this file to the author to have your language shipped with the add-on."
+msgstr "Salvato in {path}\n\nInvia questo file all'autore perché la tua lingua venga distribuita con il componente aggiuntivo."
+
+msgid "Saved as {path}\n\nSuperTools will speak your language from now on. Close and open the settings to see it. To go back to NVDA's own language, use the button in the General tab."
+msgstr "Salvato in {path}\n\nSuperTools parlerà la tua lingua da ora. Chiudi e riapri le impostazioni per vederla. Per tornare alla lingua di NVDA usa il pulsante nella scheda Generale."
+
+msgid "Word Monitor turned on"
+msgstr "Monitor delle parole attivato"
+
+msgid "Word Monitor turned off"
+msgstr "Monitor delle parole disattivato"
+
+msgid "A word the Word Monitor found"
+msgstr "Una parola trovata dal monitor"
+
+msgid "Sounds:"
+msgstr "Suoni:"
+
+msgid "The built-in beep"
+msgstr "Il segnale predefinito"
+
+msgid "Beeps of my own"
+msgstr "Segnali miei"
+
+msgid "When the word is spoken:"
+msgstr "Quando la parola viene pronunciata:"
+
+msgid "Play the beeps only"
+msgstr "Riproduci solo i segnali"
+
+msgid "Say the extra text only"
+msgstr "Pronuncia solo il testo aggiuntivo"
+
+msgid "Say the extra text and play the beeps"
+msgstr "Pronuncia il testo aggiuntivo e riproduci i segnali"
+
+msgid "Do not speak the word at all"
+msgstr "Non pronunciare la parola"
+
+msgid "Text said before the word:"
+msgstr "Testo pronunciato prima della parola:"
+
+msgid "Match:"
+msgstr "Corrispondenza:"
+
+msgid "Anywhere in the text"
+msgstr "In qualsiasi punto del testo"
+
+msgid "Whole word only"
+msgstr "Solo la parola intera"
+
+msgid "Edit Word"
+msgstr "Modifica parola"
+
+msgid "Add Word"
+msgstr "Aggiungi parola"
+
+msgid "Word or phrase:"
+msgstr "Parola o frase:"
+
+msgid "Category name:"
+msgstr "Nome della categoria:"
+
+msgid "Categories"
+msgstr "Categorie"
+
+msgid "Search:"
+msgstr "Cerca:"
+
+msgid "Filter processes:"
+msgstr "Filtra i processi:"
+
+msgid "Type a name, or a number to find a PID."
+msgstr "Scrivi un nome, oppure un numero per trovare un PID."
+
+msgid "Publisher"
+msgstr "Editore"
+
+msgid "Priority:"
+msgstr "Priorità:"
+
+msgid "Low"
+msgstr "Bassa"
+
+msgid "Below normal"
+msgstr "Inferiore al normale"
+
+msgid "Normal"
+msgstr "Normale"
+
+msgid "Above normal"
+msgstr "Superiore al normale"
+
+msgid "High"
+msgstr "Alta"
+
+msgid "{shown} of {total} processes"
+msgstr "{shown} di {total} processi"
+
+msgid "This affects {n} processes. Continue?"
+msgstr "Questo riguarda {n} processi. Continuare?"
+
+msgid "What is new:"
+msgstr "Cosa c'è di nuovo:"
+
+msgid "No notes were written."
+msgstr "Non è stata scritta alcuna nota."
+
+msgid "A clock that is wrong stops secure connections from working, and the error never mentions the time."
+msgstr "Un orologio sbagliato impedisce alle connessioni sicure di funzionare, e l'errore non parla mai dell'ora."
+
+msgid "Windows will ask for permission. {what}"
+msgstr "Windows chiederà il permesso. {what}"
+
+msgid "The clock was not changed."
+msgstr "L'orologio non è stato cambiato."
+
+msgid "The new version could not be downloaded."
+msgstr "Non è stato possibile scaricare la nuova versione."
+
+msgid "The keyboard could not be locked."
+msgstr "Non è stato possibile bloccare la tastiera."
+
+msgid "Only one keyboard layout is installed, so there is nothing to convert between."
+msgstr "È installato un solo layout di tastiera, quindi non c'è nulla tra cui convertire."
+
+msgid "No characters to convert."
+msgstr "Nessun carattere da convertire."
+
+msgid "File error: {e}"
+msgstr "Errore del file: {e}"
+
+msgid "by {author}"
+msgstr "di {author}"
+
+msgid "{n} hours"
+msgstr "{n} ore"
+
+msgid "{n} days"
+msgstr "{n} giorni"
+
+msgid "Open the Process Manager"
+msgstr "Apri il gestore dei processi"
+
+msgid "Saved as {path}\n\nSend the file, with its sounds, to the author to have your theme shipped with the add-on."
+msgstr "Salvato in {path}\n\nInvia il file, con i suoi suoni, all'autore perché il tuo tema venga distribuito con il componente aggiuntivo."
+
+msgid "{n} words added."
+msgstr "{n} parole aggiunte."
+
+msgid "Process {name} killed."
+msgstr "Processo {name} terminato."
+
+msgid "Process {name} restarted."
+msgstr "Processo {name} riavviato."
+
+msgid "The time could not be read from the internet. {reason}"
+msgstr "Non è stato possibile leggere l'ora da internet. {reason}"
+
+msgid "Downloading SuperTools {version}..."
+msgstr "Scaricamento di SuperTools {version}..."
+
+msgid "The file was downloaded to {path}, but NVDA could not open it. Open it yourself to install the new version."
+msgstr "Il file è stato scaricato in {path}, ma NVDA non è riuscito ad aprirlo. Aprilo tu per installare la nuova versione."
+
+msgid "Error: {e}"
+msgstr "Errore: {e}"
+
+msgid "{n} beeps"
+msgstr "{n} segnali"
+
+msgid "heard {n} times"
+msgstr "sentita {n} volte"
+
+msgid "There is nothing published to compare with yet. You have version {version}."
+msgstr "Non c'è ancora nulla di pubblicato con cui confrontare. Hai la versione {version}."
+
+msgid "You have the newest version ({version})."
+msgstr "Hai la versione più recente ({version})."
+
+msgid "Undone: {text}"
+msgstr "Annullato: {text}"
+
+msgid "Version {version} will not be offered again."
+msgstr "La versione {version} non verrà più proposta."
+
+msgid "{text}, in {layout}"
+msgstr "{text}, in {layout}"
+
+msgid "Converted: {text}"
+msgstr "Convertito: {text}"
