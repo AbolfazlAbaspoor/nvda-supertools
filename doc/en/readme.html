@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>SuperTools 1.0.0</title>
+<title>SuperTools 1.0.1</title>
 </head>
 <body>
-<h1>SuperTools 1.0.0</h1>
-<p>SuperTools for NVDA v1.0.0</p>
+<h1>SuperTools 1.0.1</h1>
+<p>SuperTools for NVDA v1.0.1</p>
 <h2>COMMAND MODE</h2>
 <ul>
 <li>Press NVDA+Shift+U, then press one key.</li>
@@ -34,6 +34,9 @@
 <p>the waiting time can be changed or switched off in the settings.</p>
 <p>Each command has its own beep sequence, so you can tell by ear which command</p>
 <p>ran. The sequences can be changed in Settings, General tab.</p>
+<p>A key that is not a command beeps, but not more often than a set gap allows,</p>
+<p>because holding a key down repeats it many times a second and the beeps would</p>
+<p>otherwise pile up on each other. The gap can be changed, or set to nothing.</p>
 <h2>LAYOUT FIXER</h2>
 <ul>
 <li>Works with every keyboard layout Windows has, not a chosen pair. The text</li>
@@ -99,6 +102,15 @@
 <li>that still works is the one that opens command mode, so NVDA+Shift+U and</li>
 <li>then L always unlocks it. If you have bound command mode to some other key,</li>
 <li>that key is the one that works.</li>
+<li>A locked keyboard makes no sound. A beep for every key, repeated as fast as</li>
+<li>a held-down key repeats, would say nothing and drown out everything else.</li>
+<li>Instead it is said in words, and only when the keyboard has been left alone</li>
+<li>for a while - fifteen seconds to begin with - so that it is news rather than</li>
+<li>nagging. Both the words and the waiting can be changed or switched off.</li>
+<li>Num Lock, Caps Lock and Scroll Lock change the keyboard itself, so Windows</li>
+<li>flips them even though the press reaches nothing. They are put back the way</li>
+<li>they were when the keyboard is unlocked, so it is handed over exactly as it</li>
+<li>was locked; NVDA says which ones it put back.</li>
 <li>A lock is never written down anywhere: quitting or restarting NVDA ends it,</li>
 <li>which is the last way out if anything ever goes wrong. The lock can be</li>
 <li>switched off altogether in Settings, General tab.</li>

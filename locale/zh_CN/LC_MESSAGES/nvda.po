@@ -152,6 +152,12 @@ msgstr "直接转换这样的单词，而不只是用声音提醒"
 msgid "L locks and unlocks the keyboard"
 msgstr "L 锁定和解锁键盘"
 
+msgid "Say that the keyboard is locked when a key is pressed"
+msgstr "按键时提示键盘已锁定"
+
+msgid "Put Num Lock, Caps Lock and Scroll Lock back when unlocking"
+msgstr "解锁时把 Num Lock、Caps Lock 和 Scroll Lock 恢复原状"
+
 msgid "T checks whether the clock is right"
 msgstr "T 检查时钟是否准确"
 
@@ -443,11 +449,11 @@ msgstr "从互联网设置(&I)"
 msgid "Check &again"
 msgstr "再检查一次(&A)"
 
-msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
+msgid "The keyboard is locked. Press NVDA+Shift+U and then L to unlock it."
 msgstr "键盘已锁定。按 NVDA+Shift+U 再按 L 可解锁。"
 
-msgid "Keyboard unlocked."
-msgstr "键盘已解锁。"
+msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr "键盘已锁定。按 NVDA+Shift+U 再按 L 可解锁。"
 
 msgid "Command mode cancelled."
 msgstr "已取消命令模式。"
@@ -557,8 +563,20 @@ msgstr "每隔（秒）："
 msgid "Ask before ending or restarting every filtered process"
 msgstr "结束或重启所有筛选结果前先询问"
 
+msgid "Shortest gap between two beeps for a key that is not a command, in milliseconds:"
+msgstr "非命令键两次提示音之间的最短间隔（毫秒）："
+
+msgid "Holding a key down repeats it many times a second. Without a gap, one beep would start before the last had finished."
+msgstr "按住一个键时每秒会重复很多次。没有间隔的话，上一声还没结束下一声就开始了。"
+
 msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
 msgstr "键盘锁定期间，任何按键都到不了任何程序，连 NVDA 也收不到。唯一还起作用的键是打开命令模式的那个键：按下它再按 L 即可解锁。重启 NVDA 后锁定会自动解除。"
+
+msgid "Only after the keyboard has been left alone this many seconds:"
+msgstr "仅在键盘已有这么多秒未被触碰时："
+
+msgid "These keys change the keyboard itself, so Windows flips them even though the press reaches nothing. Putting them back means a keyboard is handed over exactly as it was locked."
+msgstr "这些键改变的是键盘本身，所以即使按键到不了任何地方，Windows 也会翻转它们。恢复原状意味着键盘交还时与锁定时完全一样。"
 
 msgid "Seconds to wait:"
 msgstr "等待秒数："
@@ -764,8 +782,8 @@ msgstr "时钟未被更改。"
 msgid "The new version could not be downloaded."
 msgstr "无法下载新版本。"
 
-msgid "The keyboard could not be locked."
-msgstr "无法锁定键盘。"
+msgid "Keyboard unlocked."
+msgstr "键盘已解锁。"
 
 msgid "Only one keyboard layout is installed, so there is nothing to convert between."
 msgstr "系统只安装了一种键盘布局，因此没有可以相互转换的对象。"
@@ -812,6 +830,9 @@ msgstr "文件已下载到 {path}，但 NVDA 无法打开它。请您自己打�
 msgid "Error: {e}"
 msgstr "错误：{e}"
 
+msgid "The keyboard could not be locked."
+msgstr "无法锁定键盘。"
+
 msgid "{n} beeps"
 msgstr "{n} 个提示音"
 
@@ -823,6 +844,9 @@ msgstr "目前还没有已发布的版本可供比较。您使用的是 {version
 
 msgid "You have the newest version ({version})."
 msgstr "您使用的已是最新版本（{version}）。"
+
+msgid "Keyboard unlocked. {keys} put back."
+msgstr "键盘已解锁。已恢复 {keys}。"
 
 msgid "Undone: {text}"
 msgstr "已撤销：{text}"

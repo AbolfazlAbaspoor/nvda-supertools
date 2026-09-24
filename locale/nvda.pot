@@ -152,6 +152,12 @@ msgstr ""
 msgid "L locks and unlocks the keyboard"
 msgstr ""
 
+msgid "Say that the keyboard is locked when a key is pressed"
+msgstr ""
+
+msgid "Put Num Lock, Caps Lock and Scroll Lock back when unlocking"
+msgstr ""
+
 msgid "T checks whether the clock is right"
 msgstr ""
 
@@ -443,10 +449,10 @@ msgstr ""
 msgid "Check &again"
 msgstr ""
 
-msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
+msgid "The keyboard is locked. Press NVDA+Shift+U and then L to unlock it."
 msgstr ""
 
-msgid "Keyboard unlocked."
+msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
 msgstr ""
 
 msgid "Command mode cancelled."
@@ -557,7 +563,19 @@ msgstr ""
 msgid "Ask before ending or restarting every filtered process"
 msgstr ""
 
+msgid "Shortest gap between two beeps for a key that is not a command, in milliseconds:"
+msgstr ""
+
+msgid "Holding a key down repeats it many times a second. Without a gap, one beep would start before the last had finished."
+msgstr ""
+
 msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
+msgstr ""
+
+msgid "Only after the keyboard has been left alone this many seconds:"
+msgstr ""
+
+msgid "These keys change the keyboard itself, so Windows flips them even though the press reaches nothing. Putting them back means a keyboard is handed over exactly as it was locked."
 msgstr ""
 
 msgid "Seconds to wait:"
@@ -764,7 +782,7 @@ msgstr ""
 msgid "The new version could not be downloaded."
 msgstr ""
 
-msgid "The keyboard could not be locked."
+msgid "Keyboard unlocked."
 msgstr ""
 
 msgid "Only one keyboard layout is installed, so there is nothing to convert between."
@@ -812,6 +830,9 @@ msgstr ""
 msgid "Error: {e}"
 msgstr ""
 
+msgid "The keyboard could not be locked."
+msgstr ""
+
 msgid "{n} beeps"
 msgstr ""
 
@@ -822,6 +843,9 @@ msgid "There is nothing published to compare with yet. You have version {version
 msgstr ""
 
 msgid "You have the newest version ({version})."
+msgstr ""
+
+msgid "Keyboard unlocked. {keys} put back."
 msgstr ""
 
 msgid "Undone: {text}"

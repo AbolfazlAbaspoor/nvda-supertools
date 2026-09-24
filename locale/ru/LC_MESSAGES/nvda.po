@@ -152,6 +152,12 @@ msgstr "Сразу преобразовывать такое слово, а не
 msgid "L locks and unlocks the keyboard"
 msgstr "L блокирует и разблокирует клавиатуру"
 
+msgid "Say that the keyboard is locked when a key is pressed"
+msgstr "Говорить, что клавиатура заблокирована, при нажатии клавиши"
+
+msgid "Put Num Lock, Caps Lock and Scroll Lock back when unlocking"
+msgstr "При разблокировке вернуть Num Lock, Caps Lock и Scroll Lock"
+
 msgid "T checks whether the clock is right"
 msgstr "T проверяет, верно ли идут часы"
 
@@ -443,11 +449,11 @@ msgstr "Установить из &интернета"
 msgid "Check &again"
 msgstr "Проверить &снова"
 
-msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
+msgid "The keyboard is locked. Press NVDA+Shift+U and then L to unlock it."
 msgstr "Клавиатура заблокирована. Нажмите NVDA+Shift+U, затем L, чтобы разблокировать."
 
-msgid "Keyboard unlocked."
-msgstr "Клавиатура разблокирована."
+msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr "Клавиатура заблокирована. Нажмите NVDA+Shift+U, затем L, чтобы разблокировать."
 
 msgid "Command mode cancelled."
 msgstr "Режим команд отменён."
@@ -557,8 +563,20 @@ msgstr "Каждые (секунд):"
 msgid "Ask before ending or restarting every filtered process"
 msgstr "Спрашивать перед завершением или перезапуском всех отфильтрованных процессов"
 
+msgid "Shortest gap between two beeps for a key that is not a command, in milliseconds:"
+msgstr "Наименьший промежуток между двумя сигналами для клавиши, не являющейся командой, в миллисекундах:"
+
+msgid "Holding a key down repeats it many times a second. Without a gap, one beep would start before the last had finished."
+msgstr "Удерживаемая клавиша повторяется много раз в секунду. Без промежутка один сигнал начинался бы раньше, чем кончился предыдущий."
+
 msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
 msgstr "Пока клавиатура заблокирована, ни одна клавиша не доходит ни до одной программы, в том числе до NVDA. Работает только клавиша, открывающая режим команд: нажмите её, затем L, и блокировка снимется. Блокировка не переживает перезапуск NVDA."
+
+msgid "Only after the keyboard has been left alone this many seconds:"
+msgstr "Только если клавиатуру не трогали столько секунд:"
+
+msgid "These keys change the keyboard itself, so Windows flips them even though the press reaches nothing. Putting them back means a keyboard is handed over exactly as it was locked."
+msgstr "Эти клавиши меняют саму клавиатуру, поэтому Windows переключает их, хотя нажатие никуда не доходит. Возврат означает, что клавиатуру отдают ровно такой, какой её заблокировали."
 
 msgid "Seconds to wait:"
 msgstr "Сколько секунд ждать:"
@@ -764,8 +782,8 @@ msgstr "Часы не изменены."
 msgid "The new version could not be downloaded."
 msgstr "Новую версию не удалось загрузить."
 
-msgid "The keyboard could not be locked."
-msgstr "Клавиатуру не удалось заблокировать."
+msgid "Keyboard unlocked."
+msgstr "Клавиатура разблокирована."
 
 msgid "Only one keyboard layout is installed, so there is nothing to convert between."
 msgstr "Установлена лишь одна раскладка, поэтому преобразовывать не во что."
@@ -812,6 +830,9 @@ msgstr "Файл загружен в {path}, но NVDA не смогла его 
 msgid "Error: {e}"
 msgstr "Ошибка: {e}"
 
+msgid "The keyboard could not be locked."
+msgstr "Клавиатуру не удалось заблокировать."
+
 msgid "{n} beeps"
 msgstr "сигналов: {n}"
 
@@ -823,6 +844,9 @@ msgstr "Пока нечего сравнивать: ничего не опубл
 
 msgid "You have the newest version ({version})."
 msgstr "У вас самая новая версия ({version})."
+
+msgid "Keyboard unlocked. {keys} put back."
+msgstr "Клавиатура разблокирована. {keys} возвращено."
 
 msgid "Undone: {text}"
 msgstr "Отменено: {text}"

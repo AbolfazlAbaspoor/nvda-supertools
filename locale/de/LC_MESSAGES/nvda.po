@@ -152,6 +152,12 @@ msgstr "Ein solches Wort sofort umwandeln, statt nur mit einem Ton zu warnen"
 msgid "L locks and unlocks the keyboard"
 msgstr "L sperrt und entsperrt die Tastatur"
 
+msgid "Say that the keyboard is locked when a key is pressed"
+msgstr "Sagen, dass die Tastatur gesperrt ist, wenn eine Taste gedrückt wird"
+
+msgid "Put Num Lock, Caps Lock and Scroll Lock back when unlocking"
+msgstr "Num Lock, Caps Lock und Scroll Lock beim Entsperren zurückstellen"
+
 msgid "T checks whether the clock is right"
 msgstr "T prüft, ob die Uhr richtig geht"
 
@@ -443,11 +449,11 @@ msgstr "Aus dem &Internet stellen"
 msgid "Check &again"
 msgstr "&Noch einmal prüfen"
 
+msgid "The keyboard is locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr "Die Tastatur ist gesperrt. NVDA+Shift+U und dann L drücken, um sie zu entsperren."
+
 msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
 msgstr "Tastatur gesperrt. NVDA+Shift+U und dann L drücken, um sie zu entsperren."
-
-msgid "Keyboard unlocked."
-msgstr "Tastatur entsperrt."
 
 msgid "Command mode cancelled."
 msgstr "Befehlsmodus abgebrochen."
@@ -557,8 +563,20 @@ msgstr "Alle (Sekunden):"
 msgid "Ask before ending or restarting every filtered process"
 msgstr "Nachfragen, bevor alle gefilterten Prozesse beendet oder neu gestartet werden"
 
+msgid "Shortest gap between two beeps for a key that is not a command, in milliseconds:"
+msgstr "Kürzester Abstand zwischen zwei Tönen für eine Taste, die kein Befehl ist, in Millisekunden:"
+
+msgid "Holding a key down repeats it many times a second. Without a gap, one beep would start before the last had finished."
+msgstr "Eine gedrückt gehaltene Taste wiederholt sich viele Male pro Sekunde. Ohne Abstand begänne ein Ton, bevor der vorige zu Ende ist."
+
 msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
 msgstr "Solange die Tastatur gesperrt ist, erreicht keine Taste ein Programm, auch NVDA nicht. Die einzige Taste, die noch wirkt, ist die für den Befehlsmodus: diese und dann L entsperrt wieder. Eine Sperre überlebt keinen Neustart von NVDA."
+
+msgid "Only after the keyboard has been left alone this many seconds:"
+msgstr "Nur wenn die Tastatur so viele Sekunden lang unberührt blieb:"
+
+msgid "These keys change the keyboard itself, so Windows flips them even though the press reaches nothing. Putting them back means a keyboard is handed over exactly as it was locked."
+msgstr "Diese Tasten verändern die Tastatur selbst, also schaltet Windows sie um, obwohl der Tastendruck nirgends ankommt. Sie zurückzustellen heißt, die Tastatur genau so zu übergeben, wie sie gesperrt wurde."
 
 msgid "Seconds to wait:"
 msgstr "Wartezeit in Sekunden:"
@@ -764,8 +782,8 @@ msgstr "Die Uhr wurde nicht geändert."
 msgid "The new version could not be downloaded."
 msgstr "Die neue Version konnte nicht heruntergeladen werden."
 
-msgid "The keyboard could not be locked."
-msgstr "Die Tastatur konnte nicht gesperrt werden."
+msgid "Keyboard unlocked."
+msgstr "Tastatur entsperrt."
 
 msgid "Only one keyboard layout is installed, so there is nothing to convert between."
 msgstr "Es ist nur ein Tastaturlayout installiert, es gibt also nichts umzuwandeln."
@@ -812,6 +830,9 @@ msgstr "Die Datei wurde nach {path} geladen, aber NVDA konnte sie nicht öffnen.
 msgid "Error: {e}"
 msgstr "Fehler: {e}"
 
+msgid "The keyboard could not be locked."
+msgstr "Die Tastatur konnte nicht gesperrt werden."
+
 msgid "{n} beeps"
 msgstr "{n} Töne"
 
@@ -823,6 +844,9 @@ msgstr "Es ist noch nichts veröffentlicht, womit sich vergleichen ließe. Sie h
 
 msgid "You have the newest version ({version})."
 msgstr "Sie haben die neueste Version ({version})."
+
+msgid "Keyboard unlocked. {keys} put back."
+msgstr "Tastatur entsperrt. {keys} zurückgestellt."
 
 msgid "Undone: {text}"
 msgstr "Rückgängig: {text}"

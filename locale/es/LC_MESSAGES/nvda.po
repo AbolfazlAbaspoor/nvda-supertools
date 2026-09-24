@@ -152,6 +152,12 @@ msgstr "Convertir esa palabra al momento, en lugar de solo avisar con un sonido"
 msgid "L locks and unlocks the keyboard"
 msgstr "L bloquea y desbloquea el teclado"
 
+msgid "Say that the keyboard is locked when a key is pressed"
+msgstr "Decir que el teclado está bloqueado cuando se pulsa una tecla"
+
+msgid "Put Num Lock, Caps Lock and Scroll Lock back when unlocking"
+msgstr "Devolver Bloq Num, Bloq Mayús y Bloq Despl al desbloquear"
+
 msgid "T checks whether the clock is right"
 msgstr "T comprueba si el reloj está en hora"
 
@@ -443,11 +449,11 @@ msgstr "Ponerlo desde &internet"
 msgid "Check &again"
 msgstr "Comprobar de &nuevo"
 
+msgid "The keyboard is locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr "El teclado está bloqueado. Pulsa NVDA+Shift+U y luego L para desbloquearlo."
+
 msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
 msgstr "Teclado bloqueado. Pulsa NVDA+Shift+U y luego L para desbloquearlo."
-
-msgid "Keyboard unlocked."
-msgstr "Teclado desbloqueado."
 
 msgid "Command mode cancelled."
 msgstr "Modo de comandos cancelado."
@@ -557,8 +563,20 @@ msgstr "Cada (segundos):"
 msgid "Ask before ending or restarting every filtered process"
 msgstr "Preguntar antes de terminar o reiniciar todos los procesos filtrados"
 
+msgid "Shortest gap between two beeps for a key that is not a command, in milliseconds:"
+msgstr "Separación mínima entre dos pitidos para una tecla que no es una orden, en milisegundos:"
+
+msgid "Holding a key down repeats it many times a second. Without a gap, one beep would start before the last had finished."
+msgstr "Una tecla mantenida se repite muchas veces por segundo. Sin separación, un pitido empezaría antes de acabar el anterior."
+
 msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
 msgstr "Mientras el teclado está bloqueado ninguna tecla llega a ningún programa, ni siquiera a NVDA. La única tecla que sigue funcionando es la que abre el modo de órdenes: pulsarla y luego L vuelve a desbloquearlo. Un bloqueo no sobrevive al reinicio de NVDA."
+
+msgid "Only after the keyboard has been left alone this many seconds:"
+msgstr "Solo si el teclado lleva estos segundos sin tocarse:"
+
+msgid "These keys change the keyboard itself, so Windows flips them even though the press reaches nothing. Putting them back means a keyboard is handed over exactly as it was locked."
+msgstr "Estas teclas cambian el teclado mismo, así que Windows las cambia aunque la pulsación no llegue a ningún sitio. Devolverlas significa entregar el teclado tal como se bloqueó."
 
 msgid "Seconds to wait:"
 msgstr "Segundos de espera:"
@@ -764,8 +782,8 @@ msgstr "El reloj no se cambió."
 msgid "The new version could not be downloaded."
 msgstr "No se pudo descargar la versión nueva."
 
-msgid "The keyboard could not be locked."
-msgstr "No se pudo bloquear el teclado."
+msgid "Keyboard unlocked."
+msgstr "Teclado desbloqueado."
 
 msgid "Only one keyboard layout is installed, so there is nothing to convert between."
 msgstr "Solo hay una distribución de teclado instalada, así que no hay nada entre lo que convertir."
@@ -812,6 +830,9 @@ msgstr "El archivo se descargó en {path}, pero NVDA no pudo abrirlo. Ábrelo t�
 msgid "Error: {e}"
 msgstr "Error: {e}"
 
+msgid "The keyboard could not be locked."
+msgstr "No se pudo bloquear el teclado."
+
 msgid "{n} beeps"
 msgstr "{n} pitidos"
 
@@ -823,6 +844,9 @@ msgstr "Todavía no hay nada publicado con lo que comparar. Usted tiene la versi
 
 msgid "You have the newest version ({version})."
 msgstr "Tiene la versión más reciente ({version})."
+
+msgid "Keyboard unlocked. {keys} put back."
+msgstr "Teclado desbloqueado. {keys} devuelto."
 
 msgid "Undone: {text}"
 msgstr "Deshecho: {text}"

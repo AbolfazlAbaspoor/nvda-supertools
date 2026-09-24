@@ -152,6 +152,12 @@ msgstr "حوّل هذه الكلمة فورًا بدل الاكتفاء بالت
 msgid "L locks and unlocks the keyboard"
 msgstr "المفتاح L يقفل لوحة المفاتيح ويفتحها"
 
+msgid "Say that the keyboard is locked when a key is pressed"
+msgstr "قل إن لوحة المفاتيح مقفلة عند الضغط على مفتاح"
+
+msgid "Put Num Lock, Caps Lock and Scroll Lock back when unlocking"
+msgstr "أعد Num Lock وCaps Lock وScroll Lock عند فتح القفل"
+
 msgid "T checks whether the clock is right"
 msgstr "المفتاح T يتحقق من صحة الساعة"
 
@@ -443,11 +449,11 @@ msgstr "اضبطها من ال&إنترنت"
 msgid "Check &again"
 msgstr "تحقق &مرة أخرى"
 
+msgid "The keyboard is locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr "لوحة المفاتيح مقفلة. اضغط NVDA+Shift+U ثم L لفتحها."
+
 msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
 msgstr "قُفلت لوحة المفاتيح. اضغط NVDA+Shift+U ثم L لفتحها."
-
-msgid "Keyboard unlocked."
-msgstr "فُتحت لوحة المفاتيح."
 
 msgid "Command mode cancelled."
 msgstr "تم إلغاء وضع الأوامر."
@@ -557,8 +563,20 @@ msgstr "كل (ثانية):"
 msgid "Ask before ending or restarting every filtered process"
 msgstr "اسأل قبل إنهاء أو إعادة تشغيل كل العمليات المرشَّحة"
 
+msgid "Shortest gap between two beeps for a key that is not a command, in milliseconds:"
+msgstr "أقصر فاصل بين نغمتين لمفتاح ليس أمرًا، بالمللي ثانية:"
+
+msgid "Holding a key down repeats it many times a second. Without a gap, one beep would start before the last had finished."
+msgstr "المفتاح المضغوط باستمرار يتكرر مرات كثيرة في الثانية. بلا فاصل تبدأ نغمة قبل أن تنتهي التي قبلها."
+
 msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
 msgstr "ما دامت لوحة المفاتيح مقفلة لا يصل أي مفتاح إلى أي برنامج، ولا حتى إلى NVDA. المفتاح الوحيد الذي يعمل هو الذي يفتح وضع الأوامر، فضغطه ثم L يفتح القفل. لا يبقى القفل بعد إعادة تشغيل NVDA."
+
+msgid "Only after the keyboard has been left alone this many seconds:"
+msgstr "فقط بعد ترك لوحة المفاتيح هذا العدد من الثواني:"
+
+msgid "These keys change the keyboard itself, so Windows flips them even though the press reaches nothing. Putting them back means a keyboard is handed over exactly as it was locked."
+msgstr "هذه المفاتيح تغيّر لوحة المفاتيح نفسها، فيقلبها ويندوز رغم أن الضغطة لا تصل إلى شيء. إعادتها تعني تسليم لوحة المفاتيح تمامًا كما قُفلت."
 
 msgid "Seconds to wait:"
 msgstr "عدد الثواني:"
@@ -764,8 +782,8 @@ msgstr "لم تتغير الساعة."
 msgid "The new version could not be downloaded."
 msgstr "تعذّر تنزيل الإصدار الجديد."
 
-msgid "The keyboard could not be locked."
-msgstr "تعذّر قفل لوحة المفاتيح."
+msgid "Keyboard unlocked."
+msgstr "فُتحت لوحة المفاتيح."
 
 msgid "Only one keyboard layout is installed, so there is nothing to convert between."
 msgstr "لا يوجد سوى تخطيط واحد مثبّت، فليس هناك ما يُحوَّل بينه وبين غيره."
@@ -812,6 +830,9 @@ msgstr "نُزّل الملف إلى {path}، لكن NVDA لم يستطع فتح
 msgid "Error: {e}"
 msgstr "خطأ: {e}"
 
+msgid "The keyboard could not be locked."
+msgstr "تعذّر قفل لوحة المفاتيح."
+
 msgid "{n} beeps"
 msgstr "{n} نغمات"
 
@@ -823,6 +844,9 @@ msgstr "لا يوجد بعد إصدار منشور للمقارنة. لديك ا
 
 msgid "You have the newest version ({version})."
 msgstr "لديك أحدث إصدار ({version})."
+
+msgid "Keyboard unlocked. {keys} put back."
+msgstr "فُتحت لوحة المفاتيح. أُعيد {keys}."
 
 msgid "Undone: {text}"
 msgstr "تم التراجع: {text}"

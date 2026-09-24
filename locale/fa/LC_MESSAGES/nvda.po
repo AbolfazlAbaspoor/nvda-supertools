@@ -152,6 +152,12 @@ msgstr "چنین کلمه‌ای بی‌درنگ تبدیل شود، نه فقط
 msgid "L locks and unlocks the keyboard"
 msgstr "کلید L صفحه‌کلید را قفل و باز می‌کند"
 
+msgid "Say that the keyboard is locked when a key is pressed"
+msgstr "وقتی کلیدی زده شد، بگو صفحه‌کلید قفل است"
+
+msgid "Put Num Lock, Caps Lock and Scroll Lock back when unlocking"
+msgstr "هنگام باز کردن قفل، Num Lock و Caps Lock و Scroll Lock را برگردان"
+
 msgid "T checks whether the clock is right"
 msgstr "کلید T درست بودن ساعت را بررسی می‌کند"
 
@@ -443,11 +449,11 @@ msgstr "از &اینترنت تنظیم کن"
 msgid "Check &again"
 msgstr "&دوباره بررسی کن"
 
+msgid "The keyboard is locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr "صفحه‌کلید قفل است. برای باز کردن NVDA+Shift+U و بعد L را بزنید."
+
 msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
 msgstr "صفحه‌کلید قفل شد. برای باز کردن NVDA+Shift+U و بعد L را بزنید."
-
-msgid "Keyboard unlocked."
-msgstr "صفحه‌کلید باز شد."
 
 msgid "Command mode cancelled."
 msgstr "حالت فرمان لغو شد."
@@ -557,8 +563,20 @@ msgstr "هر چند ثانیه:"
 msgid "Ask before ending or restarting every filtered process"
 msgstr "پیش از پایان دادن یا راه‌اندازی دوباره همه موارد فیلترشده، پرسیده شود"
 
+msgid "Shortest gap between two beeps for a key that is not a command, in milliseconds:"
+msgstr "کمترین فاصلهٔ دو بوق برای کلیدی که فرمان نیست، به میلی‌ثانیه:"
+
+msgid "Holding a key down repeats it many times a second. Without a gap, one beep would start before the last had finished."
+msgstr "کلید نگه‌داشته چندین بار در ثانیه تکرار می‌شود. بدون فاصله، یک بوق پیش از تمام شدن بوق قبلی شروع می‌شود."
+
 msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
 msgstr "تا وقتی صفحه‌کلید قفل است هیچ کلیدی به هیچ برنامه‌ای نمی‌رسد، حتی به NVDA. تنها کلیدی که کار می‌کند همان کلیدی است که حالت فرمان را باز می‌کند، پس زدن آن و بعد L قفل را باز می‌کند. قفل با راه‌اندازی دوبارهٔ NVDA از بین می‌رود."
+
+msgid "Only after the keyboard has been left alone this many seconds:"
+msgstr "فقط وقتی این تعداد ثانیه به صفحه‌کلید دست نخورده باشد:"
+
+msgid "These keys change the keyboard itself, so Windows flips them even though the press reaches nothing. Putting them back means a keyboard is handed over exactly as it was locked."
+msgstr "این کلیدها خودِ صفحه‌کلید را عوض می‌کنند، پس ویندوز آن‌ها را برمی‌گرداند حتی وقتی فشارشان به هیچ‌جا نمی‌رسد. برگرداندنشان یعنی صفحه‌کلید دقیقاً همان‌طور که قفل شد تحویل داده می‌شود."
 
 msgid "Seconds to wait:"
 msgstr "چند ثانیه صبر شود:"
@@ -764,8 +782,8 @@ msgstr "ساعت تغییر نکرد."
 msgid "The new version could not be downloaded."
 msgstr "نسخهٔ تازه دانلود نشد."
 
-msgid "The keyboard could not be locked."
-msgstr "صفحه‌کلید قفل نشد."
+msgid "Keyboard unlocked."
+msgstr "صفحه‌کلید باز شد."
 
 msgid "Only one keyboard layout is installed, so there is nothing to convert between."
 msgstr "فقط یک چیدمان کیبورد نصب است، پس چیزی برای تبدیل کردن بینشان نیست."
@@ -812,6 +830,9 @@ msgstr "فایل در {path} دانلود شد، اما NVDA نتوانست با
 msgid "Error: {e}"
 msgstr "خطا: {e}"
 
+msgid "The keyboard could not be locked."
+msgstr "صفحه‌کلید قفل نشد."
+
 msgid "{n} beeps"
 msgstr "{n} بوق"
 
@@ -823,6 +844,9 @@ msgstr "هنوز چیزی منتشر نشده که با آن مقایسه شود
 
 msgid "You have the newest version ({version})."
 msgstr "شما تازه‌ترین نسخه ({version}) را دارید."
+
+msgid "Keyboard unlocked. {keys} put back."
+msgstr "صفحه‌کلید باز شد. {keys} برگردانده شد."
 
 msgid "Undone: {text}"
 msgstr "برگردانده شد: {text}"

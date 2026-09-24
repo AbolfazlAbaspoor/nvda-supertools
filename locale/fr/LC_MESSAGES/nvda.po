@@ -152,6 +152,12 @@ msgstr "Convertir ce mot aussitôt, au lieu de seulement prévenir par un son"
 msgid "L locks and unlocks the keyboard"
 msgstr "L verrouille et déverrouille le clavier"
 
+msgid "Say that the keyboard is locked when a key is pressed"
+msgstr "Dire que le clavier est verrouillé quand une touche est pressée"
+
+msgid "Put Num Lock, Caps Lock and Scroll Lock back when unlocking"
+msgstr "Remettre Verr Num, Verr Maj et Arrêt défil en déverrouillant"
+
 msgid "T checks whether the clock is right"
 msgstr "T vérifie si l'horloge est à l'heure"
 
@@ -443,11 +449,11 @@ msgstr "Régler depuis &internet"
 msgid "Check &again"
 msgstr "Vérifier à &nouveau"
 
+msgid "The keyboard is locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr "Le clavier est verrouillé. Appuyez sur NVDA+Shift+U puis L pour le déverrouiller."
+
 msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
 msgstr "Clavier verrouillé. Appuyez sur NVDA+Shift+U puis L pour le déverrouiller."
-
-msgid "Keyboard unlocked."
-msgstr "Clavier déverrouillé."
 
 msgid "Command mode cancelled."
 msgstr "Mode commande annulé."
@@ -557,8 +563,20 @@ msgstr "Toutes les (secondes) :"
 msgid "Ask before ending or restarting every filtered process"
 msgstr "Demander avant de terminer ou redémarrer tous les processus filtrés"
 
+msgid "Shortest gap between two beeps for a key that is not a command, in milliseconds:"
+msgstr "Écart le plus court entre deux bips pour une touche qui n'est pas une commande, en millisecondes :"
+
+msgid "Holding a key down repeats it many times a second. Without a gap, one beep would start before the last had finished."
+msgstr "Une touche maintenue se répète plusieurs fois par seconde. Sans écart, un bip commencerait avant la fin du précédent."
+
 msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
 msgstr "Tant que le clavier est verrouillé, aucune touche n'atteint le moindre programme, pas même NVDA. La seule touche qui fonctionne encore est celle qui ouvre le mode commande : l'appuyer puis L déverrouille. Un verrouillage ne survit pas au redémarrage de NVDA."
+
+msgid "Only after the keyboard has been left alone this many seconds:"
+msgstr "Seulement si le clavier est resté intouché pendant tant de secondes :"
+
+msgid "These keys change the keyboard itself, so Windows flips them even though the press reaches nothing. Putting them back means a keyboard is handed over exactly as it was locked."
+msgstr "Ces touches modifient le clavier lui-même, donc Windows les bascule alors même que l'appui n'atteint rien. Les remettre, c'est rendre le clavier exactement tel qu'il a été verrouillé."
 
 msgid "Seconds to wait:"
 msgstr "Secondes d'attente :"
@@ -764,8 +782,8 @@ msgstr "L'horloge n'a pas été modifiée."
 msgid "The new version could not be downloaded."
 msgstr "La nouvelle version n'a pas pu être téléchargée."
 
-msgid "The keyboard could not be locked."
-msgstr "Le clavier n'a pas pu être verrouillé."
+msgid "Keyboard unlocked."
+msgstr "Clavier déverrouillé."
 
 msgid "Only one keyboard layout is installed, so there is nothing to convert between."
 msgstr "Une seule disposition de clavier est installée, il n'y a donc rien à convertir."
@@ -812,6 +830,9 @@ msgstr "Le fichier a été téléchargé dans {path}, mais NVDA n'a pas pu l'ouv
 msgid "Error: {e}"
 msgstr "Erreur : {e}"
 
+msgid "The keyboard could not be locked."
+msgstr "Le clavier n'a pas pu être verrouillé."
+
 msgid "{n} beeps"
 msgstr "{n} bips"
 
@@ -823,6 +844,9 @@ msgstr "Rien n'est encore publié pour comparer. Vous avez la version {version}.
 
 msgid "You have the newest version ({version})."
 msgstr "Vous avez la version la plus récente ({version})."
+
+msgid "Keyboard unlocked. {keys} put back."
+msgstr "Clavier déverrouillé. {keys} remis en place."
 
 msgid "Undone: {text}"
 msgstr "Annulé : {text}"

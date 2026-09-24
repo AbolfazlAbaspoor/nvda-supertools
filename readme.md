@@ -85,6 +85,12 @@ works is the one that opens command mode, so pressing that and then `L` always
 gets you out. A lock is never written to disk, so restarting NVDA ends it - the
 last way out if anything goes wrong.
 
+A locked keyboard is silent: a beep per key, at the speed a held key repeats,
+would drown out everything and say nothing. It is said in words instead, and
+only after the keyboard has been left alone for a while. Num Lock, Caps Lock
+and Scroll Lock are put back the way they were when it unlocks, because Windows
+flips those even when the press reaches nothing.
+
 ### Clock
 
 `T` says how far the computer's clock is from the real time and offers to put it
@@ -298,6 +304,14 @@ fails the build on a missing text, a broken placeholder or a lost `&`. The `.pot
 is committed, so the usual community translation workflow can be used.
 
 ## Changelog
+
+### 1.0.1
+
+- A locked keyboard is silent, and says in words - now and then, not for every
+  key - that it is locked.
+- Num Lock, Caps Lock and Scroll Lock are put back the way they were when the
+  keyboard is unlocked.
+- A key that is not a command cannot pile its beeps up when it is held down.
 
 ### 1.0.0
 

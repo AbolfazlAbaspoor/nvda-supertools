@@ -626,8 +626,17 @@ check("the version has the shape the store wants",
 # 31. the keyboard lock and the clock
 check("every command has a sound of its own",
       sorted(set(actions) - set(main.COMMAND_SOUND_DEFAULTS)), [])
-check("the lock has its own beep for a swallowed key",
-      "locked" in main.COMMAND_SOUND_DEFAULTS, True)
+check("a locked keyboard makes no sound at all",
+      "locked" in main.COMMAND_SOUND_DEFAULTS, False)
+check("it says so in words instead, and rarely",
+      "lock_notice_seconds" in source and "wx.CallAfter(ui.message, _(" in source, True)
+check("a held-down key cannot pile up beeps",
+      "unknown_beep_ms" in source, True)
+check("the toggle keys are read and put back",
+      "_restore_toggles" in source and "GetKeyState" in source, True)
+check("everything about it can be changed",
+      all(name in source for name in ("lock_announce", "lock_toggles",
+                                      "lock_notice_seconds", "unknown_beep_ms")), True)
 check("the lock is not remembered anywhere",
       "lock_enabled" in source and "_cfg_set(\"locked\"" not in source, True)
 check("a lock ends when the add-on does",

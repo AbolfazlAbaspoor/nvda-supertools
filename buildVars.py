@@ -15,7 +15,7 @@ addon_info = {
         "keyboard layout, gives chosen words their own sound when NVDA speaks them, and "
         "manages running processes. Everything is reached from a single command mode "
         "(NVDA+Shift+U), so the add-on occupies one shortcut however much is added to it."),
-    "addon_version": "1.0.0",
+    "addon_version": "1.0.1",
     "addon_author": "Abolfazl Abaspoor <abbasporaboalfazl@gmail.com>",
     "addon_url": "https://github.com/AbolfazlAbaspoor/nvda-supertools",
     "addon_docFileName": "readme.html",

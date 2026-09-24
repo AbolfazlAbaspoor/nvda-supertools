@@ -1012,7 +1012,6 @@ COMMAND_SOUND_DEFAULTS = {
     "l":       [[880, 70], [440, 120]],
     "t":       [[698, 60], [932, 60], [1175, 60]],
     "u":       [[784, 60], [1047, 70]],
-    "locked":  [[150, 90]],
     "escape":  [[392, 70], [262, 90]],
     "z":       [[523, 60], [392, 80]],
     "unknown": [[200, 120]],
@@ -1036,7 +1035,6 @@ COMMAND_SOUND_ITEMS = [
     ("u",       "U - Look for a new version"),
     ("escape",  "Escape - Cancel"),
     ("unknown", "Unknown command"),
-    ("locked",  "A key pressed while the keyboard is locked"),
 ]
 
 def _get_command_sounds():
@@ -1096,6 +1094,40 @@ def _feature_allowed_here(feature):
     if mode == "all" or not names:
         return True
     return (_current_app() in names) if mode == "only" else (_current_app() not in names)
+
+# ── The keys that toggle ───────────────────────────────────────────────
+
+# Num Lock, Caps Lock and Scroll Lock change the keyboard itself. Swallowing
+# the press stops it reaching any program, but Windows has already flipped the
+# light, so a locked keyboard could be handed back with Num Lock the wrong way
+# round and nothing said about it. These read and restore that state.
+TOGGLE_KEYS = ((0x90, "Num Lock"), (0x14, "Caps Lock"), (0x91, "Scroll Lock"))
+KEYEVENTF_KEYUP = 0x0002
+
+def _toggle_states():
+    """Which of the toggle keys are on right now."""
+    try:
+        return {vk: bool(ctypes.windll.user32.GetKeyState(vk) & 1)
+                for vk, _name in TOGGLE_KEYS}
+    except Exception:
+        log.debugWarning("SuperTools: could not read the toggle keys", exc_info=True)
+        return {}
+
+def _restore_toggles(before):
+    """Put back any toggle key that has changed. Returns the names it changed."""
+    changed = []
+    for vk, name in TOGGLE_KEYS:
+        if vk not in before:
+            continue
+        try:
+            if bool(ctypes.windll.user32.GetKeyState(vk) & 1) == before[vk]:
+                continue
+            ctypes.windll.user32.keybd_event(vk, 0, 0, 0)
+            ctypes.windll.user32.keybd_event(vk, 0, KEYEVENTF_KEYUP, 0)
+            changed.append(name)
+        except Exception:
+            log.debugWarning("SuperTools: could not restore " + name, exc_info=True)
+    return changed
 
 # ── The clock ──────────────────────────────────────────────────────────
 
@@ -2304,6 +2336,19 @@ class SettingsDialog(gui.settingsDialogs.SettingsDialog):
         self._cmdSounds.SetValue(_cfg_get_bool("command_sounds", True))
         cmd_box.Add(self._cmdSounds, 0, wx.ALL, 5)
 
+        beep_row = wx.BoxSizer(wx.HORIZONTAL)
+        beep_row.Add(wx.StaticText(pnl, label=_(
+            "Shortest gap between two beeps for a key that is not a command, "
+            "in milliseconds:")), 0, wx.ALIGN_CENTER_VERTICAL | wx.RIGHT, 5)
+        self._unknownGap = wx.SpinCtrl(pnl, min=0, max=5000,
+                                       initial=_cfg_get_int("unknown_beep_ms", 400))
+        beep_row.Add(self._unknownGap, 0)
+        cmd_box.Add(beep_row, 0, wx.ALL, 5)
+        cmd_box.Add(wx.StaticText(pnl, label=_(
+            "Holding a key down repeats it many times a second. Without a gap, one "
+            "beep would start before the last had finished.")),
+            0, wx.LEFT | wx.RIGHT | wx.BOTTOM, 10)
+
         self._useLock = wx.CheckBox(pnl, label=_("L locks and unlocks the keyboard"))
         self._useLock.SetValue(_cfg_get_bool("lock_enabled", True))
         cmd_box.Add(self._useLock, 0, wx.ALL, 5)
@@ -2312,6 +2357,28 @@ class SettingsDialog(gui.settingsDialogs.SettingsDialog):
             "The only key that still works is the one that opens command mode, so "
             "pressing it and then L unlocks the keyboard again. A lock never survives "
             "NVDA being restarted.")), 0, wx.LEFT | wx.RIGHT | wx.BOTTOM, 10)
+
+        self._lockSay = wx.CheckBox(pnl, label=_(
+            "Say that the keyboard is locked when a key is pressed"))
+        self._lockSay.SetValue(_cfg_get_bool("lock_announce", True))
+        cmd_box.Add(self._lockSay, 0, wx.ALL, 5)
+        lock_row = wx.BoxSizer(wx.HORIZONTAL)
+        lock_row.Add(wx.StaticText(pnl, label=_(
+            "Only after the keyboard has been left alone this many seconds:")),
+            0, wx.ALIGN_CENTER_VERTICAL | wx.RIGHT, 5)
+        self._lockSecs = wx.SpinCtrl(pnl, min=1, max=600,
+                                     initial=_cfg_get_int("lock_notice_seconds", 15))
+        lock_row.Add(self._lockSecs, 0)
+        cmd_box.Add(lock_row, 0, wx.ALL, 5)
+
+        self._lockToggles = wx.CheckBox(pnl, label=_(
+            "Put Num Lock, Caps Lock and Scroll Lock back when unlocking"))
+        self._lockToggles.SetValue(_cfg_get_bool("lock_toggles", True))
+        cmd_box.Add(self._lockToggles, 0, wx.ALL, 5)
+        cmd_box.Add(wx.StaticText(pnl, label=_(
+            "These keys change the keyboard itself, so Windows flips them even though "
+            "the press reaches nothing. Putting them back means a keyboard is handed "
+            "over exactly as it was locked.")), 0, wx.LEFT | wx.RIGHT | wx.BOTTOM, 10)
 
         self._useClock = wx.CheckBox(pnl, label=_("T checks whether the clock is right"))
         self._useClock.SetValue(_cfg_get_bool("clock_enabled", True))
@@ -2721,6 +2788,10 @@ class SettingsDialog(gui.settingsDialogs.SettingsDialog):
         _cfg_set("command_timeout_enabled", bool(self._cmdTimeout.GetValue()))
         _cfg_set("command_timeout_seconds", self._cmdTimeoutSecs.GetValue())
         _cfg_set("lock_enabled", bool(self._useLock.GetValue()))
+        _cfg_set("lock_announce", bool(self._lockSay.GetValue()))
+        _cfg_set("lock_notice_seconds", self._lockSecs.GetValue())
+        _cfg_set("lock_toggles", bool(self._lockToggles.GetValue()))
+        _cfg_set("unknown_beep_ms", self._unknownGap.GetValue())
         _cfg_set("clock_enabled", bool(self._useClock.GetValue()))
         _cfg_set("update_delay_seconds", self._updateDelay.GetValue())
         _cfg_set("command_sounds", bool(self._cmdSounds.GetValue()))
@@ -4082,6 +4153,10 @@ the waiting time can be changed or switched off in the settings.
 Each command has its own beep sequence, so you can tell by ear which command
 ran. The sequences can be changed in Settings, General tab.
 
+A key that is not a command beeps, but not more often than a set gap allows,
+because holding a key down repeats it many times a second and the beeps would
+otherwise pile up on each other. The gap can be changed, or set to nothing.
+
 LAYOUT FIXER
   Works with every keyboard layout Windows has, not a chosen pair. The text
   itself says which layout it was typed with, and C moves it to the next one;
@@ -4142,6 +4217,17 @@ KEYBOARD LOCK
   that still works is the one that opens command mode, so NVDA+Shift+U and
   then L always unlocks it. If you have bound command mode to some other key,
   that key is the one that works.
+
+  A locked keyboard makes no sound. A beep for every key, repeated as fast as
+  a held-down key repeats, would say nothing and drown out everything else.
+  Instead it is said in words, and only when the keyboard has been left alone
+  for a while - fifteen seconds to begin with - so that it is news rather than
+  nagging. Both the words and the waiting can be changed or switched off.
+
+  Num Lock, Caps Lock and Scroll Lock change the keyboard itself, so Windows
+  flips them even though the press reaches nothing. They are put back the way
+  they were when the keyboard is unlocked, so it is handed over exactly as it
+  was locked; NVDA says which ones it put back.
 
   A lock is never written down anywhere: quitting or restarting NVDA ends it,
   which is the last way out if anything ever goes wrong. The lock can be
@@ -4263,6 +4349,11 @@ mode, so you can simply press the right key.
 
 # Newest first. Each entry is what changed in that version.
 VERSION_NOTES = [
+    ("1.0.1", """\
+A locked keyboard is silent now. It says in words that it is locked, and only
+when the keyboard has been left alone for a while, instead of beeping at every
+key. Num Lock, Caps Lock and Scroll Lock go back the way they were when it is
+unlocked, and a key held down can no longer pile its beeps up."""),
     ("1.0.0", """\nThe first public release.
 
 Everything above is new, because this is the first version anyone outside
@@ -4537,6 +4628,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
             speech.speak = self._mySpeak
         _plugin = self
         self._locked = False
+        self._restoring = False
+        self._toggles = {}
+        self._lastLockedKey = 0.0
+        self._lastUnknown = 0.0
         _apply_language_override()
         # Nothing that touches the disk or the network happens while NVDA is
         # still starting. The backup and the update check wait until the user
@@ -4986,8 +5081,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
             # the user already knows: the command key, then L.
             if self._isCommandModeGesture(gesture):
                 return True
-            if key is not None:
-                self._commandSound("locked")
+            self._noteLockedKey()
             return False
         if key is None:
             # Modifier keys (shift, control, NVDA...) and non-keyboard gestures
@@ -4995,7 +5089,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
             return True
         if key != "escape" and key not in self._commandActions():
             # Unknown key: stay in command mode and just report it with a beep.
-            self._commandSound("unknown")
+            # Holding the key down repeats it many times a second, so the beep
+            # waits for a gap; without that the beeps pile up on each other.
+            now = time.time()
+            gap = max(0, _cfg_get_int("unknown_beep_ms", 400)) / 1000.0
+            if now - self._lastUnknown >= gap:
+                self._lastUnknown = now
+                self._commandSound("unknown")
             wx.CallAfter(self._startCommandTimeout)
             return False
         self._stopCommandMode()
@@ -5022,6 +5122,25 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
             pass
         return False
 
+    def _noteLockedKey(self):
+        """
+        Somebody pressed a key while the keyboard is locked.
+
+        Nothing is played: a beep for every key, repeated by holding one down,
+        is a wall of noise and says nothing. Instead it is said in words, and
+        only when the keyboard has been left alone long enough for the words
+        to be news rather than nagging.
+        """
+        if self._restoring:
+            return
+        now = time.time()
+        quiet = max(1, _cfg_get_int("lock_notice_seconds", 15))
+        due = (now - self._lastLockedKey) >= quiet
+        self._lastLockedKey = now
+        if due and _cfg_get_bool("lock_announce", True):
+            wx.CallAfter(ui.message, _(
+                "The keyboard is locked. Press NVDA+Shift+U and then L to unlock it."))
+
     def _toggleLock(self):
         """
         Lock or unlock the keyboard.
@@ -5031,23 +5150,36 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
         it. Nothing is remembered: a lock ends when NVDA does, which is the
         last way out if anything goes wrong.
         """
-        self._locked = not self._locked
-        try:
-            if self._locked:
+        if not self._locked:
+            try:
                 self._installCapture()
-            else:
-                self._removeCapture()
-        except Exception:
-            log.error("SuperTools: the keyboard lock failed", exc_info=True)
-            self._locked = False
-            ui.message(_("The keyboard could not be locked."))
-            return
-        _play_event("lock_on" if self._locked else "lock_off",
-                    [[880, 70], [440, 120]] if self._locked else [[440, 70], [880, 120]])
-        if self._locked:
+            except Exception:
+                log.error("SuperTools: the keyboard lock failed", exc_info=True)
+                ui.message(_("The keyboard could not be locked."))
+                return
+            self._locked = True
+            self._toggles = _toggle_states() if _cfg_get_bool("lock_toggles", True) else {}
+            self._lastLockedKey = time.time()
+            _play_event("lock_on", [[880, 70], [440, 120]])
             ui.message(_("Keyboard locked. Press NVDA+Shift+U and then L to unlock it."))
-        else:
-            ui.message(_("Keyboard unlocked."))
+            return
+        # Unlocking. The toggle keys go back before the keyboard is handed
+        # over, and the capture stays up a moment longer so that the presses
+        # that put them back are swallowed like any other.
+        changed = _restore_toggles(self._toggles) if self._toggles else []
+        self._toggles = {}
+        self._restoring = True
+        def finish():
+            self._restoring = False
+            self._locked = False
+            self._removeCapture()
+            _play_event("lock_off", [[440, 70], [880, 120]])
+            if changed:
+                ui.message(_("Keyboard unlocked. {keys} put back.").format(
+                    keys=", ".join(changed)))
+            else:
+                ui.message(_("Keyboard unlocked."))
+        wx.CallLater(250, finish)
 
     def _showClock(self):
         """T in command mode: how far the clock is out, and how to fix it."""

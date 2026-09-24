@@ -30,6 +30,10 @@ the waiting time can be changed or switched off in the settings.
 Each command has its own beep sequence, so you can tell by ear which command
 ran. The sequences can be changed in Settings, General tab.
 
+A key that is not a command beeps, but not more often than a set gap allows,
+because holding a key down repeats it many times a second and the beeps would
+otherwise pile up on each other. The gap can be changed, or set to nothing.
+
 LAYOUT FIXER
   Works with every keyboard layout Windows has, not a chosen pair. The text
   itself says which layout it was typed with, and C moves it to the next one;
@@ -90,6 +94,17 @@ KEYBOARD LOCK
   that still works is the one that opens command mode, so NVDA+Shift+U and
   then L always unlocks it. If you have bound command mode to some other key,
   that key is the one that works.
+
+  A locked keyboard makes no sound. A beep for every key, repeated as fast as
+  a held-down key repeats, would say nothing and drown out everything else.
+  Instead it is said in words, and only when the keyboard has been left alone
+  for a while - fifteen seconds to begin with - so that it is news rather than
+  nagging. Both the words and the waiting can be changed or switched off.
+
+  Num Lock, Caps Lock and Scroll Lock change the keyboard itself, so Windows
+  flips them even though the press reaches nothing. They are put back the way
+  they were when the keyboard is unlocked, so it is handed over exactly as it
+  was locked; NVDA says which ones it put back.
 
   A lock is never written down anywhere: quitting or restarting NVDA ends it,
   which is the last way out if anything ever goes wrong. The lock can be

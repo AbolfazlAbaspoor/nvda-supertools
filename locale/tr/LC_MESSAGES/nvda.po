@@ -152,6 +152,12 @@ msgstr "Böyle bir kelimeyi sesle uyarmak yerine hemen dönüştür"
 msgid "L locks and unlocks the keyboard"
 msgstr "L klavyeyi kilitler ve açar"
 
+msgid "Say that the keyboard is locked when a key is pressed"
+msgstr "Bir tuşa basıldığında klavyenin kilitli olduğunu söyle"
+
+msgid "Put Num Lock, Caps Lock and Scroll Lock back when unlocking"
+msgstr "Kilit açılırken Num Lock, Caps Lock ve Scroll Lock tuşlarını eski haline getir"
+
 msgid "T checks whether the clock is right"
 msgstr "T saatin doğru olup olmadığına bakar"
 
@@ -443,11 +449,11 @@ msgstr "&İnternetten ayarla"
 msgid "Check &again"
 msgstr "&Yeniden bak"
 
+msgid "The keyboard is locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr "Klavye kilitli. Açmak için NVDA+Shift+U ve sonra L tuşlarına basın."
+
 msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
 msgstr "Klavye kilitlendi. Açmak için NVDA+Shift+U ve sonra L tuşlarına basın."
-
-msgid "Keyboard unlocked."
-msgstr "Klavye açıldı."
 
 msgid "Command mode cancelled."
 msgstr "Komut modu iptal edildi."
@@ -557,8 +563,20 @@ msgstr "Her (saniye):"
 msgid "Ask before ending or restarting every filtered process"
 msgstr "Filtrelenen bütün süreçleri sonlandırmadan veya yeniden başlatmadan önce sor"
 
+msgid "Shortest gap between two beeps for a key that is not a command, in milliseconds:"
+msgstr "Komut olmayan bir tuş için iki bip arasındaki en kısa aralık, milisaniye:"
+
+msgid "Holding a key down repeats it many times a second. Without a gap, one beep would start before the last had finished."
+msgstr "Basılı tutulan tuş saniyede defalarca yinelenir. Aralık olmazsa bir bip, bir önceki bitmeden başlar."
+
 msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
 msgstr "Klavye kilitliyken hiçbir tuş hiçbir programa ulaşmaz, NVDA dahil. Çalışan tek tuş komut kipini açan tuştur; ona ve sonra L tuşuna basmak kilidi açar. Kilit, NVDA yeniden başlatılınca sona erer."
+
+msgid "Only after the keyboard has been left alone this many seconds:"
+msgstr "Yalnızca klavyeye bu kadar saniye dokunulmadıysa:"
+
+msgid "These keys change the keyboard itself, so Windows flips them even though the press reaches nothing. Putting them back means a keyboard is handed over exactly as it was locked."
+msgstr "Bu tuşlar klavyenin kendisini değiştirir, bu yüzden basış hiçbir yere ulaşmasa da Windows onları çevirir. Eski haline getirmek, klavyenin kilitlendiği gibi teslim edilmesi demektir."
 
 msgid "Seconds to wait:"
 msgstr "Beklenecek saniye:"
@@ -764,8 +782,8 @@ msgstr "Saat değiştirilmedi."
 msgid "The new version could not be downloaded."
 msgstr "Yeni sürüm indirilemedi."
 
-msgid "The keyboard could not be locked."
-msgstr "Klavye kilitlenemedi."
+msgid "Keyboard unlocked."
+msgstr "Klavye açıldı."
 
 msgid "Only one keyboard layout is installed, so there is nothing to convert between."
 msgstr "Yalnızca bir klavye düzeni kurulu, dolayısıyla dönüştürülecek bir şey yok."
@@ -812,6 +830,9 @@ msgstr "Dosya {path} konumuna indirildi ama NVDA açamadı. Yeni sürümü kurma
 msgid "Error: {e}"
 msgstr "Hata: {e}"
 
+msgid "The keyboard could not be locked."
+msgstr "Klavye kilitlenemedi."
+
 msgid "{n} beeps"
 msgstr "{n} bip"
 
@@ -823,6 +844,9 @@ msgstr "Karşılaştırılacak yayımlanmış bir sürüm henüz yok. Sizde {ver
 
 msgid "You have the newest version ({version})."
 msgstr "En yeni sürüme ({version}) sahipsiniz."
+
+msgid "Keyboard unlocked. {keys} put back."
+msgstr "Klavye açıldı. {keys} eski haline getirildi."
 
 msgid "Undone: {text}"
 msgstr "Geri alındı: {text}"

@@ -152,6 +152,12 @@ msgstr "Converti subito quella parola, invece di avvisare solo con un suono"
 msgid "L locks and unlocks the keyboard"
 msgstr "L blocca e sblocca la tastiera"
 
+msgid "Say that the keyboard is locked when a key is pressed"
+msgstr "Dire che la tastiera è bloccata quando si preme un tasto"
+
+msgid "Put Num Lock, Caps Lock and Scroll Lock back when unlocking"
+msgstr "Rimettere Bloc Num, Bloc Maiusc e Bloc Scorr allo sblocco"
+
 msgid "T checks whether the clock is right"
 msgstr "T controlla se l'orologio è giusto"
 
@@ -443,11 +449,11 @@ msgstr "Imposta da &internet"
 msgid "Check &again"
 msgstr "Controlla di &nuovo"
 
+msgid "The keyboard is locked. Press NVDA+Shift+U and then L to unlock it."
+msgstr "La tastiera è bloccata. Premi NVDA+Shift+U e poi L per sbloccarla."
+
 msgid "Keyboard locked. Press NVDA+Shift+U and then L to unlock it."
 msgstr "Tastiera bloccata. Premi NVDA+Shift+U e poi L per sbloccarla."
-
-msgid "Keyboard unlocked."
-msgstr "Tastiera sbloccata."
 
 msgid "Command mode cancelled."
 msgstr "Modalità comandi annullata."
@@ -557,8 +563,20 @@ msgstr "Ogni (secondi):"
 msgid "Ask before ending or restarting every filtered process"
 msgstr "Chiedi prima di terminare o riavviare tutti i processi filtrati"
 
+msgid "Shortest gap between two beeps for a key that is not a command, in milliseconds:"
+msgstr "Intervallo minimo fra due segnali per un tasto che non è un comando, in millisecondi:"
+
+msgid "Holding a key down repeats it many times a second. Without a gap, one beep would start before the last had finished."
+msgstr "Un tasto tenuto premuto si ripete molte volte al secondo. Senza intervallo un segnale comincerebbe prima che il precedente sia finito."
+
 msgid "While the keyboard is locked nothing reaches any program, not even NVDA. The only key that still works is the one that opens command mode, so pressing it and then L unlocks the keyboard again. A lock never survives NVDA being restarted."
 msgstr "Finché la tastiera è bloccata nessun tasto arriva ad alcun programma, nemmeno a NVDA. L'unico tasto che funziona ancora è quello che apre la modalità comandi: premerlo e poi L sblocca di nuovo. Un blocco non sopravvive al riavvio di NVDA."
+
+msgid "Only after the keyboard has been left alone this many seconds:"
+msgstr "Solo se la tastiera è rimasta intoccata per questi secondi:"
+
+msgid "These keys change the keyboard itself, so Windows flips them even though the press reaches nothing. Putting them back means a keyboard is handed over exactly as it was locked."
+msgstr "Questi tasti cambiano la tastiera stessa, quindi Windows li commuta anche se la pressione non arriva da nessuna parte. Rimetterli significa restituire la tastiera esattamente com'era quando è stata bloccata."
 
 msgid "Seconds to wait:"
 msgstr "Secondi di attesa:"
@@ -764,8 +782,8 @@ msgstr "L'orologio non è stato cambiato."
 msgid "The new version could not be downloaded."
 msgstr "Non è stato possibile scaricare la nuova versione."
 
-msgid "The keyboard could not be locked."
-msgstr "Non è stato possibile bloccare la tastiera."
+msgid "Keyboard unlocked."
+msgstr "Tastiera sbloccata."
 
 msgid "Only one keyboard layout is installed, so there is nothing to convert between."
 msgstr "È installato un solo layout di tastiera, quindi non c'è nulla tra cui convertire."
@@ -812,6 +830,9 @@ msgstr "Il file è stato scaricato in {path}, ma NVDA non è riuscito ad aprirlo
 msgid "Error: {e}"
 msgstr "Errore: {e}"
 
+msgid "The keyboard could not be locked."
+msgstr "Non è stato possibile bloccare la tastiera."
+
 msgid "{n} beeps"
 msgstr "{n} segnali"
 
@@ -823,6 +844,9 @@ msgstr "Non c'è ancora nulla di pubblicato con cui confrontare. Hai la versione
 
 msgid "You have the newest version ({version})."
 msgstr "Hai la versione più recente ({version})."
+
+msgid "Keyboard unlocked. {keys} put back."
+msgstr "Tastiera sbloccata. {keys} rimesso a posto."
 
 msgid "Undone: {text}"
 msgstr "Annullato: {text}"
