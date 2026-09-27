@@ -22,6 +22,8 @@ jobs:
           python-version: "3.11"
 
       - name: Look for mistakes in the code
+        # PowerShell, the default on Windows, passes tools/*.py on unexpanded.
+        shell: bash
         run: |
           python -m pip install --quiet pyflakes
           python -m pyflakes globalPlugins/superTools.py buildVars.py tools/*.py tests/*.py
