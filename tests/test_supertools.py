@@ -77,6 +77,9 @@ def check(label, got, want):
     good = got == want
     ok = ok and good
     print(("PASS " if good else "FAIL ") + label, "->", repr(got), "" if good else "(want %r)" % (want,))
+    if not good and os.environ.get("GITHUB_ACTIONS"):
+        # An annotation can be read on the run's page without opening its log.
+        print("::error title=Test failed::%s -> %r (want %r)" % (label, got, want))
 
 def all_words():
     return [w["text"] for c in main._get_word_categories() for w in c["words"]]
