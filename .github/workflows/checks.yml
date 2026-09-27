@@ -13,6 +13,9 @@ jobs:
     # The add-on reads keyboard layouts and the process list from Windows, so
     # the tests need a real Windows to run on.
     runs-on: windows-latest
+    env:
+      # The runner's console is cp1252, which cannot print Persian or Russian.
+      PYTHONUTF8: "1"
 
     steps:
       - uses: actions/checkout@v4
