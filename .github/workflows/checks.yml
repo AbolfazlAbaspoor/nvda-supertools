@@ -31,11 +31,12 @@ jobs:
       - name: Check the translations
         run: python tools/check_locale.py
 
-      - name: Run the tests
-        run: python tests/test_supertools.py
-
+      # The build compiles the translations the tests read, so it goes first.
       - name: Build the add-on
         run: python tools/build.py
+
+      - name: Run the tests
+        run: python tests/test_supertools.py
 
       - name: Keep the built add-on with this run
         uses: actions/upload-artifact@v4
